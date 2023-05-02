@@ -6,7 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 a {
@@ -35,16 +35,38 @@ a {
   background-position: center;
 
   width: 100%;
- 
 }
 
 .MainHeroText {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
- 
 
   color: #ffffff;
 }
 
 /* main hero ends*/
+/* About Ue s*/
+.AboutUs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  /* identical to box height */
+
+}
+.AboutP {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: 0.02em;
+
+  /* 4D4D4D */
+
+}
+/* About Us e*/
