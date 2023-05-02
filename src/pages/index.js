@@ -69,10 +69,19 @@ export default function Home() {
       {/* 3 */}
       <img className="w-full" src="./HomePageDrinksBg.png" alt="" />
       {/* 4 */}
-      <div className="flex gap-8 items-center">
-        <img src="./FoxhutBar.png" alt="" />
-        <img src="./Mangoma.png" alt="" />
-        <img src="./Shayo.png" alt="" />
+      <div className="flex justify-between w-full gap-8 items-center">
+        <div className="">
+        <img className="w-full" src="./FoxhutBar.png" alt="" />
+
+        </div>
+        <div className="">
+        <img className="w-full" src="./Mangoma.png" alt="" />
+
+        </div>
+        <div className="">
+        <img className="w-full" src="./Shayo.png" alt="" />
+
+        </div>
         </div>
       {/* 5 */}
       <div className="">
