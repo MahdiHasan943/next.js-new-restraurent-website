@@ -53,7 +53,7 @@ function Header() {
       </li>
       <li className="nav__item">
         <a  className="nav__link dark:text-[white] text-black focus:text-[#738f2d]">
-          Whats On
+          What's On
         </a>
       </li>
       <li className="nav__item">
@@ -83,14 +83,15 @@ function Header() {
             <button
               className="bg-black-700 hover:bg-black w-28 rounded-md border-purple-400 border-2 p-4"
               onClick={() => setTheme('light')}  >
-          
+                   <img src="./moon.svg" alt="" />
            
             </button>
           ) : (
             <button
               className="bg-gray-100 w-28 rounded-md border-purple-400 border-2 p-4 hover:bg-gray-300"
               onClick={() => setTheme('dark')} >
-           
+                              <img src="./sun.svg" alt="" />
+
             </button>
           )}
         </div>
