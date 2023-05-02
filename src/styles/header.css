@@ -54,11 +54,11 @@ body {
   transition: 0.2s ease-in;
 }
 
-@media screen and (max-width: 768px) {
+@media screen  and (max-width: 768px) {
   .nav {
     display: flex;
     justify-content: space-between;
-  }
+  };
   .nav__link{
     color: white!important;
   }

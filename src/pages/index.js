@@ -14,6 +14,7 @@ export default function Home() {
 
   if (!mounted) return null;
   const currentTheme = theme === 'system' ? systemTheme : theme;
+  
   return (
   
     <div className="grid place-items-center h-screen">

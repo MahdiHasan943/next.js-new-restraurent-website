@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import sun from '../public/sun.svg'
-// import moon from '../public/moon.svg'
+
 
 import { useTheme } from 'next-themes';
 function Header() {
@@ -29,14 +28,9 @@ function Header() {
   };
 
   
-  // const menu = (
-  //   <React.Fragment>
-     
-  //   </React.Fragment>
-  // );
 
   return (
-    <nav className="overflow-hidden shadow-none w-[1000px]  py-12 px-6 lg:px-12 nav">
+    <nav className="overflow-hidden  shadow-none w-[100vw]  py-12 px-6 lg:px-12 nav">
       
       <div className="flex w-full shadow-none justify-between md:justify-around ">
         <div className="">
@@ -48,7 +42,7 @@ function Header() {
         <ul className={`2xl:ml-[200px] ${active}`}>
         <li className=" nav__item item">
         <a 
-          className=" nav__link 	">
+          className=" nav__link dark:text-[white] text-black	">
           Home
         </a>
       </li>
@@ -59,7 +53,7 @@ function Header() {
       </li>
       <li className="nav__item">
         <a  className="nav__link dark:text-[white] text-black focus:text-[#738f2d]">
-          What's On
+          Whats On
         </a>
       </li>
       <li className="nav__item">
@@ -88,17 +82,15 @@ function Header() {
           {currentTheme === 'dark' ? (
             <button
               className="bg-black-700 hover:bg-black w-28 rounded-md border-purple-400 border-2 p-4"
-              onClick={() => setTheme('light')}
-            >     
-              Sun
-             
+              onClick={() => setTheme('light')}  >
+          
+           
             </button>
           ) : (
             <button
               className="bg-gray-100 w-28 rounded-md border-purple-400 border-2 p-4 hover:bg-gray-300"
-              onClick={() => setTheme('dark')}
-              >
-                DArk
+              onClick={() => setTheme('dark')} >
+           
             </button>
           )}
         </div>
