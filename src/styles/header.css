@@ -123,3 +123,110 @@ body {
 }
 
 
+
+
+/* footer */
+.copy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  /* White */
+  color: #ffffff;
+}
+.footerP {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.Newsletter{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+
+color: #FFFFFF;
+}
+.input{
+  
+  border-radius: 3px 0px 3px 3px!important;
+  width: auto;
+  height: auto;
+}
+.subscribe{
+  border-radius: 3px 3px 3px 0px!important;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+
+}
+.will{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+.downloadBox{
+  /* Shades / 0 */
+
+background: #FFFFFF;
+/* Shadow (XS) */
+
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.downBtn{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-transform: uppercase;
+
+/* Shades / 0 */
+
+color: #FFFFFF;
+}
+.DOWNLOAD{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 120% */
+
+
+color: #000000;
+
+}
+
+.Left{
+  transform: translate(-50%, -50%);
+}
+
+.accept{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-transform: uppercase;
+
+}

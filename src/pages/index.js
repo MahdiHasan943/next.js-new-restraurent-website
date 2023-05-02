@@ -26,7 +26,7 @@ export default function Home() {
           classic British pub food alongside <br /> other international favourites, a
           buzzing atmosphere, <br /> well-stocked bar and regular events.
         </p>
-        <button className="text-white mt-[50px]  border-white border-[1.6px] px-8 py-4 rounded-2xl font-bold bookNow">Book Now</button>
+        <button className="text-white mt-[90px]  border-white border-[1.6px] px-8 py-4 rounded-2xl font-bold bookNow">Book Now</button>
       </div>
       </div>
       {/* 2 */}
