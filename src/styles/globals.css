@@ -28,31 +28,24 @@ a {
   }
 }
 
-/* hero */
-/* design for enish hero */
-/* .Hero {
-  background-image: url("../public/Main.hero.png");
+/* main hero start*/
+.heroBg {
+  background-image: url("../../public/HomePageHero.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
   background-size: cover;
+  background-position: center;
+
+  width: 100%;
  
 }
-.clip-bg {
-  border-top-right-radius: 45%;
-  border-top-left-radius: 45%;
-  
-  height: 700px;
-  background-color: #0d0c11;
-}
-@media screen and (max-width:780px) {
-  .clip-bg {
-   
-    
-    height: auto;
-    background-color: #0d0c11;
-  }
-} */
-/* design for enish hero */
 
-/* hero */
+.MainHeroText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+ 
+
+  color: #ffffff;
+}
+
+/* main hero ends*/

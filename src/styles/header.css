@@ -45,13 +45,19 @@ body {
 }
 .nav__toggler {
   display: none;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 100%;
+  
+
 }
 .nav__toggler div {
   width: 2.5rem;
   height: 0.2rem;
   margin: 0.4rem;
-  background: #104f8e;
+  background: white;
   transition: 0.2s ease-in;
+  
 }
 
 @media screen  and (max-width: 768px) {
@@ -83,7 +89,7 @@ body {
     /* background: rgb(0, 33, 65); */
     background: black;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     gap: 30px;
     transform: translateX(100%) !important;
     transition: 0.2s ease-in;

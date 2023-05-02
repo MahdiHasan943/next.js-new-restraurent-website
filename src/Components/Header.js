@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-
-import { useTheme } from 'next-themes';
+import { useTheme } from "next-themes";
 function Header() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  
+
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
   useEffect(() => {
@@ -13,8 +12,7 @@ function Header() {
   }, []);
 
   if (!mounted) return null;
-  const currentTheme = theme === 'system' ? systemTheme : theme;
-
+  const currentTheme = theme === "system" ? systemTheme : theme;
 
   const navToggle = () => {
     if (active === "nav__menu") {
@@ -27,76 +25,55 @@ function Header() {
     } else setIcon("nav__toggler");
   };
 
-  
-
   return (
-    <nav className="overflow-hidden  shadow-none w-[100vw]  py-12 px-6 lg:px-12 nav">
-      
+    <nav className="overflow-hidden  shadow-none w-[100vw] mt-[30px] mb-[-150px]  py-8 px-6 lg:px-12 nav">
       <div className="flex w-full shadow-none justify-between md:justify-around ">
-        <div className="">
-        <a href="#" className="lg:ml-[80px] dark:text-[white] text-black shadow-none nav__brand">
-        ClearTouch Design
-      </a>
-      </div>
+        <div className="flex items-center">
+          <a
+            href="#"
+            className="lg:ml-[80px]            text-whitek shadow-none nav__brand"
+          >
+           <img className="h-[40px]" src="./enish.png" alt="" />
+          </a>
+        </div>
 
         <ul className={`2xl:ml-[200px] ${active}`}>
-        <li className=" nav__item item">
-        <a 
-          className=" nav__link dark:text-[white] text-black	">
-          Home
-        </a>
-      </li>
-      <li className="nav__item">
-        <a href="#platform" className="nav__link dark:text-[white] text-black focus:text-[#738f2d]">
-          Locations
-        </a>
-      </li>
-      <li className="nav__item">
-        <a  className="nav__link dark:text-[white] text-black focus:text-[#738f2d]">
-          What's On
-        </a>
-      </li>
-      <li className="nav__item">
-        <a  className="nav__link dark:text-[white] text-black focus:text-[#738f2d]">
-          Order
-        </a>
-      </li>
-      <li className="nav__item">
-        <a  className="nav__link dark:text-[white] text-black focus:text-[#738f2d]">
-          Book a Table
-        </a>
-      </li>
+          <li className=" nav__item item">
+            <a className=" nav__link            text-whitek	">Home</a>
+          </li>
+          <li className="nav__item">
+            <a
+              href="#platform"
+              className="nav__link            text-whitek focus:text-[#738f2d]"
+            >
+              Menu
+            </a>
+          </li>
+          <li className="nav__item">
+            <a className="nav__link            text-whitek focus:text-[#738f2d]">
+              About Restaurant
+            </a>
+          </li>
 
-      <li className="nav__item">
-        <a className="nav__link dark:text-[white] text-black focus:text-[#738f2d]">
-          Enish Yacht Experience
-        </a>
-      </li>
-      <li className="nav__item">
-        <a  className="nav__link dark:text-[white] text-black focus:text-[#738f2d]">
-          More
-        </a>
-      </li>
+          <li className="nav__item">
+            <a className="nav__link            text-whitek focus:text-[#738f2d]">
+              Wine & Coctailbar
+            </a>
+          </li>
+          
         </ul>
-        <div className="flex justify-center">
-          {currentTheme === 'dark' ? (
-            <button
-              className="bg-black-700 hover:bg-black w-28 rounded-md border-purple-400 border-2 p-4"
-              onClick={() => setTheme('light')}  >
-                   <img src="./moon.svg" alt="" />
-           
+        <div className="flex justify-center px-6">
+          {currentTheme === "dark" ? (
+            <button className="" onClick={() => setTheme("light")}>
+              <img className="w-[40px] h-[40px]" src="./moon.svg" alt="" />
             </button>
           ) : (
-            <button
-              className="bg-gray-100 w-28 rounded-md border-purple-400 border-2 p-4 hover:bg-gray-300"
-              onClick={() => setTheme('dark')} >
-                              <img src="./sun.svg" alt="" />
-
+            <button className="" onClick={() => setTheme("dark")}>
+              <img className="w-[40px] h-[40px]" src="./sun.svg" alt="" />
             </button>
           )}
         </div>
-   </div>
-      
+      </div>
 
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
