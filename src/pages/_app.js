@@ -12,12 +12,14 @@ function MyApp({ Component, pageProps }) {
   }
   return (
 
-  
+    <div className="">
+      
     <ThemeProvider enableSystem={true} attribute="class">
          <Header></Header>
       <Component {...pageProps} />
       <Footer></Footer>
       </ThemeProvider>
+  </div>
   
   )
         
