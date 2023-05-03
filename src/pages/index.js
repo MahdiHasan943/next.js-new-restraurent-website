@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import "../styles/Home.module.css";
 import HomePageMenu from "@/Components/HomePageMenu";
+import Chef from "@/Components/Chef";
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -71,6 +72,8 @@ export default function Home() {
       <img className="w-full" src="./HomePageDrinksBg.png" alt="" />
 
       <HomePageMenu></HomePageMenu>
+
+      <Chef></Chef>
       {/* 4 */}
       <div className="flex justify-between w-full gap-8 items-center">
         <div className="">
