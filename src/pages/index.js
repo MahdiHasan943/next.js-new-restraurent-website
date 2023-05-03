@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import "../styles/Home.module.css";
+import HomePageMenu from "@/Components/HomePageMenu";
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -68,6 +69,8 @@ export default function Home() {
 
       {/* 3 */}
       <img className="w-full" src="./HomePageDrinksBg.png" alt="" />
+
+      <HomePageMenu></HomePageMenu>
       {/* 4 */}
       <div className="flex justify-between w-full gap-8 items-center">
         <div className="">
