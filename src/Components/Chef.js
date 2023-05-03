@@ -47,7 +47,7 @@ const Chef = () => {
         </div>
       </div>
 
-      <div className="flex px-6 py-10 w-full justify-center  items-center">
+      <div className="flex px-6 py-24 w-full justify-center  items-center">
         <div className="w-full md:w-[50%]">
           <h3 className="dark:text-white text-black text-[40px]   sm:text-[60px] md:leading-[80px] font-bold">
             Our Event Gallery

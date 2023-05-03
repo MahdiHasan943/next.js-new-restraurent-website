@@ -2,9 +2,9 @@ import React from 'react'
 
 const Reservation = () => {
   return (
-      <div>
+      <div className='pt-20'>
           
-          <h2 className="dark:text-white text-center text-black text-[40px]  py-6  sm:text-[60px] md:leading-[80px] font-bold">
+          <h2 className="dark:text-white text-center text-black text-[50px]  py-10  sm:text-[70px] md:leading-[90px] font-bold">
           Reservation
           </h2>
 
