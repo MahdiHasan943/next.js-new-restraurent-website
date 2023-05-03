@@ -5,6 +5,8 @@ import { useTheme } from "next-themes";
 import "../styles/Home.module.css";
 import HomePageMenu from "@/Components/HomePageMenu";
 import Chef from "@/Components/Chef";
+import Reservation from "@/Components/Reservation";
+import ContactUs from "@/Components/ContactUs";
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -90,9 +92,12 @@ export default function Home() {
         </div>
         </div>
       {/* 5 */}
-      <div className="">
-        <h2 className="text-[red]">Hello world</h2>
-      </div>
+
+      <Reservation></Reservation>
+      {/* 6 */}
+      <ContactUs></ContactUs>
+
+      
     </>
   );
 }

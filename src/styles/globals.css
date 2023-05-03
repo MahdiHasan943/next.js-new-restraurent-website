@@ -71,6 +71,16 @@ a {
 }
 /* About Us e*/
 
+/*  ReservationBg*/
+.ReservationBg{
+  background-image: url(../../public/Reservation.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100vw;
+}
+/* ReservationBg */
 /* slide */
 
 .swiper {
