@@ -51,13 +51,18 @@ function Header() {
           </li>
           <li className="nav__item">
             <a className="nav__link            text-whitek focus:text-[#738f2d]">
-              About Restaurant
+            Events 
             </a>
           </li>
 
           <li className="nav__item">
             <a className="nav__link            text-whitek focus:text-[#738f2d]">
-              Wine & Coctailbar
+            Wine & Cocktails
+            </a>
+          </li>
+          <li className="nav__item">
+            <a className="nav__link            text-whitek focus:text-[#738f2d]">
+            Contact
             </a>
           </li>
           

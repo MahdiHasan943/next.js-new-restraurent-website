@@ -29,7 +29,7 @@ export default function Home() {
             international favourites, a buzzing atmosphere, <br /> well-stocked
             bar and regular events.
           </p>
-          <button className="text-white hover:bg-[#B5986D] mt-[90px]  border-white border-[1.6px] px-8 py-4 rounded-2xl font-bold bookNow">
+          <button className="text-white hover:bg-[#B5986D] mt-[90px]  border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
             Book Now
           </button>
         </div>

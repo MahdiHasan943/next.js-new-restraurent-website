@@ -23,7 +23,7 @@ const Reservation = () => {
                  
                   </div>
 
-                  <div className="text-center">
+                  <div className="text-center py-8">
                   <button className="hover:bg-[#B5986D] border rounded-lg font-bold text-3xl dark:border-white border-[#B5986D] py-6 px-14   text-white ">
             {" "}
             Book Reservation          </button>
