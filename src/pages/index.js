@@ -7,6 +7,7 @@ import Chef from "@/Components/Chef";
 import Reservation from "@/Components/Reservation";
 import ContactUs from "@/Components/ContactUs";
 import Form from "@/Components/ReservationForm/Form";
+import ImageSlide from "@/Components/imageSlide/ImageSlide";
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -78,17 +79,7 @@ export default function Home() {
 
       <Chef></Chef>
       {/* 4 */}
-      <div className="flex justify-between w-full gap-8 items-center">
-        <div className="">
-          <img className="w-full" src="./FoxhutBar.png" alt="" />
-        </div>
-        <div className="">
-          <img className="w-full" src="./Mangoma.png" alt="" />
-        </div>
-        <div className="">
-          <img className="w-full" src="./Shayo.png" alt="" />
-        </div>
-      </div>
+     <ImageSlide></ImageSlide>
       {/* 5 */}
 
       <Reservation></Reservation>
