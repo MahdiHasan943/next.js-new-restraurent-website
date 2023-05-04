@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     return Component.getLayout(<Component {...pageProps} />);
   }
   return (
-    <div className="">
+    <div className=" mx-auto shadow-lg max-w-[1900px]">
       <ThemeProvider enableSystem={true} attribute="class">
         <Header></Header>
         <Component {...pageProps} />
