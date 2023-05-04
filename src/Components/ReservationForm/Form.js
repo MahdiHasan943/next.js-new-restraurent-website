@@ -14,7 +14,7 @@ const Form = () => {
           
                   </button>
               </Popover.Button>
-              <Popover.Panel className="absolute rounded-lg shadow-lg form bg-black h-[90vh]  top-[-300%] sm:top-[-240%]  w-[90vw] sm:w-[80vw]  z-[10000] ">
+              <Popover.Panel className="absolute rounded-lg shadow-lg form bg-black h-[90vh]  top-[-300%] sm:top-[-240%]  w-[95vw] sm:w-[80vw]  z-[10000] ">
                   <div className="relative">
                       
                   <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
@@ -28,22 +28,22 @@ const Form = () => {
                           <div className="sm:w-[80%] mx-auto ">
                           <p className='text-white  text-center text-[18px] leading-[30px] '>Get in touch with restaurant</p>
 
-                              <div className="flex px-4 py-10  items-center gap-20">
+                              <div className="flex px-6 py-10  items-center gap-20">
                                   <input type="text" className='w-full py-6 px-5 border-[1px] border-white bg-black' placeholder='First Name' name="" id="" />
                                   <input type="text" className='w-full py-6 px-5 border-[1px] border-white bg-black'  name="" placeholder='Last Name' id="" />
   
                               </div>
-                              <div className="px-4">
+                              <div className="px-6">
                               <input type="email" className='w-full py-6 px-5 border-[1px] border-white bg-black'  name="" placeholder='Email' id="" />
                               <input type="tel" className='w-full my-10 py-6 px-5 border-[1px] border-white bg-black'  name="" placeholder='Phone Number' id="" />
 
                               </div>
-                              <div className="flex px-4   items-center gap-20">
+                              <div className="flex px-6   items-center gap-20">
                                   <input type="date" className='w-full py-6 px-5 border-[1px] border-white bg-black' placeholder='First Name' name="" id="" />
                                   <input type="time" className='w-full py-6 px-5 border-[1px] border-white bg-black'  name="" placeholder='Last Name' id="" />
   
                               </div>
-                              <div className="px-4 text-center">
+                              <div className="px-6 text-center">
                               <input type="number" className='w-full my-10 py-6 px-5 border-[1px] border-white bg-black'  name="" placeholder='Number of Persons' id="" />
                               <button className="text-white hover:bg-[#B5986D] border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
             Book Now
