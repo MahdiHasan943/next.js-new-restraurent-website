@@ -62,8 +62,10 @@ function Header() {
           </li>
           <li className="nav__item">
             <Link
-              className={`${router.pathname === "/Events/Events" ? "text-[#b1935e] nav__link" : " nav__link text-white	"}`}
-              href={"/Events/Events"}
+               className={`${
+                router.pathname === "/#event" ? "text-[#b1935e] nav__link" : "nav__link text-white"
+              } 	`}
+              href={"/#event"}
             >
               Events
             </Link>
