@@ -6,11 +6,14 @@ import HomePageMenu from "@/Components/HomePageMenu";
 import Chef from "@/Components/Chef";
 import Reservation from "@/Components/Reservation";
 import ContactUs from "@/Components/ContactUs";
+import Form from "@/Components/ReservationForm/Form";
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => {   
+
+
     setMounted(true);
   }, []);
 
@@ -28,9 +31,9 @@ export default function Home() {
             international favourites, a buzzing atmosphere, <br /> well-stocked
             bar and regular events.
           </p>
-          <button className="text-white hover:bg-[#B5986D] mt-[90px]  border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
-            Book Now
-          </button>
+         
+          <Form></Form>
+
         </div>
       </div>
       {/* 2 */}

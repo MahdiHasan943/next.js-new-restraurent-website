@@ -43,8 +43,8 @@ function Header() {
           <li className=" nav__item item">
             <Link
               className={`${
-                router.pathname === "/" ? "text-[#b1935e]" : ""
-              } nav__link text-white	`}
+                router.pathname === "/" ? "text-[#b1935e] nav__link" : "nav__link text-white	"
+              } `}
               href={"/"}
             >
               Home
@@ -53,8 +53,8 @@ function Header() {
           <li className="nav__item">
             <Link
               className={`${
-                router.pathname === "/Menu/Menu" ? "text-[#b1935e]" : ""
-              } nav__link text-white	`}
+                router.pathname === "/Menu/Menu" ? "text-[#b1935e] nav__link" : "nav__link text-white"
+              } 	`}
               href={"/Menu/Menu"}
             >
               Menu
@@ -62,9 +62,7 @@ function Header() {
           </li>
           <li className="nav__item">
             <Link
-              className={`${
-                router.pathname === "/Events/Events" ? "text-[#b1935e]" : ""
-              } nav__link text-white	`}
+              className={`${router.pathname === "/Events/Events" ? "text-[#b1935e] nav__link" : " nav__link text-white	"}`}
               href={"/Events/Events"}
             >
               Events
@@ -75,19 +73,19 @@ function Header() {
             <Link
               className={`${
                 router.pathname === "/WineAndCoctail/WineAndCoctail"
-                  ? "text-[#b1935e]"
-                  : ""
-              } nav__link text-white	`}
+                  ? "text-[#b1935e] nav__link"
+                  : "nav__link text-white	"
+              } `}
               href={"/WineAndCoctail/WineAndCoctail"}
             >
               Wine & Cocktails
             </Link>
           </li>
-          <li className=" nav__item item">
+          <li className=" nav__item ">
             <Link
               className={`${
-                router.pathname === "/Contact/Contact" ? "text-[#b1935e]" : ""
-              } nav__link text-white	`}
+                router.pathname === "/Contact/Contact" ? "text-[#b1935e] nav__link" : "nav__link text-white"
+              } 	`}
               href={"/Contact/Contact"}
             >
               Contact
