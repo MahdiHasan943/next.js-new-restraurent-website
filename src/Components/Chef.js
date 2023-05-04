@@ -17,32 +17,33 @@ const Chef = () => {
             MasterChef
           </h3>
           <p className="dark:text-white py-4 text-black lg:leading-[40px] ">
-            
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br className="hidden sm:block" /> Sed eu 
-            feugiat massa,  et condimentum nunc.  Praesent <br className="hidden sm:block" /> consectetur lorem in
-            efficitur dictum. Vestibulum ante <br className="hidden sm:block" /> ipsum primis in faucibus orci
-            luctus et ultrices posuere <br className="hidden sm:block" /> cubilia curae; Sed lobortis egestas
-            cursus. Vestibulum <br className="hidden sm:block" />  faucibus molestie est, ac efficitur ex
-            ullamcorper a.
-                  </p>
-                  <div className="w-[200px] h-[1.2px] ml-[100px] dark:bg-white bg-black"></div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+            <br className="hidden sm:block" /> Sed eu feugiat massa, et
+            condimentum nunc. Praesent <br className="hidden sm:block" />{" "}
+            consectetur lorem in efficitur dictum. Vestibulum ante{" "}
+            <br className="hidden sm:block" /> ipsum primis in faucibus orci
+            luctus et ultrices posuere <br className="hidden sm:block" />{" "}
+            cubilia curae; Sed lobortis egestas cursus. Vestibulum{" "}
+            <br className="hidden sm:block" /> faucibus molestie est, ac
+            efficitur ex ullamcorper a.
+          </p>
+          <div className="w-[200px] h-[1.2px] ml-[100px] dark:bg-white bg-black"></div>
 
-                  <div className="">
-                  <p className="py-6 dark:text-white pt-4  text-black text-5xl font-bold">
-                      Awards
-                      </p>
+          <div className="">
+            <p className="py-6 dark:text-white pt-4  text-black text-5xl font-bold">
+              Awards
+            </p>
 
-                      <div className="flex items-center gap-6">
-                      <p className="py-6 dark:text-white pt-4  text-black text-3xl font-semibold">
-                              Michelin Stars:    </p>
-                          
-                          <BsStar className="dark:text-white text-[24px]  text-black "></BsStar>
-                          <BsStar className="dark:text-white text-[24px]  text-black "></BsStar>
-                          <BsStar className="dark:text-white text-[24px]  text-black "></BsStar>
-                          <BsStar className="dark:text-white text-[24px]  text-black "></BsStar>
+            <div className="flex items-center gap-6">
+              <p className="py-6 dark:text-white pt-4  text-black text-3xl font-semibold">
+                Michelin Stars:{" "}
+              </p>
 
-                          
-                    </div>
+              <BsStar className="dark:text-white text-[24px]  text-black "></BsStar>
+              <BsStar className="dark:text-white text-[24px]  text-black "></BsStar>
+              <BsStar className="dark:text-white text-[24px]  text-black "></BsStar>
+              <BsStar className="dark:text-white text-[24px]  text-black "></BsStar>
+            </div>
           </div>
         </div>
       </div>

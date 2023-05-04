@@ -46,6 +46,7 @@ a {
 }
 
 /* main hero ends*/
+
 /* About Ue s*/
 .AboutUs {
   font-family: "Poppins";
@@ -54,7 +55,6 @@ a {
   font-size: 64px;
   line-height: 96px;
   /* identical to box height */
-
 }
 .AboutP {
   font-family: "Poppins";
@@ -67,30 +67,23 @@ a {
   letter-spacing: 0.02em;
 
   /* 4D4D4D */
-
 }
 /* About Us e*/
 
-/*  ReservationBg*/
-.ReservationBg{
+/*  ReservationBg s*/
+.ReservationBg {
   background-image: url(../../public/Reservation.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
-/* ReservationBg */
-/* slide */
+/* ReservationBg e */
+/* slide s */
 
 .swiper {
   padding: 2rem;
   height: 100%;
- 
-
 }
 
-
-
-
-
-/* slide */
+/* slide  e*/

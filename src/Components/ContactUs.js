@@ -26,19 +26,23 @@ const ContactUs = () => {
             <p className="dark:text-white py-4 font-bold text-[24px]  text-black ">
               Open :
             </p>
-                      <p className="dark:text-white  text-black ">
-                      Monday 7:00 — 0:00 <br className="hidden sm:block" /> Tuesday 7:00 —
-            0:00 <br className="hidden sm:block" />
-            Wednesday 7:00 — 0:00 <br className="hidden sm:block" />
-            Thursday 7:00 — 4:00 <br className="hidden sm:block" /> Friday 7:00
-            — 4:00 <br className="hidden sm:block" />
-            Saturday 9:00 — 4:00 <br className="hidden sm:block" /> Sunday 12:00
-            — 23:00
-                      </p>
-                      <h3 className="dark:text-white py-4 text-black text-[30px]    font-bold">
-                          01162545892 or 07424546256          </h3>
-                     
-                      <button className="hover:bg-[#B5986D] border rounded-lg dark:border-white border-[#B5986D] py-6 px-14  hover:text-white dark:text-white text-black"> Contact Us</button>
+            <p className="dark:text-white  text-black ">
+              Monday 7:00 — 0:00 <br className="hidden sm:block" /> Tuesday 7:00
+              — 0:00 <br className="hidden sm:block" />
+              Wednesday 7:00 — 0:00 <br className="hidden sm:block" />
+              Thursday 7:00 — 4:00 <br className="hidden sm:block" /> Friday
+              7:00 — 4:00 <br className="hidden sm:block" />
+              Saturday 9:00 — 4:00 <br className="hidden sm:block" /> Sunday
+              12:00 — 23:00
+            </p>
+            <h3 className="dark:text-white py-4 text-black text-[30px]    font-bold">
+              01162545892 or 07424546256{" "}
+            </h3>
+
+            <button className="hover:bg-[#B5986D] border rounded-lg dark:border-white border-[#B5986D] py-6 px-14  hover:text-white dark:text-white text-black">
+              {" "}
+              Contact Us
+            </button>
           </div>
         </div>
       </div>

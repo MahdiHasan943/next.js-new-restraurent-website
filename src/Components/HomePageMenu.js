@@ -28,55 +28,88 @@ const HomePageMenu = () => {
                 </h4>
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Lorem ipsum dolor sit amet</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">90$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    90$
+                  </p>
                 </div>
                 {/* 2 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vivamus sodales augue vitae arcu</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vivamus sodales augue vitae arcu
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">133$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    133$
+                  </p>
                 </div>
                 {/* 3 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Pellentesque semper semper</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Pellentesque semper semper
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">299$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    299$
+                  </p>
                 </div>
                 {/* 4 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vestibulum est turpis</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vestibulum est turpis
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">310$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    310$
+                  </p>
                 </div>
 
                 {/* 5 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Phasellus convallis maximus</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Phasellus convallis maximus
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">230$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    230$
+                  </p>
                 </div>
                 {/* 6 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Nullam elementum magna</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Nullam elementum magna
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">68$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    68$
+                  </p>
                 </div>
-
-
-                
               </div>
             </SwiperSlide>
             <SwiperSlide className="  mt-[100px]">
@@ -84,183 +117,92 @@ const HomePageMenu = () => {
 
               <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
-                Breakfast
+                  Breakfast
                 </h4>
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Lorem ipsum dolor sit amet</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">90$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    90$
+                  </p>
                 </div>
                 {/* 2 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vivamus sodales augue vitae arcu</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vivamus sodales augue vitae arcu
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">133$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    133$
+                  </p>
                 </div>
                 {/* 3 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Pellentesque semper semper</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Pellentesque semper semper
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">299$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    299$
+                  </p>
                 </div>
                 {/* 4 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vestibulum est turpis</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vestibulum est turpis
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">310$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    310$
+                  </p>
                 </div>
 
                 {/* 5 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Phasellus convallis maximus</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Phasellus convallis maximus
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">230$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    230$
+                  </p>
                 </div>
                 {/* 6 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Nullam elementum magna</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Nullam elementum magna
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">68$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    68$
+                  </p>
                 </div>
-
-
-                
-              </div>
-            </SwiperSlide>
-
-
-            <SwiperSlide className="  mt-[100px]">
-              <SwiperNavButtons></SwiperNavButtons>
-
-              <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
-                From the Grill
-                </h4>
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Lorem ipsum dolor sit amet</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">90$</p>
-                </div>
-                {/* 2 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vivamus sodales augue vitae arcu</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">133$</p>
-                </div>
-                {/* 3 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Pellentesque semper semper</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">299$</p>
-                </div>
-                {/* 4 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vestibulum est turpis</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">310$</p>
-                </div>
-
-                {/* 5 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Phasellus convallis maximus</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">230$</p>
-                </div>
-                {/* 6 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Nullam elementum magna</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">68$</p>
-                </div>
-
-
-                
-              </div>
-            </SwiperSlide>
-
-            
-            <SwiperSlide className="  mt-[100px]">
-              <SwiperNavButtons></SwiperNavButtons>
-
-              <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
-                Rice Meal
-                </h4>
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Lorem ipsum dolor sit amet</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">90$</p>
-                </div>
-                {/* 2 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vivamus sodales augue vitae arcu</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">133$</p>
-                </div>
-                {/* 3 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Pellentesque semper semper</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">299$</p>
-                </div>
-                {/* 4 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vestibulum est turpis</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">310$</p>
-                </div>
-
-                {/* 5 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Phasellus convallis maximus</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">230$</p>
-                </div>
-                {/* 6 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Nullam elementum magna</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">68$</p>
-                </div>
-
-
-                
               </div>
             </SwiperSlide>
 
@@ -269,181 +211,92 @@ const HomePageMenu = () => {
 
               <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
-                Dessert
+                  From the Grill
                 </h4>
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Lorem ipsum dolor sit amet</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">90$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    90$
+                  </p>
                 </div>
                 {/* 2 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vivamus sodales augue vitae arcu</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vivamus sodales augue vitae arcu
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">133$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    133$
+                  </p>
                 </div>
                 {/* 3 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Pellentesque semper semper</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Pellentesque semper semper
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">299$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    299$
+                  </p>
                 </div>
                 {/* 4 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vestibulum est turpis</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vestibulum est turpis
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">310$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    310$
+                  </p>
                 </div>
 
                 {/* 5 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Phasellus convallis maximus</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Phasellus convallis maximus
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">230$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    230$
+                  </p>
                 </div>
                 {/* 6 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Nullam elementum magna</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Nullam elementum magna
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">68$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    68$
+                  </p>
                 </div>
-
-
-                
-              </div>
-            </SwiperSlide>
-
-            
-            <SwiperSlide className="  mt-[100px]">
-              <SwiperNavButtons></SwiperNavButtons>
-
-              <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
-                Starter
-                </h4>
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Lorem ipsum dolor sit amet</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">90$</p>
-                </div>
-                {/* 2 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vivamus sodales augue vitae arcu</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">133$</p>
-                </div>
-                {/* 3 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Pellentesque semper semper</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">299$</p>
-                </div>
-                {/* 4 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vestibulum est turpis</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">310$</p>
-                </div>
-
-                {/* 5 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Phasellus convallis maximus</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">230$</p>
-                </div>
-                {/* 6 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Nullam elementum magna</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">68$</p>
-                </div>
-
-
-                
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="  mt-[100px]">
-              <SwiperNavButtons></SwiperNavButtons>
-
-              <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
-                Small Chops
-                </h4>
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Lorem ipsum dolor sit amet</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">90$</p>
-                </div>
-                {/* 2 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vivamus sodales augue vitae arcu</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">133$</p>
-                </div>
-                {/* 3 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Pellentesque semper semper</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">299$</p>
-                </div>
-                {/* 4 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vestibulum est turpis</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">310$</p>
-                </div>
-
-                {/* 5 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Phasellus convallis maximus</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">230$</p>
-                </div>
-                {/* 6 */}
-                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                  <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Nullam elementum magna</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">68$</p>
-                </div>
-
-
-                
               </div>
             </SwiperSlide>
 
@@ -452,70 +305,478 @@ const HomePageMenu = () => {
 
               <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
-                Salad
+                  Rice Meal
                 </h4>
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Lorem ipsum dolor sit amet</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">90$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    90$
+                  </p>
                 </div>
                 {/* 2 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vivamus sodales augue vitae arcu</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vivamus sodales augue vitae arcu
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">133$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    133$
+                  </p>
                 </div>
                 {/* 3 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Pellentesque semper semper</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Pellentesque semper semper
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">299$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    299$
+                  </p>
                 </div>
                 {/* 4 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Vestibulum est turpis</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vestibulum est turpis
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">310$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    310$
+                  </p>
                 </div>
 
                 {/* 5 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Phasellus convallis maximus</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Phasellus convallis maximus
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">230$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    230$
+                  </p>
                 </div>
                 {/* 6 */}
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
-                    <p className="dark:text-white text-black font-bold text-[20px]">Nullam elementum magna</p>
-                    <p className="dark:text-white text-black  text-[17px]">Lorem ipsum dolor sit amet</p>
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Nullam elementum magna
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
                   </div>
-                  <p className="dark:text-white text-black font-bold text-[20px]">68$</p>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    68$
+                  </p>
                 </div>
-
-
-                
               </div>
             </SwiperSlide>
 
+            <SwiperSlide className="  mt-[100px]">
+              <SwiperNavButtons></SwiperNavButtons>
 
+              <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
+                <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
+                  Dessert
+                </h4>
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    90$
+                  </p>
+                </div>
+                {/* 2 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vivamus sodales augue vitae arcu
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    133$
+                  </p>
+                </div>
+                {/* 3 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Pellentesque semper semper
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    299$
+                  </p>
+                </div>
+                {/* 4 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vestibulum est turpis
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    310$
+                  </p>
+                </div>
 
+                {/* 5 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Phasellus convallis maximus
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    230$
+                  </p>
+                </div>
+                {/* 6 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Nullam elementum magna
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    68$
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
 
+            <SwiperSlide className="  mt-[100px]">
+              <SwiperNavButtons></SwiperNavButtons>
+
+              <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
+                <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
+                  Starter
+                </h4>
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    90$
+                  </p>
+                </div>
+                {/* 2 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vivamus sodales augue vitae arcu
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    133$
+                  </p>
+                </div>
+                {/* 3 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Pellentesque semper semper
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    299$
+                  </p>
+                </div>
+                {/* 4 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vestibulum est turpis
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    310$
+                  </p>
+                </div>
+
+                {/* 5 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Phasellus convallis maximus
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    230$
+                  </p>
+                </div>
+                {/* 6 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Nullam elementum magna
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    68$
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="  mt-[100px]">
+              <SwiperNavButtons></SwiperNavButtons>
+
+              <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
+                <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
+                  Small Chops
+                </h4>
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    90$
+                  </p>
+                </div>
+                {/* 2 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vivamus sodales augue vitae arcu
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    133$
+                  </p>
+                </div>
+                {/* 3 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Pellentesque semper semper
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    299$
+                  </p>
+                </div>
+                {/* 4 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vestibulum est turpis
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    310$
+                  </p>
+                </div>
+
+                {/* 5 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Phasellus convallis maximus
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    230$
+                  </p>
+                </div>
+                {/* 6 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Nullam elementum magna
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    68$
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide className="  mt-[100px]">
+              <SwiperNavButtons></SwiperNavButtons>
+
+              <div className="absolute top-0 right-0 w-full  sm:w-[80%] px-10 py-20 rounded-2xl bg-[#B5986D]">
+                <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
+                  Salad
+                </h4>
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    90$
+                  </p>
+                </div>
+                {/* 2 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vivamus sodales augue vitae arcu
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    133$
+                  </p>
+                </div>
+                {/* 3 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Pellentesque semper semper
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    299$
+                  </p>
+                </div>
+                {/* 4 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Vestibulum est turpis
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    310$
+                  </p>
+                </div>
+
+                {/* 5 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Phasellus convallis maximus
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    230$
+                  </p>
+                </div>
+                {/* 6 */}
+                <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      Nullam elementum magna
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                      Lorem ipsum dolor sit amet
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    68$
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
       <div className="w-full bg-[green] md:w-[70%] h-[100%]">
-        <img className="w-full  md:h-[900px]  h-[100%]" src="./HomePageMenu.png" alt="" />
+        <img
+          className="w-full  md:h-[900px]  h-[100%]"
+          src="./HomePageMenu.png"
+          alt=""
+        />
       </div>
     </div>
   );

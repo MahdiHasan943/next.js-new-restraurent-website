@@ -1,5 +1,4 @@
 import Link from "next/link";
-
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import "../styles/Home.module.css";
@@ -50,21 +49,20 @@ export default function Home() {
             favourites, a buzzing atmosphere, well-stocked bar and regular
             events. <br className="hidden sm:block" />
             <br className="hidden sm:block" />
-
             Whether you just want to take the edge off and relax with a coffee
             or go a bit crazy in the early hours, Hind & PB Lounge is fit for
             whatever.
           </p>
           <p className="AboutP dark:text-white text-[#4d4d4d] my-8">
             Serving classic British pub food alongside other international
-            favourites. Starters, sides, main, steaks, dessert and lots more.             <br className="hidden sm:block" />
-  We
-            also have wine, Shots & Liqueurs, Passion Blend, Pina Colada,
-            Margarita, Maitai, Manhattan, Sex On The Beach, Vodka,            <br className="hidden sm:block" />
-
+            favourites. Starters, sides, main, steaks, dessert and lots more.{" "}
+            <br className="hidden sm:block" />
+            We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada,
+            Margarita, Maitai, Manhattan, Sex On The Beach, Vodka,{" "}
+            <br className="hidden sm:block" />
             Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue
-            Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers and             <br className="hidden sm:block" />
-
+            Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers and{" "}
+            <br className="hidden sm:block" />
             lots more...
           </p>
         </div>
@@ -79,25 +77,20 @@ export default function Home() {
       {/* 4 */}
       <div className="flex justify-between w-full gap-8 items-center">
         <div className="">
-        <img className="w-full" src="./FoxhutBar.png" alt="" />
-
+          <img className="w-full" src="./FoxhutBar.png" alt="" />
         </div>
         <div className="">
-        <img className="w-full" src="./Mangoma.png" alt="" />
-
+          <img className="w-full" src="./Mangoma.png" alt="" />
         </div>
         <div className="">
-        <img className="w-full" src="./Shayo.png" alt="" />
-
+          <img className="w-full" src="./Shayo.png" alt="" />
         </div>
-        </div>
+      </div>
       {/* 5 */}
 
       <Reservation></Reservation>
       {/* 6 */}
       <ContactUs></ContactUs>
-
-      
     </>
   );
 }

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 
 import { useTheme } from "next-themes";
+import Link from "next/link";
+import { useRouter } from "next/router";
 function Header() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-
+  const router = useRouter();
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
   useEffect(() => {
@@ -33,48 +35,73 @@ function Header() {
             href="#"
             className="lg:ml-[80px]            text-whitek shadow-none nav__brand"
           >
-           <img className="h-[40px]" src="./enish.png" alt="" />
+            <img className="h-[40px]" src="../enish.png" alt="" />
           </a>
         </div>
 
         <ul className={`2xl:ml-[200px] ${active}`}>
           <li className=" nav__item item">
-            <a className=" nav__link            text-whitek	">Home</a>
+            <Link
+              className={`${
+                router.pathname === "/" ? "text-[#b1935e]" : ""
+              } nav__link text-white	`}
+              href={"/"}
+            >
+              Home
+            </Link>
           </li>
           <li className="nav__item">
-            <a
-              href="#platform"
-              className="nav__link            text-whitek focus:text-[#738f2d]"
+            <Link
+              className={`${
+                router.pathname === "/Menu/Menu" ? "text-[#b1935e]" : ""
+              } nav__link text-white	`}
+              href={"/Menu/Menu"}
             >
               Menu
-            </a>
+            </Link>
           </li>
           <li className="nav__item">
-            <a className="nav__link            text-whitek focus:text-[#738f2d]">
-            Events 
-            </a>
+            <Link
+              className={`${
+                router.pathname === "/Events/Events" ? "text-[#b1935e]" : ""
+              } nav__link text-white	`}
+              href={"/Events/Events"}
+            >
+              Events
+            </Link>
           </li>
 
           <li className="nav__item">
-            <a className="nav__link            text-whitek focus:text-[#738f2d]">
-            Wine & Cocktails
-            </a>
+            <Link
+              className={`${
+                router.pathname === "/WineAndCoctail/WineAndCoctail"
+                  ? "text-[#b1935e]"
+                  : ""
+              } nav__link text-white	`}
+              href={"/WineAndCoctail/WineAndCoctail"}
+            >
+              Wine & Cocktails
+            </Link>
           </li>
-          <li className="nav__item">
-            <a className="nav__link            text-whitek focus:text-[#738f2d]">
-            Contact
-            </a>
+          <li className=" nav__item item">
+            <Link
+              className={`${
+                router.pathname === "/Contact/Contact" ? "text-[#b1935e]" : ""
+              } nav__link text-white	`}
+              href={"/Contact/Contact"}
+            >
+              Contact
+            </Link>
           </li>
-          
         </ul>
         <div className="flex justify-center px-6">
           {currentTheme === "dark" ? (
             <button className="" onClick={() => setTheme("light")}>
-              <img className="w-[40px] h-[40px]" src="./moon.svg" alt="" />
+              <img className="w-[40px] h-[40px]" src="../moon.svg" alt="" />
             </button>
           ) : (
             <button className="" onClick={() => setTheme("dark")}>
-              <img className="w-[40px] h-[40px]" src="./sun.svg" alt="" />
+              <img className="w-[40px] h-[40px]" src="../sun.svg" alt="" />
             </button>
           )}
         </div>
