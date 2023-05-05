@@ -7,12 +7,12 @@ const Reservation = () => {
         Reservation
       </h2>
 
-      <div className="ReservationBg">
+      <div className="ReservationBg ">
         <div className=" py-20 sm:px-20">
           <h4 className="text-white text-center text-[30px]  py-6  sm:text-[40px] md:leading-[80px] font-bold">
             Welcome your visit
           </h4>
-          <div className="grid grid-cols-2 py-20 sm:grid-cols-3 gap-4 lg:grid-cols-5  items-center">
+          <div className="grid px-4 grid-cols-2 sm:w-[80%] mx-auto py-20 sm:grid-cols-3 gap-8 lg:grid-cols-5  items-center">
             <input
               className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
               placeholder="Name"

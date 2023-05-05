@@ -75,7 +75,7 @@ export default function Home() {
       </div>
 
       {/* 3 */}
-      <img className="h-[800px] w-full" src="./HomePageDrinksBg.png" alt="" />
+      <img className="sm:h-[800px] w-full" src="./HomePageDrinksBg.png" alt="" />
 
       <HomePageMenu></HomePageMenu>
 

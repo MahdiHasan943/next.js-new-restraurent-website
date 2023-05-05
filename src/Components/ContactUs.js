@@ -5,9 +5,9 @@ const ContactUs = () => {
   return (
     <div className="pt-[100px]">
       <div className="w-full md:w-[60%] mx-auto md:flex  justify-center  md:gap-8">
-        <div className="">
-          {" "}
-          <img className="w-full h-full" src="./conTact.png" alt="" />
+        <div className=" px-4">
+          
+          <img className="w-full mx-auto h-full" src="./conTact.png" alt="" />
         </div>
         <div className="px-6 mx-auto">
           <h3 className="dark:text-white text-black text-[40px]   sm:text-[60px] md:leading-[80px] font-bold">

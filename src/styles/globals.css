@@ -100,6 +100,24 @@ a {
   height: 20px!important;
 
 }
+
+.swiper-nav-btns {
+  width: 160px;
+}
+
+@media screen and (min-width:1725px) and (max-width:2000px)  {
+  .swiper-nav-btns {
+    width: 210px!important;
+  }
+  
+}
+
+@media screen and (min-width:2000px) {
+  .swiper-nav-btns {
+    width: 250px!important;
+  }
+  
+}
 /* slide  e*/
 
 /* form */

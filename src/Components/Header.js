@@ -29,7 +29,7 @@ function Header() {
 
   return (
     <nav className="overflow-hidden  shadow-none w-[100vw] mt-[30px] mb-[-150px]  py-8 px-6 lg:px-12 nav">
-      <div className="flex w-full shadow-none justify-between md:justify-around ">
+      <div className="flex w-full shadow-none   justify-between md:justify-around ">
         <div className="flex items-center">
           <a
             href="#"

@@ -37,7 +37,7 @@ const Chef = () => {
             </p>
 
             <div className="flex items-center gap-6">
-              <p className="py-6 dark:text-white pt-4  text-black text-3xl font-semibold">
+              <p className="py-10 dark:text-white  text-black text-3xl font-semibold">
                 Michelin Stars:{" "}
               </p>
 

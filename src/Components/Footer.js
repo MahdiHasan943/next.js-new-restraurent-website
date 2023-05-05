@@ -52,7 +52,7 @@ const Footer = () => {
              Book Now
               
               </Popover.Button>
-              <Popover.Panel className=" bg-black absolute h-[90vh] top-[-200%] z-[10000] ">
+              <Popover.Panel className=" bg-black absolute py-10  top-[-200%] z-[10000] ">
                   <div className="relative">
                       
                   <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">

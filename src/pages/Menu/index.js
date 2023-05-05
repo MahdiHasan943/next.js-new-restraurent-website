@@ -65,7 +65,7 @@ console.log(menuCards);
   return (
     <>
     
-      <div className={`${style.MmenuBg} dark:opacity-[0.8] h-[550px]`}>
+      <div className={`${style.MmenuBg} dark:opacity-[0.9] h-[550px]`}>
         <div className=" flex justify-center h-full items-center">
           <h1 className='text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]'>MENU</h1>
           </div>
