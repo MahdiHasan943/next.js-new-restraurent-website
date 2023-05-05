@@ -3,7 +3,7 @@ import React from 'react'
 import style from '../../styles/Menu.module.css'
 import Reservation from '@/Components/Reservation'
 import Link from 'next/link'
-const Menu = () => {
+const Menu = ({ menuId =8}) => {
 
   const menuCards = [
     {
