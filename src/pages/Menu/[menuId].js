@@ -81,10 +81,7 @@ const menuDetails = () => {
                
                     </div>
                    <p className='text-[#B5986D] text-center pt-10 pb-4 font-bold text-[32px]'>{card.name}</p>
-                   <div className="text-center">
-                   <Link href={`Menu/${card.id}`} className='dark:text-white py-4 px-8 text-black text-[20px] font-semibold'>View menu</Link>
-               
-                   </div>             
+                            
                
                  </div>) 
                 }
