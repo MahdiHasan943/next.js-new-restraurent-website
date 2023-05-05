@@ -12,7 +12,7 @@ const HomePageMenu = () => {
         <h1 className="text-[60px] lg:text-[60px] md:text-[40px]   text-center   lg:text-end mr-4 dark:text-white text-black font-bold">
           Our Menu
         </h1>
-        <div className=" sm:w-auto md:mr-[-300px] h-[900px]    lg:mr-[-200px]">
+        <div className=" sm:w-auto sm:mr-[100px] md:mr-[-300px] h-[900px]    lg:mr-[-200px]">
           <Swiper
             className="relative"
             modules={[Navigation, Pagination, A11y]}

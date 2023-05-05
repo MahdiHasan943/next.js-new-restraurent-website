@@ -46,7 +46,7 @@ function Header() {
                 router.pathname === "/" ? "text-[#b1935e] nav__link" : "nav__link text-white	"
               } `}
               href={"/"}
-            >
+              onClick={navToggle} >
               Home
             </Link>
           </li>
@@ -55,7 +55,7 @@ function Header() {
               className={`${
                 router.pathname === "/Menu" ? "text-[#b1935e] nav__link" : "nav__link text-white"
               } 	`}
-              href={"/Menu"}
+              href={"/Menu"}  onClick={navToggle}
             >
               Menu
             </Link>
@@ -65,7 +65,7 @@ function Header() {
                className={`${
                 router.pathname === "/#event" ? "text-[#b1935e] nav__link" : "nav__link text-white"
               } 	`}
-              href={"/#event"}
+              href={"/#event"}  onClick={navToggle}
             >
               Events
             </Link>
@@ -78,7 +78,7 @@ function Header() {
                   ? "text-[#b1935e] nav__link"
                   : "nav__link text-white	"
               } `}
-              href={"/WineAndCoctail/WineAndCoctail"}
+              href={"/WineAndCoctail/WineAndCoctail"}  onClick={navToggle}
             >
               Wine & Cocktails
             </Link>
@@ -88,7 +88,7 @@ function Header() {
               className={`${
                 router.pathname === "/Contact/Contact" ? "text-[#b1935e] nav__link" : "nav__link text-white"
               } 	`}
-              href={"/Contact/Contact"}
+              href={"/Contact/Contact"}  onClick={navToggle}
             >
               Contact
             </Link>

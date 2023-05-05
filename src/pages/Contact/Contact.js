@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className={`${styles.subcBg} w-full  md:w-[50%]`}>
+        <div className={`${styles.subcBg} w-full px-6 md:w-[50%]`}>
           <div className="sm:w-[80%] mx-auto py-20">
             <h4 className="text-[40px]  leading-[45px] md:text-[50px] md:leading-[60px]">
               Hind & PB Lounge

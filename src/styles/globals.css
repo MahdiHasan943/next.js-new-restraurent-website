@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 html,
-body {
+body *{
   padding: 0;
   margin: 0;
   font-family: "Poppins";
+    @apply transition-colors duration-200;
+
 }
 
 a {
@@ -102,7 +104,7 @@ a {
 }
 
 .swiper-nav-btns {
-  width: 160px;
+  width: 200px;
 }
 
 @media screen and (min-width:1725px) and (max-width:2000px)  {
