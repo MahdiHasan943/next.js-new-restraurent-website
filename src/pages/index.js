@@ -24,8 +24,8 @@ export default function Home() {
   return (
     <>
       {/* 1 */}
-      <div className="overflow-hidden  heroBg flex h-[130vh] sm:h-[110vh] justify-start items-center">
-        <div className="py-[50px] px-4 sm:px-0 sm:pl-[50px] lg:pl-[100px] xl:pl-[150px]">
+      <div className="overflow-hidden  heroBg flex h-[800px] justify-start items-center">
+        <div className="py-[50px] px-4 sm:px-0 sm:pl-[50px] lg:pl-[120px] xl:pl-[180px]">
           <p className="MainHeroText text-[22px]  leading-[32px]  sm:text-[25px]  sm:leading-[36px]   lg:leading-[48px] lg:text-[32px] ">
             Voted one of the most popular spots in central <br /> Leicester
             thanks to classic British pub food alongside <br /> other
@@ -73,7 +73,7 @@ export default function Home() {
       </div>
 
       {/* 3 */}
-      <img className="w-full" src="./HomePageDrinksBg.png" alt="" />
+      <img className="h-[800px] w-full" src="./HomePageDrinksBg.png" alt="" />
 
       <HomePageMenu></HomePageMenu>
 
