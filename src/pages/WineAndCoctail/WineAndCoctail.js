@@ -23,14 +23,14 @@ const WineAndCoctail = () => {
               alt=""
             />
           </div>
-          <div className="w-full md:w-[50%] flex py-6 md:py-0 justify-center  mx-auto items-center">
+          <div className="w-full md:w-[50%] flex px-6 py-6 md:py-0 justify-center  mx-auto items-center">
             <p className=" dark:text-white mx-auto  text-[32px] text-black">
-              « Wine, when it is truly <br className="hidden sm:block" /> wine,
-              reveals the light <br className="hidden xl:block" /> of matter to
-              arouse <br className="hidden sm:block" /> that of man. It comes{" "}
-              <br className="hidden sm:block" /> reveal our light part{" "}
-              <br className="hidden sm:block" /> and that is the real{" "}
-              <br className="hidden sm:block" /> drunkenness. »
+              « Wine, when it is truly <br className="hidden md:block" /> wine,
+              reveals the light <br className="hidden md:block" /> of matter to
+              arouse <br className="hidden md:block" /> that of man. It comes{" "}
+              <br className="hidden md:block" /> reveal our light part{" "}
+              <br className="hidden md:block" /> and that is the real{" "}
+              <br className="hidden md:block" /> drunkenness. »
             </p>
           </div>
         </div>
