@@ -771,7 +771,7 @@ const HomePageMenu = () => {
           </Swiper>
         </div>
       </div>
-      <div className="w-full bg-[green] md:w-[70%] h-[100%]">
+      <div className="w-full  md:w-[70%] h-[100%]">
         <img
           className="w-full  md:h-[900px]  h-[100%]"
           src="./HomePageMenu.png"

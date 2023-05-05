@@ -1,5 +1,6 @@
 import React from 'react'
 import style from '../../styles/WineAndCoctail.module.css'
+import Reservation from '@/Components/Reservation'
 const WineAndCoctail = () => {
   return (
     <>
@@ -8,7 +9,10 @@ const WineAndCoctail = () => {
         <h1 className='text-white text-center text-[45px]  sm:text-[68px] sm:leading-[84px]'>Wine & Cocktail Bar</h1>
         </div>
 
-    </div>
+      </div>
+      
+      {/* reservation */}
+      <Reservation></Reservation>
     
   </>
   )
