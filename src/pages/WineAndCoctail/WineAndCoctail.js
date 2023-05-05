@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import style from "../../styles/WineAndCoctail.module.css";
 import Reservation from "@/Components/Reservation";
+import WineSlide from "@/Components/imageSlide/WineSlide";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+
+// import required modules
+import { FreeMode, Pagination } from "swiper";
 const WineAndCoctail = () => {
+
+
+
   return (
     <>
       <div className={`${style.MwineBg} dark:opacity-[0.8] h-[550px]`}>
@@ -33,7 +47,26 @@ const WineAndCoctail = () => {
               <br className="hidden md:block" /> drunkenness. »
             </p>
           </div>
+
+
+          
         </div>
+      </div>
+
+      <div className=" py-16">
+
+        <h3 className="text-center  text-[32px] leading-[40px] dark:text-white text-black">Choose your drink</h3>
+        <img className="mx-auto my-10" src="../underline.png" alt="" />
+
+
+
+
+        <div className="w-full">
+        <WineSlide></WineSlide>
+
+          
+       </div>
+
       </div>
 
       {/* reservation */}
