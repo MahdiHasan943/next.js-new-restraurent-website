@@ -2,6 +2,7 @@ import React from 'react'
 
 import style from '../../styles/Menu.module.css'
 import Reservation from '@/Components/Reservation'
+import Link from 'next/link'
 const Menu = () => {
 
   const menuCards = [
@@ -84,7 +85,7 @@ console.log(menuCards);
      </div>
     <p className='text-[#B5986D] text-center pt-10 pb-4 font-bold text-[32px]'>{card.name}</p>
     <div className="text-center">
-    <button className='dark:text-white py-4 px-8 text-black text-[20px] font-semibold'>View menu</button>
+    <Link href={`Menu/${card.id}`} className='dark:text-white py-4 px-8 text-black text-[20px] font-semibold'>View menu</Link>
 
     </div>             
 
