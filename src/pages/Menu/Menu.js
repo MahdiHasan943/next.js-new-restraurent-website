@@ -1,3 +1,5 @@
+import React from 'react'
+
 import style from '../../styles/Menu.module.css'
 import Reservation from '@/Components/Reservation'
 const Menu = () => {
