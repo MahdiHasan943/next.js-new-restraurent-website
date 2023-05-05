@@ -1,21 +1,45 @@
-import React from 'react'
-import style from '../../styles/WineAndCoctail.module.css'
-import Reservation from '@/Components/Reservation'
+import React from "react";
+import style from "../../styles/WineAndCoctail.module.css";
+import Reservation from "@/Components/Reservation";
 const WineAndCoctail = () => {
   return (
     <>
-    <div className={`${style.MwineBg} dark:opacity-[0.8] h-[550px]`}>
-      <div className=" flex justify-center h-full  items-center">
-        <h1 className='text-white text-center text-[45px]  sm:text-[90px] sm:leading-[100px]'>Wine & Cocktail Bar</h1>
+      <div className={`${style.MwineBg} dark:opacity-[0.8] h-[550px]`}>
+        <div className=" flex justify-center h-full  items-center">
+          <h1 className="text-white text-center text-[45px]  sm:text-[90px] sm:leading-[100px]">
+            Wine & Cocktail Bar
+          </h1>
         </div>
-
       </div>
-      
+      <div className="w-full lg:w-[85%] 2xl:w-[70%] py-20 mx-auto">
+        <h2 className="text-[#B5986D] px-8  py-16 font-bold sm:pl-[40px] 2xl:pl-[100px] text-[50px] leading-[80px] ">
+          Wine & Cocktail bar
+        </h2>
+        <div className="w-full md:flex gap-20 md:w-[85%] mx-auto ">
+          <div className="w-full md:w-[50%]">
+            <img
+              className="w-full ml-4 md:ml-0   md:w-[450px] h-[600px]"
+              src="../wineCoctailBar.png"
+              alt=""
+            />
+          </div>
+          <div className="w-full md:w-[50%] flex py-6 md:py-0 justify-center  mx-auto items-center">
+            <p className=" dark:text-white mx-auto  text-[32px] text-black">
+              « Wine, when it is truly <br className="hidden sm:block" /> wine,
+              reveals the light <br className="hidden xl:block" /> of matter to
+              arouse <br className="hidden sm:block" /> that of man. It comes{" "}
+              <br className="hidden sm:block" /> reveal our light part{" "}
+              <br className="hidden sm:block" /> and that is the real{" "}
+              <br className="hidden sm:block" /> drunkenness. »
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* reservation */}
       <Reservation></Reservation>
-    
-  </>
-  )
-}
+    </>
+  );
+};
 
-export default WineAndCoctail
+export default WineAndCoctail;
