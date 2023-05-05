@@ -7,7 +7,7 @@ export const SwiperNavButtons = () => {
   const swiper = useSwiper();
 
   return (
-    <div className="swiper-nav-btns ml-[30px] w-[160px]  h-[300px] relative">
+    <div className="swiper-nav-btns  ml-[100px] w-[160px]  h-[300px] relative">
       <button className="" onClick={() => swiper.slidePrev()}>
         <BsArrowLeftShort className="text-5xl dark:text-white text-black">
           {" "}

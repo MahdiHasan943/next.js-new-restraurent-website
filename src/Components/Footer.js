@@ -7,7 +7,7 @@ const Footer = () => {
     <Popover.Group className=" relative">
           <Popover>
 
-    <div className="  text-white pb-4 pt-8 px-[60px]">
+    <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
       <div className=" xl:w-[60%] mx-auto">
         <div className="flex justify-end items-center"></div>
         <div className="flex justify-end items-center py-6  gap-4">
@@ -48,7 +48,7 @@ const Footer = () => {
             
             Wine & Coctailbar
           </p>
-             <Popover.Button className="text-white bg-[#B5986D]   border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow focus:border-none btn-border-none  outline-none focus:outline-none border-none">
+             <Popover.Button className="text-white bg-[#B5986D]   border-white border-[1.6px] px-10 sm:px-14 py-4 rounded-2xl font-bold bookNow focus:border-none btn-border-none  outline-none focus:outline-none border-none">
              Book Now
               
               </Popover.Button>

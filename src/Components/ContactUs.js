@@ -9,7 +9,7 @@ const ContactUs = () => {
           {" "}
           <img className="w-full h-full" src="./conTact.png" alt="" />
         </div>
-        <div className="px-4 mx-auto">
+        <div className="px-6 mx-auto">
           <h3 className="dark:text-white text-black text-[40px]   sm:text-[60px] md:leading-[80px] font-bold">
             Contact Us
           </h3>

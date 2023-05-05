@@ -71,15 +71,15 @@ console.log(menuCards);
           </div>
 
       </div>
-      <div className="px-4 w-full lg:w-[70%] py-20 mx-auto">
-      <h2 className='text-[#B5986D] py-16 font-bold sm:pl-[40px] text-[50px] leading-[80px] '>Menu</h2>
+      <div className="w-full lg:w-[85%] 2xl:w-[70%] py-20 mx-auto">
+      <h2 className='text-[#B5986D] px-8  py-16 font-bold sm:pl-[40px] 2xl:pl-[100px] text-[50px] leading-[80px] '>Menu</h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 w-full px-8 gap-10 mx-auto ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-10 mx-auto ">
 
 {
   menuCards.map(card => <div className='px-10 ' key={card.id} >
 
-    <div className="px-8 py-8  w-[450px] mx-auto h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+    <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
     <img className=' w-[348px] mx-auto h-[547px] ' src={card.image} alt="" />
 
      </div>

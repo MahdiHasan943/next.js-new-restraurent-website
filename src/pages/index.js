@@ -25,7 +25,7 @@ export default function Home() {
     <>
       {/* 1 */}
       <div className="overflow-hidden  heroBg flex h-[800px] justify-start items-center">
-        <div className="py-[50px] px-4 sm:px-0 sm:pl-[50px] lg:pl-[120px] xl:pl-[180px]">
+        <div className="py-[50px] px-4 sm:px-0 sm:pl-[50px] lg:pl-[120px] xl:pl-[200px]">
           <p className="MainHeroText text-[22px]  leading-[32px]  sm:text-[25px]  sm:leading-[36px]   lg:leading-[48px] lg:text-[32px] ">
             Voted one of the most popular spots in central <br /> Leicester
             thanks to classic British pub food alongside <br /> other
@@ -38,38 +38,40 @@ export default function Home() {
         </div>
       </div>
       {/* 2 */}
-      <div className="py-[80px]  px-4  sm:px-0 sm:pl-[50px] lg:pl-[100px] xl:pl-[150px]">
+      <div className="py-[80px] sm:h-[600px] flex items-center px-6  sm:px-0 sm:pl-[50px] lg:pl-[100px] xl:pl-[150px]">
+        <div className="">
         <h1 className="AboutUs dark:text-white text-black">About Us</h1>
 
-        <div className="">
-          <p className="AboutP dark:text-white text-[#4d4d4d]">
-            <br className="hidden sm:block" />
-            Right opposite Leicester’s main train station, Hind & PB Lounge is a
-            gastro pub fit for breakfast, lunch and dinner. On London{" "}
-            <br className="hidden sm:block" />
-            Road, it’s one of the most popular spots in central Leicester thanks
-            to classic British pub food alongside other international{" "}
-            <br className="hidden sm:block" />
-            favourites, a buzzing atmosphere, well-stocked bar and regular
-            events. <br className="hidden sm:block" />
-            <br className="hidden sm:block" />
-            Whether you just want to take the edge off and relax with a coffee
-            or go a bit crazy in the early hours, Hind & PB Lounge is fit for
-            whatever.
-          </p>
-          <p className="AboutP dark:text-white text-[#4d4d4d] my-8">
-            Serving classic British pub food alongside other international
-            favourites. Starters, sides, main, steaks, dessert and lots more.{" "}
-            <br className="hidden sm:block" />
-            We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada,
-            Margarita, Maitai, Manhattan, Sex On The Beach, Vodka,{" "}
-            <br className="hidden sm:block" />
-            Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue
-            Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers and{" "}
-            <br className="hidden sm:block" />
-            lots more...
-          </p>
-        </div>
+<div className="">
+  <p className="AboutP dark:text-white text-[#4d4d4d]">
+    <br className="hidden sm:block" />
+    Right opposite Leicester’s main train station, Hind & PB Lounge is a
+    gastro pub fit for breakfast, lunch and dinner. On London{" "}
+    <br className="hidden sm:block" />
+    Road, it’s one of the most popular spots in central Leicester thanks
+    to classic British pub food alongside other international{" "}
+    <br className="hidden sm:block" />
+    favourites, a buzzing atmosphere, well-stocked bar and regular
+    events. <br className="hidden sm:block" />
+    <br className="hidden sm:block" />
+    Whether you just want to take the edge off and relax with a coffee
+    or go a bit crazy in the early hours, Hind & PB Lounge is fit for
+    whatever.
+  </p>
+  <p className="AboutP dark:text-white text-[#4d4d4d] my-8">
+    Serving classic British pub food alongside other international
+    favourites. Starters, sides, main, steaks, dessert and lots more.{" "}
+    <br className="hidden sm:block" />
+    We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada,
+    Margarita, Maitai, Manhattan, Sex On The Beach, Vodka,{" "}
+    <br className="hidden sm:block" />
+    Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue
+    Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers and{" "}
+    <br className="hidden sm:block" />
+    lots more...
+  </p>
+</div>
+       </div>
       </div>
 
       {/* 3 */}
