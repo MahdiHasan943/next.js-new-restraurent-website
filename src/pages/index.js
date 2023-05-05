@@ -12,9 +12,7 @@ export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {   
-
-
+  useEffect(() => {
     setMounted(true);
   }, []);
 
@@ -32,56 +30,76 @@ export default function Home() {
             international favourites, a buzzing atmosphere, <br /> well-stocked
             bar and regular events.
           </p>
-         
-          <Form></Form>
 
+          <Form></Form>
         </div>
       </div>
       {/* 2 */}
       <div className="py-[80px] sm:h-[600px] flex items-center px-6  sm:px-0 sm:pl-[50px] lg:pl-[100px] xl:pl-[150px]">
         <div className="">
-        <h1 className="AboutUs dark:text-white text-black">About Us</h1>
+          <h1 className="AboutUs dark:text-white text-black">About Us</h1>
 
-<div className="">
-  <p className="AboutP dark:text-white text-[#4d4d4d]">
-    <br className="hidden sm:block" />
-    Right opposite Leicester’s main train station, Hind & PB Lounge is a
-    gastro pub fit for breakfast, lunch and dinner. On London{" "}
-    <br className="hidden sm:block" />
-    Road, it’s one of the most popular spots in central Leicester thanks
-    to classic British pub food alongside other international{" "}
-    <br className="hidden sm:block" />
-    favourites, a buzzing atmosphere, well-stocked bar and regular
-    events. <br className="hidden sm:block" />
-    <br className="hidden sm:block" />
-    Whether you just want to take the edge off and relax with a coffee
-    or go a bit crazy in the early hours, Hind & PB Lounge is fit for
-    whatever.
-  </p>
-  <p className="AboutP dark:text-white text-[#4d4d4d] my-8">
-    Serving classic British pub food alongside other international
-    favourites. Starters, sides, main, steaks, dessert and lots more.{" "}
-    <br className="hidden sm:block" />
-    We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada,
-    Margarita, Maitai, Manhattan, Sex On The Beach, Vodka,{" "}
-    <br className="hidden sm:block" />
-    Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue
-    Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers and{" "}
-    <br className="hidden sm:block" />
-    lots more...
-  </p>
-</div>
-       </div>
+          <div className="">
+            <p className="AboutP dark:text-white text-[#4d4d4d]">
+              <br className="hidden sm:block" />
+              Right opposite Leicester’s main train station, Hind & PB Lounge is
+              a gastro pub fit for breakfast, lunch and dinner. On London{" "}
+              <br className="hidden sm:block" />
+              Road, it’s one of the most popular spots in central Leicester
+              thanks to classic British pub food alongside other international{" "}
+              <br className="hidden sm:block" />
+              favourites, a buzzing atmosphere, well-stocked bar and regular
+              events. <br className="hidden sm:block" />
+              <br className="hidden sm:block" />
+              Whether you just want to take the edge off and relax with a coffee
+              or go a bit crazy in the early hours, Hind & PB Lounge is fit for
+              whatever.
+            </p>
+            <p className="AboutP dark:text-white text-[#4d4d4d] my-8">
+              Serving classic British pub food alongside other international
+              favourites. Starters, sides, main, steaks, dessert and lots more.{" "}
+              <br className="hidden sm:block" />
+              We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada,
+              Margarita, Maitai, Manhattan, Sex On The Beach, Vodka,{" "}
+              <br className="hidden sm:block" />
+              Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue
+              Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers
+              and <br className="hidden sm:block" />
+              lots more...
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* 3 */}
-      <img className="sm:h-[800px] w-full" src="./HomePageDrinksBg.png" alt="" />
+      <div className="lg:flex gap-8">
+        <div className="">
+          <img
+            className="h-[762px] mx-auto w-full lg:w-[836px] "
+            src="./HomePageDrinksBg.png"
+            alt=""
+          />
+        </div>
+        <div className="px-4 py-20 mx-auto">
+          <h1 className="AboutUs dark:text-white text-black">Happy Hours</h1>
+          <p className=" dark:text-white text-[36px] text-[#4D4D4D] my-8">
+            Drinks & Cocktails
+          </p>
+          <p className="AboutP dark:text-white text-[#4d4d4d] my-8">
+            We offer a variety of great offers throughout the week
+            <br className="hidden sm:block" />
+            at Passion Blend Bar and to be the first to know, follow
+            <br className="hidden sm:block" />
+            us on Instagram to get our latest offerings.
+          </p>
+        </div>
+      </div>
 
       <HomePageMenu></HomePageMenu>
 
       <Chef></Chef>
       {/* 4 */}
-     <ImageSlide></ImageSlide>
+      <ImageSlide></ImageSlide>
       {/* 5 */}
 
       <Reservation></Reservation>
