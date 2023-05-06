@@ -121,6 +121,14 @@ a {
   }
   
 }
+
+
+@media screen and (max-width:400px) {
+  .swiper-nav-btns {
+    display: none;
+  }
+  
+}
 /* slide  e*/
 
 /* form */
