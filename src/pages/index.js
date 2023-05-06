@@ -76,14 +76,16 @@ export default function Home() {
 
       {/* 3 */}
       <PhotoProvider>
-        <PhotoView  src="./HomePageDrinksBg.png">
+       
         <div className="lg:flex gap-8">
-        <div className="">
+          <div className="">
+          <PhotoView  src="./HomePageDrinksBg.png">
           <img
             className="sm:h-[762px]  mx-auto w-full lg:w-[836px] "
             src="./HomePageDrinksBg.png"
             alt=""
-          />
+              />
+               </PhotoView>
         </div>
         <div className="px-4 py-20 mx-auto">
           <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px] dark:text-white text-black">Happy Hours</h1>
@@ -96,11 +98,18 @@ export default function Home() {
             at Passion Blend Bar and to be the first to know, follow
             <br className="hidden sm:block" />
             us on Instagram to get our latest offerings.
-          </p>
+              </p>
+              <div className="">
+              <button className="dark:text-white text-[#B5986D] hover:text-[white] border-[#B5986D] hover:bg-[#B5986D]   dark:border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
+              Follow Us
+          
+          
+                  </button>
+              </div>
         </div>
       </div>
      
-        </PhotoView>
+       
         </PhotoProvider>
      
 
