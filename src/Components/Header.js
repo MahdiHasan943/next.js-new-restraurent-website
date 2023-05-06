@@ -33,7 +33,7 @@ function Header() {
         <div className="flex items-center">
           <a
             href="#"
-            className="lg:ml-[80px]            text-whitek shadow-none nav__brand"
+            className="lg:ml-[80px] text-whitek shadow-none nav__brand"
           >
             <img className="h-[40px]" src="../enish.png" alt="" />
           </a>

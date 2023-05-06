@@ -434,7 +434,7 @@ const  WineSlide = () => {
                              
                           
               zoom={true}
-              slidesPerView={2}
+              slidesPerView={1}
               
               pagination={{
                 clickable: true,
@@ -446,7 +446,7 @@ const  WineSlide = () => {
           <SwiperSlide>
                   <div className="pb-[100px] mx-10  mt-[50px]">
                       <div className="border mb-5 py-10 h-full my-auto border-[#B5986D]">
-                      <img className=" mx-auto sm:w-[260px]  my-auto h-[330px]" src="../leftD.png" alt="" />
+                      <img className="mx-auto w-[260px]  my-auto h-[330px]" src="../leftD.png" alt="" />
                       </div>
                                           <p className="text-[24px] text-center text-[#B5986D]">Bottled Beers</p>
                                           <div className="flex justify-center">
@@ -460,7 +460,7 @@ const  WineSlide = () => {
 {/* 2 */}
 
 <SwiperSlide>
-<div className="pb-[100px] mr-10 mt-[50px]">
+<div className="pb-[100px] mx-10 mt-[50px]">
                       <div className="border mb-5 py-10 border-[#B5986D]">
                       <img className="mx-auto sm:w-[260px]  my-auto h-[330px]" src="../coctail.png" alt="" />
                       </div>
@@ -510,9 +510,9 @@ const  WineSlide = () => {
 {/* 5 */}
 
 <SwiperSlide>
-<div className="pb-[100px] mt-[50px] mr-10">
+<div className="pb-[100px] mt-[50px] mx-10">
                       <div className="border mb-5 py-10 border-[#B5986D]">
-                      <img className="mx-auto sm:w-[260px]  my-auto h-[330px]" src="../rightD.png" alt="" />
+                      <img className="mx-auto w-[260px]  my-auto h-[330px]" src="../rightD.png" alt="" />
                       </div>
                                           <p className="text-[24px] text-center text-[#B5986D]">Draft Beers</p>
                                           <div className="flex justify-center">
@@ -534,7 +534,7 @@ const  WineSlide = () => {
                           <SwiperSlide>
                   <div className="pb-[100px] mx-10  mt-[50px]">
                       <div className="border mb-5 py-10 h-full my-auto border-[#B5986D]">
-                      <img className=" mx-auto sm:w-[260px]  my-auto h-[330px]" src="../leftD.png" alt="" />
+                      <img className=" mx-auto w-[260px]  my-auto h-[330px]" src="../leftD.png" alt="" />
                       </div>
                                           <p className="text-[24px] text-center text-[#B5986D]">Wines</p>
                                           <div className="flex justify-center">
@@ -548,7 +548,7 @@ const  WineSlide = () => {
 {/* 2 */}
 
 <SwiperSlide>
-<div className="pb-[100px] mr-10 mt-[50px]">
+<div className="pb-[100px] mx-10 mt-[50px]">
                       <div className="border mb-5 py-10 border-[#B5986D]">
                       <img className="mx-auto sm:w-[260px]  my-auto h-[330px]" src="../coctail.png" alt="" />
                       </div>
@@ -598,9 +598,9 @@ const  WineSlide = () => {
 {/* 5 */}
 
 <SwiperSlide>
-<div className="pb-[100px] mt-[50px] mr-10">
+<div className="pb-[100px] mt-[50px] mx-10">
                       <div className="border mb-5 py-10 border-[#B5986D]">
-                      <img className="mx-auto sm:w-[260px]  my-auto h-[330px]" src="../rightD.png" alt="" />
+                      <img className="mx-auto w-[260px]  my-auto h-[330px]" src="../rightD.png" alt="" />
                       </div>
                                           <p className="text-[24px] text-center text-[#B5986D]">Draft Beers</p>
                                           <div className="flex justify-center">
