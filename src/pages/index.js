@@ -24,7 +24,7 @@ export default function Home() {
       {/* 1 */}
       <div className="overflow-hidden  heroBg flex h-[800px] justify-start items-center">
         <div className="py-[50px] px-4 sm:px-0 sm:pl-[50px] lg:pl-[120px] xl:pl-[200px]">
-          <p className="MainHeroText text-[22px]  leading-[32px]  sm:text-[25px]  sm:leading-[36px]   lg:leading-[48px] lg:text-[32px] ">
+          <p className="MainHeroText mt-[20px]  text-[22px]  leading-[32px]  sm:text-[25px]  sm:leading-[36px]   lg:leading-[48px] lg:text-[32px] ">
             Voted one of the most popular spots in central <br /> Leicester
             thanks to classic British pub food alongside <br /> other
             international favourites, a buzzing atmosphere, <br /> well-stocked
@@ -35,12 +35,12 @@ export default function Home() {
         </div>
       </div>
       {/* 2 */}
-      <div className="py-[80px] sm:h-[600px] flex items-center px-6  sm:px-0 sm:pl-[50px] lg:pl-[100px] xl:pl-[150px]">
+      <div className="py-[80px] sm:h-[600px] flex items-center px-6  sm:px-0 sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
         <div className="">
-          <h1 className="AboutUs dark:text-white text-black">About Us</h1>
+          <h1 className="AboutUs  dark:text-white py-4 text-black">About Us</h1>
 
           <div className="">
-            <p className="AboutP dark:text-white text-[#4d4d4d]">
+            <p className="AboutP  dark:text-white text-[#4d4d4d]">
               <br className="hidden sm:block" />
               Right opposite Leicester’s main train station, Hind & PB Lounge is
               a gastro pub fit for breakfast, lunch and dinner. On London{" "}
