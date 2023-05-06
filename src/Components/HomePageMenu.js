@@ -4,15 +4,21 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperNavButtons } from "./SwiperNavButtons";
-
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 const HomePageMenu = () => {
   return (
+<PhotoProvider>
+      
+     
+     
+     
     <div className="md:flex pt-20 md:pt-[100px]  pb-20 h-full overflow-hidden ">
       <div className="relative h-full  md:w-[30%]">
-        <h1 className="text-[60px] lg:text-[60px] md:text-[40px]   text-center   lg:text-end mr-4 dark:text-white text-black font-bold">
+        <h1 className="text-[36px] lg:text-[60px] sm:text-[40px]   text-center   lg:text-end mr-4 dark:text-white text-black font-bold">
           Our Menu
         </h1>
-        <div className=" sm:w-auto sm:mr-[100px] md:mr-[-300px] h-[900px]    lg:mr-[-200px]">
+        <div className=" sm:w-auto  md:mr-[-300px] h-[1000px] sm:h-[900px]    lg:mr-[-200px]">
           <Swiper
             className="relative"
             modules={[Navigation, Pagination, A11y]}
@@ -22,7 +28,7 @@ const HomePageMenu = () => {
             <SwiperSlide className="  mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0  right-10 sm:right-0 w-[90%]  sm:w-[500px] h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-0 overflow-hidden right-10 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                   Soup Meal
                 </h4>
@@ -777,14 +783,17 @@ const HomePageMenu = () => {
           </Swiper>
         </div>
       </div>
-      <div className="w-full  md:w-[70%] h-[100%]">
+      <div className="w-full   md:w-[70%] h-[100%]">
+      <PhotoView src="./HomePageMenu.png">
         <img
-          className=" w-[969px] h-[821px]"
+          className=" w-[969px] sm:h-[821px]"
           src="./HomePageMenu.png"
           alt=""
-        />
+            />
+               </PhotoView>
       </div>
-    </div>
+      </div>
+      </PhotoProvider>
   );
 };
 

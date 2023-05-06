@@ -32,7 +32,7 @@ const WineAndCoctail = () => {
         <div className="w-full md:flex gap-20 md:w-[85%] mx-auto ">
           <div className="w-full md:w-[50%]">
             <img
-              className="w-full ml-4 md:ml-0   md:w-[450px] h-[600px]"
+              className="w-full ml-4 md:ml-0   md:w-[450px] sm:h-[600px]"
               src="../wineCoctailBar.png"
               alt=""
             />

@@ -7,10 +7,10 @@ const ContactUs = () => {
       <div className="w-full md:w-[60%] mx-auto md:flex  justify-center  md:gap-8">
         <div className=" px-4">
           
-          <img className="w-full mx-auto h-full" src="./conTact.png" alt="" />
+          <img className="w-full h-[340px] sm:w-[391px] sm:h-[508px] mx-auto " src="./conTact.png" alt="" />
         </div>
-        <div className="px-6 mx-auto">
-          <h3 className="dark:text-white text-black text-[40px]   sm:text-[60px] md:leading-[80px] font-bold">
+        <div className="px-6 py-6 sm:my-0 mx-auto">
+          <h3 className="dark:text-white text-black text-[35px]   sm:text-[60px] md:leading-[80px] font-bold">
             Contact Us
           </h3>
           <div className="flex items-center gap-6">

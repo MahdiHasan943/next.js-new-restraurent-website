@@ -8,6 +8,8 @@ import Reservation from "@/Components/Reservation";
 import ContactUs from "@/Components/ContactUs";
 import Form from "@/Components/ReservationForm/Form";
 import ImageSlide from "@/Components/imageSlide/ImageSlide";
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -37,7 +39,7 @@ export default function Home() {
       {/* 2 */}
       <div className="py-[80px] sm:h-[600px] flex items-center px-6  sm:px-0 sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
         <div className="">
-          <h1 className="AboutUs  dark:text-white py-4 text-black">About Us</h1>
+          <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px]  dark:text-white py-4 text-black">About Us</h1>
 
           <div className="">
             <p className="AboutP  dark:text-white text-[#4d4d4d]">
@@ -69,20 +71,23 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
+        </div>
+      
 
       {/* 3 */}
-      <div className="lg:flex gap-8">
+      <PhotoProvider>
+        <PhotoView  src="./HomePageDrinksBg.png">
+        <div className="lg:flex gap-8">
         <div className="">
           <img
-            className="h-[762px] mx-auto w-full lg:w-[836px] "
+            className="sm:h-[762px]  mx-auto w-full lg:w-[836px] "
             src="./HomePageDrinksBg.png"
             alt=""
           />
         </div>
         <div className="px-4 py-20 mx-auto">
-          <h1 className="AboutUs dark:text-white text-black">Happy Hours</h1>
-          <p className=" dark:text-white text-[36px] text-[#4D4D4D] my-8">
+          <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px] dark:text-white text-black">Happy Hours</h1>
+          <p className=" dark:text-white text-[28px] sm:text-[36px] text-[#4D4D4D] my-8">
             Drinks & Cocktails
           </p>
           <p className="AboutP dark:text-white text-[#4d4d4d] my-8">
@@ -94,6 +99,10 @@ export default function Home() {
           </p>
         </div>
       </div>
+     
+        </PhotoView>
+        </PhotoProvider>
+     
 
       <HomePageMenu></HomePageMenu>
 
