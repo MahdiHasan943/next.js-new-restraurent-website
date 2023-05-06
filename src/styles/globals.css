@@ -153,3 +153,35 @@ a {
   width: 100%;
 }
 /* menu */
+/* mealDetailsText */
+.mealDetailsText{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #B5986D;
+}
+
+.MDPText{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+
+
+}
+.MDSPText{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+}
+/* mealDetailsText */

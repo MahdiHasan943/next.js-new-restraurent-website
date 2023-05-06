@@ -2,6 +2,7 @@ import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { Popover } from "@headlessui/react";
 import {BsXLg} from "react-icons/bs";
+import Link from "next/link";
 const Footer = () => {
   return (
     <Popover.Group className=" relative">
@@ -41,12 +42,12 @@ const Footer = () => {
             </a>
           </div>
 
-          <p className="  dark:text-white text-black">Home</p>
-          <p className="dark:text-white text-black">Menu</p>
-          <p className="dark:text-white hidden md:block text-black">Events</p>
+          <p className="  dark:text-white text-black"><Link href={"/"}> Home</Link></p>
+          <p className="dark:text-white text-black"> <Link  href={"/Menu"}> Menu</Link></p>
+          <p className="dark:text-white hidden md:block text-black"><Link href={"/#event"}>Events </Link></p>
           <p className="dark:text-white hidden md:block text-black">
             
-            Wine & Coctailbar
+           <Link  href={"/WineAndCoctail/WineAndCoctail"}> Wine & Coctailbar</Link>
           </p>
              <Popover.Button className="text-white bg-[#B5986D]   border-white border-[1.6px] px-10 sm:px-14 py-4 rounded-2xl font-bold bookNow focus:border-none btn-border-none  outline-none focus:outline-none border-none">
              Book Now
