@@ -26,8 +26,8 @@ const Footer = () => {
             <BsInstagram></BsInstagram>
           </div>
           <div className="sm:ml-[20px] xl:mr-[-150px]">
-            <img className="py-4" src="./Bt.png" alt="" />
-            <img src="./Sky.png" alt="" />
+            <img className="py-4" src="../BT.png" alt="" />
+            <img src="../Sky.png" alt="" />
           </div>
         </div>
 
