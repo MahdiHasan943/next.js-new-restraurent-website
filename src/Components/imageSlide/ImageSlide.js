@@ -37,36 +37,36 @@ const ImageSlide = () => {
               <SwiperSlide>
               <div className="flex justify-between w-full gap-8 items-center">
         <div className="">
-          <img className="w-full" src="./FoxhutBar.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./FoxhutBar.png" alt="" />
         </div>
         <div className="">
-          <img className="w-full" src="./Mangoma.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./Mangoma.png" alt="" />
         </div>
         <div className="">
-          <img className="w-full" src="./Shayo.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./Shayo.png" alt="" />
         </div>
       </div>
         </SwiperSlide>
         <SwiperSlide>   <div className="flex justify-between w-full gap-8 items-center">
         <div className="">
-          <img className="w-full" src="./FoxhutBar.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./FoxhutBar.png" alt="" />
         </div>
         <div className="">
-          <img className="w-full" src="./Mangoma.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./Mangoma.png" alt="" />
         </div>
         <div className="">
-          <img className="w-full" src="./Shayo.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./Shayo.png" alt="" />
         </div>
       </div></SwiperSlide>
-        <SwiperSlide>   <div className="flex justify-between w-full gap-8 items-center">
+      <SwiperSlide>   <div className="flex justify-between w-full gap-8 items-center">
         <div className="">
-          <img className="w-full" src="./FoxhutBar.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./FoxhutBar.png" alt="" />
         </div>
         <div className="">
-          <img className="w-full" src="./Mangoma.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./Mangoma.png" alt="" />
         </div>
         <div className="">
-          <img className="w-full" src="./Shayo.png" alt="" />
+          <img className="min-h-[252px] w-full" src="./Shayo.png" alt="" />
         </div>
       </div></SwiperSlide>
        
