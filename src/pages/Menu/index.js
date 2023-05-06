@@ -9,13 +9,16 @@ const Menu = ({ menuId =8}) => {
     {
       id:'1',
       name: 'Soup Meals',
-      image:'../Msoup.png'
+      image:'../Msoup.png',
+      bg:'../SoupMHero.png'
 
     },
     {
       id:'2',
       name: 'Breakfast',
-      image:'../Breakfast.png'
+      image: '../Breakfast.png',
+      bg:'..SoupMHero.png'
+
 
     }
     ,

@@ -1,3 +1,4 @@
+import Reservation from '@/Components/Reservation';
 import Link from 'next/link';
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
@@ -10,33 +11,42 @@ const menuDetails = () => {
         {
             id: '1',
             name: 'Soup Meals',
-            image: '../Msoup.png'
+            image: '../Msoup.png',
+            bg:'../SoupMHero.png'
     
         },
         {
             id: '2',
             name: 'Breakfast',
-            image: '../Breakfast.png'
+            image: '../Breakfast.png',
+            bg:'../BMHero.png'
+
     
         }
         ,
         {
             id: '3',
             name: 'Grill',
-            image: '../Grill.png'
+            image: '../Grill.png',
+            bg:'../MGrill.png'
+
     
         }
         ,
         {
             id: '4',
             name: 'Rice Meal',
-            image: '../RiceMeal.png'
+            image: '../RiceMeal.png',
+            bg:'../MRiceMeal.png'
+
     
         }
         , {
             id: '5',
             name: 'Dessert',
-            image: '../Dessert.png'
+            image: '../Dessert.png',
+            bg:'../MDessert.png'
+
     
         }
         ,
@@ -44,19 +54,25 @@ const menuDetails = () => {
         {
             id: '6',
             name: 'Starterts',
-            image: '../Starterts.png'
+            image: '../Starterts.png',
+            bg:'../MStarters.png'
+
     
         },
         {
             id: '7',
             name: 'Small Choap',
-            image: '../SmallChoap.png'
+            image: '../SmallChoap.png',
+            bg:'../MRiceMeal.png'
+
     
         },
         {
             id: '8',
             name: 'Salad',
-            image: '../Salad.png'
+            image: '../Salad.png',
+            bg:'../MSalad.png'
+
     
         }
         
@@ -68,31 +84,44 @@ const menuDetails = () => {
     
     return (
         <div className="">
-              {loading?<h1>..lading</h1>:<div className='heroBg h-[100vh] flex justify-center items-center'>
-      <h1 className='text-[red] text-5xl'>Details about product {menuId}</h1>
+              {loading?<h1>..lading</h1>:<><div className=' w-full ' >
 
 
       <div className="">
           {
-             filtered.map(card=><div className='px-10 ' key={card.id} >
+             filtered.map(card=><div className='' key={card.id} >
 
-             <div className="px-8 py-8 sm:py-20 sm:px-20 border border-[#B5986D]">
-             <img className='w-full h-[80%]' src={card.image} alt="" />
-         
-              </div>
-             <p className='text-[#B5986D] text-center pt-10 pb-4 font-bold text-[32px]'>{card.name}</p>
+                 <div className='h-[550px] bg-no-repeat  dark:opacity-[0.8] bg-cover bg-full bg-center w-full' style={{ backgroundImage: `url(${card.bg})` }} >
+                 <div className=" flex justify-center h-full items-center">
+          <h1 className='text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]'>MENU</h1>
+          </div>
+                  </div>
+
+               
+                 <p className='text-[#B5986D] text-center pt-10 pb-4 font-bold text-[32px]'>{card.name}</p>
+
+                 <Reservation></Reservation>
+                 
                       
          
            </div>) 
-          }
+                    }
+                   
+                    
 
-          </div>
+                       
+                   
+
+                </div>
 
 
    
   
     
-</div>}
+            </div>
+                           </>
+
+            }
     </div>
       
   )
