@@ -29,15 +29,17 @@ const Reservation = () => {
               type="number"
             />
             <input
-              className="border-b-[2px] w-full border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
-              placeholder="Date"
-              type="date"
+              className=" border-b-[2px] w-full border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
+             
+              type="date" placeholder="Date/" required
             />
             <input
               className="border-b-[2px] w-full  border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
               placeholder="Time"
               type="time"
+              required
             />
+            
           </div>
 
           <div className="text-center py-8">
