@@ -25,10 +25,10 @@ const HomePageMenu = () => {
             spaceBetween={100}
             slidesPerView="auto"
           >
-            <SwiperSlide className="  mt-[50px]">
+            <SwiperSlide className=" mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0 overflow-hidden right-10 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                   Soup Meal
                 </h4>
