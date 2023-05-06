@@ -435,7 +435,6 @@ const  WineSlide = () => {
                           
               zoom={true}
               slidesPerView={1}
-              
               pagination={{
                 clickable: true,
               }}

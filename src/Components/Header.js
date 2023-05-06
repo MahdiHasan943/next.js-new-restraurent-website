@@ -35,7 +35,7 @@ function Header() {
             href="#"
             className="lg:ml-[80px] text-whitek shadow-none nav__brand"
           >
-            <img className="h-[40px]" src="../enish.png" alt="" />
+            <img className="h-[40px]" src="../enish.png"   alt="" />
           </a>
         </div>
 
@@ -97,11 +97,11 @@ function Header() {
         <div className="flex justify-center px-6">
           {currentTheme === "dark" ? (
             <button className="" onClick={() => setTheme("light")}>
-              <img className="w-[40px] h-[40px]" src="../moon.svg" alt="" />
+              <img className="origin-center hover:opacity-[0.8] delay-300 hover:rotate-[-100deg] 	 w-[40px] h-[40px]" src="../moon.svg" alt="" />
             </button>
           ) : (
             <button className="" onClick={() => setTheme("dark")}>
-              <img className="w-[40px] h-[40px]" src="../sun.svg" alt="" />
+              <img className="hover:motion-safe:animate-spin  w-[40px] h-[40px]" src="../sun.svg" alt="" />
             </button>
           )}
         </div>
