@@ -56,12 +56,12 @@ const WineAndCoctail = () => {
       <div className=" py-16">
 
         <h3 className="text-center  text-[32px] leading-[40px] dark:text-white text-black">Choose your drink</h3>
-        <img className="mx-auto my-10" src="../underline.png" alt="" />
+        <img className="mx-auto my-20" src="../underline.png" alt="" />
 
 
 
 
-        <div className="w-full">
+        <div className="w-full  shadow-md">
         <WineSlide></WineSlide>
 
           
