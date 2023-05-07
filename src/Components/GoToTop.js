@@ -28,8 +28,8 @@ const GoToTop = () => {
   <>
       {isVisible && (
        
-           <div className="Top fixed  top-[90%] sm:top-[95%] z-50 ml-[10px] sm:ml-[0px]  sm:right-[30px]     top-btn pb-5 pt-6 px-5 rounded-full " onClick={goToBtn}>
-          <FaArrowUp className="hover:rotate-[180deg] animate-bounce transition delay-350 text-white" />
+           <div className="Top fixed border dark:border-white border-black  top-[90%] sm:top-[90%] z-50 ml-[10px] sm:ml-[0px] right-[30px]  py-5 px-5   top-btn sm:py-8 sm:px-8 rounded-full " onClick={goToBtn}>
+          <FaAngleDown  className="dark:text-white text-[20px] sm:text-[30px] delay-200 hover:rotate-180 text-black" />
         </div>
        
       )}

@@ -120,12 +120,13 @@ const HomePageMenu = () => {
             </SwiperSlide>
 
             {/* 2 */}
-            <SwiperSlide className="  mt-[50px]">
+            <SwiperSlide className=" mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0  right-10 sm:right-0 w-[90%]  sm:w-[500px] h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                 Breakfast
+
                 </h4>
                 <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                   <div className="">
@@ -214,10 +215,11 @@ const HomePageMenu = () => {
               </div>
             </SwiperSlide>
             {/* 3 */}
-            <SwiperSlide className="  mt-[50px]">
+            
+            <SwiperSlide className=" mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0  right-10 sm:right-0 w-[90%]  sm:w-[500px] h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                 From the Grill
                 </h4>
@@ -308,10 +310,10 @@ const HomePageMenu = () => {
               </div>
             </SwiperSlide>
             {/* 4 */}
-            <SwiperSlide className="  mt-[50px]">
+            <SwiperSlide className=" mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0  right-10 sm:right-0 w-[90%]  sm:w-[500px] h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                 Rice Meal
                 </h4>
@@ -402,10 +404,10 @@ const HomePageMenu = () => {
               </div>
             </SwiperSlide>
             {/* 5 */}
-            <SwiperSlide className="  mt-[50px]">
+            <SwiperSlide className=" mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0  right-10 sm:right-0 w-[90%]  sm:w-[500px] h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                 Dessert
                 </h4>
@@ -496,10 +498,10 @@ const HomePageMenu = () => {
               </div>
             </SwiperSlide>
             {/* 6 */}
-            <SwiperSlide className="  mt-[50px]">
+            <SwiperSlide className=" mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0  right-10 sm:right-0 w-[90%]  sm:w-[500px] h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                 Starter
                 </h4>
@@ -589,11 +591,11 @@ const HomePageMenu = () => {
                 </div>
               </div>
             </SwiperSlide>
-            {/* 7 */}
-            <SwiperSlide className="  mt-[50px]">
+                          {/* 7 */}
+                          <SwiperSlide className=" mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0  right-10 sm:right-0 w-[90%]  sm:w-[500px] h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                 Small Chops
                 </h4>
@@ -683,11 +685,13 @@ const HomePageMenu = () => {
                 </div>
               </div>
             </SwiperSlide>
+            
             {/* 8 */}
-            <SwiperSlide className="  mt-[50px]">
+         
+            <SwiperSlide className=" mt-[50px]">
               <SwiperNavButtons></SwiperNavButtons>
 
-              <div className="absolute top-0  right-10 sm:right-0 w-[90%]  sm:w-[500px] h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
+              <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                 <h4 className="text-center dark:text-white mt-5 text-4xl text-black">
                 Salad
                 </h4>
