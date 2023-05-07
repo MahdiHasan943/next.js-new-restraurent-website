@@ -31,11 +31,13 @@ const WineAndCoctail = () => {
         </h2>
         <div className="w-full md:flex gap-20 md:w-[85%] mx-auto ">
           <div className="w-full md:w-[50%]">
+            <div className="pl-2">
             <img
-              className="w-full ml-4 md:ml-0   md:w-[450px] sm:h-[600px]"
+              className="w-full  md:ml-0   md:w-[450px] sm:h-[600px]"
               src="../wineCoctailBar.png"
               alt=""
             />
+           </div>
           </div>
           <div className="w-full md:w-[50%] flex px-6 py-6 md:py-0 justify-center  mx-auto items-center">
             <p className=" dark:text-white mx-auto  text-[32px] text-black">

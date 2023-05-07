@@ -15,7 +15,7 @@ import Link from "next/link";
 const  WineSlide = () => {
   return (
           <>
-               <div className="hidden xl:block ">
+               <div className=" hidden xl:block ">
           
 
           <Swiper className="w-full gap-4 py-20 mySwiper"
