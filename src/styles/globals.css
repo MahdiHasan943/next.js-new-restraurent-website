@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body *{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+    @apply transition-colors duration-200;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+  }
+}
+
+/* main hero start*/
+.heroBg {
+  background-image: url("../../public/HomePageHero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+}
+
+.MainHeroText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+
+  color: #ffffff;
+}
+
+/* main hero ends*/
+
+/* About Ue s*/
+.AboutUs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  
+  /* identical to box height */
+}
+.AboutP {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: 0.02em;
+
+  /* 4D4D4D */
+}
+/* About Us e*/
+
+/*  ReservationBg s*/
+.ReservationBg {
+  background-image: url(../../public/Reservation.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+/* ReservationBg e */
+/* slide s */
+
+.swiper {
+  padding: 2rem;
+  height: 100%;
+  
+}
+
+.swiper-pagination-bullet{
+  background-color: white!important;
+  opacity: 0.7!important;
+  width: 20px!important;
+  height: 20px!important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1c6910 !important;
+  opacity: 1!important;
+  width: 20px!important;
+  height: 20px!important;
+
+}
+
+.swiper-nav-btns {
+  width: 200px;
+}
+
+@media screen and (min-width:1725px) and (max-width:2000px)  {
+  .swiper-nav-btns {
+    width: 210px!important;
+  }
+  
+}
+
+@media screen and (min-width:2000px) {
+  .swiper-nav-btns {
+    width: 250px!important;
+  }
+  
+}
+
+
+
+/* slide  e*/
+
+/* form */
+/* @media screen and (max-width:2000px) {
+  .form{
+  
+    max-width: 1000px!important;
+  }
+  
+} */
+/* form  */
+
+
+
+/* menu */
+.soupMHero{
+  background-image: url("../../public/SoupMHero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+}
+/* menu */
+/* mealDetailsText */
+.mealDetailsText{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #B5986D;
+}
+
+.MDPText{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+
+
+}
+.MDSPText{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+}
+/* mealDetailsText */
+
+input[type="date"]::before {
+	color: #ffffff;
+	content: attr(placeholder);
+}
+input[type="date"] {
+	color: #ffffff;
+}
+input[type="date"]:focus,
+input[type="date"]:valid {
+	color: #ffffff;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
+}
+
+
+
+
+
+input[type="time"]::before {
+	color: #ffffff;
+	content: attr(placeholder);
+}
+input[type="time"] {
+	color: #ffffff;
+}
+input[type="time"]:focus,
+input[type="time"]:valid {
+	color: #ffffff;
+}
+input[type="time"]:focus::before,
+input[type="time"]:valid::before {
+	content: "" !important;
+}
+
+
+
+/*  top btn*/
+.Top{
+  /* background: linear-gradient(90deg, #80688E 50%, #4F586A 500%); */
+  /* background:#0d9af4; */
+    background-color: rgb(9 84 243);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+
+}
+.Top:hover{
+      box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
+
+}
+/* top btn */

@@ -1,0 +1,8 @@
+.heroBg{
+  background-image: url('../../public/HomePageHero.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  height: 1000px;
+}
