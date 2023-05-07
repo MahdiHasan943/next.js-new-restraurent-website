@@ -181,11 +181,14 @@ line-height: 36px;
 /* mealDetailsText */
 
 input[type="date"]::before {
-	color: #ffffff;
+	color: #757f87;
+  font-weight: 500;
+
 	content: attr(placeholder);
 }
 input[type="date"] {
-	color: #ffffff;
+	color: #757f87;
+ 
 }
 input[type="date"]:focus,
 input[type="date"]:valid {
@@ -201,11 +204,14 @@ input[type="date"]:valid::before {
 
 
 input[type="time"]::before {
-	color: #ffffff;
+	color: #757f87;
+  font-weight: 500;
 	content: attr(placeholder);
 }
 input[type="time"] {
-	color: #ffffff;
+	color: #757f87;
+  font-weight: 500;
+
 }
 input[type="time"]:focus,
 input[type="time"]:valid {
