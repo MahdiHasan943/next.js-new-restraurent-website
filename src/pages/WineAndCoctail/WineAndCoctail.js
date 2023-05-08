@@ -9,13 +9,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-
 // import required modules
 import { FreeMode, Pagination } from "swiper";
 const WineAndCoctail = () => {
-
-
-
   return (
     <>
       <div className={`${style.MwineBg} dark:opacity-[0.8] h-[550px]`}>
@@ -32,12 +28,12 @@ const WineAndCoctail = () => {
         <div className="w-full md:flex gap-20 md:w-[85%] mx-auto ">
           <div className="w-full md:w-[50%]">
             <div className="pl-2">
-            <img
-              className="w-full  md:ml-0   md:w-[450px] sm:h-[600px]"
-              src="../wineCoctailBar.png"
-              alt=""
-            />
-           </div>
+              <img
+                className="w-full  md:ml-0   md:w-[450px] sm:h-[600px]"
+                src="../wineCoctailBar.png"
+                alt=""
+              />
+            </div>
           </div>
           <div className="w-full md:w-[50%] flex px-6 py-6 md:py-0 justify-center  mx-auto items-center">
             <p className=" dark:text-white mx-auto  text-[32px] text-black">
@@ -49,26 +45,18 @@ const WineAndCoctail = () => {
               <br className="hidden md:block" /> drunkenness. »
             </p>
           </div>
-
-
-          
         </div>
       </div>
 
       <div className=" py-16">
-
-        <h3 className="text-center  text-[32px] leading-[40px] dark:text-white text-black">Choose your drink</h3>
+        <h3 className="text-center  text-[32px] leading-[40px] dark:text-white text-black">
+          Choose your drink
+        </h3>
         <img className="mx-auto my-20" src="../underline.png" alt="" />
 
-
-
-
         <div className="w-full  shadow-md">
-        <WineSlide></WineSlide>
-
-          
-       </div>
-
+          <WineSlide></WineSlide>
+        </div>
       </div>
 
       {/* reservation */}

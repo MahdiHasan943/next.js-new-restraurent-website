@@ -28,14 +28,14 @@ function Header() {
   };
 
   return (
-    <nav className="overflow-hidden  shadow-none w-[100vw] mt-[30px] mb-[-150px]  py-8 px-6 lg:px-12 nav">
+    <nav className="overflow-hidden  shadow-none w-[100vw] mt-[20px] mb-[-170px]  py-8 px-6 lg:px-12 nav">
       <div className="flex w-full shadow-none   justify-between md:justify-around ">
-        <div className="flex items-center">
+        <div className="flex overflow-hidden  items-center">
           <a
             href="#"
             className="lg:ml-[80px] text-whitek shadow-none nav__brand"
           >
-            <img className="h-[40px]" src="../enish.png"   alt="" />
+            <img className="h-[100px] w-[100px]" src="../mainLogo.png"   alt="" />
           </a>
         </div>
 
@@ -101,7 +101,7 @@ function Header() {
             </button>
           ) : (
             <button className="" onClick={() => setTheme("dark")}>
-              <img className="hover:motion-safe:animate-spin  w-[40px] h-[40px]" src="../sun.svg" alt="" />
+              <img className="hover:motion-safe:animate-spin text-[fd6c15] bg-[fd6c15] w-[40px] h-[40px]" src="../sun.svg" alt="" />
             </button>
           )}
         </div>

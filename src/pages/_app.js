@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }) {
         <Footer></Footer>
         <GoToTop></GoToTop>
       </ThemeProvider>
-      
     </div>
   );
 }

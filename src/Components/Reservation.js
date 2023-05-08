@@ -14,27 +14,27 @@ const Reservation = () => {
           </h4>
           <div className="grid px-4 grid-cols-1  gm:grid-cols-2 sm:w-[80%] mx-auto py-20 sm:grid-cols-3 gap-8 lg:grid-cols-5  items-center">
             <input
-              className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
+              className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-2 2xl:px-4 "
               placeholder="Name"
               type="text"
             />
             <input
-              className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
+              className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit    py-8 px-2 2xl:px-4  "
               placeholder="Phone Number"
               type="number"
             />
             <input
-              className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
+              className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-2 2xl:px-4 "
               placeholder="Number of people"
               type="number"
             />
             <input
-              className=" border-b-[2px] w-full border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
+              className=" border-b-[2px]  w-full border-white border-t-none border-l-none border-r-none   bg-inherit   py-8  px-2 2xl:px-4  "
              
-              type="date" placeholder="Date/" required
+              type="date" placeholder="Date " required
             />
             <input
-              className="border-b-[2px] w-full  border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-20 "
+              className="border-b-[2px] w-full  border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-2 2xl:px-4  "
               placeholder="Time"
               type="time"
               required

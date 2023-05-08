@@ -1,4 +1,7 @@
+
+
 .MwineBg{
+    
     background-image: url("../../public/MwineHero.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,3 +9,4 @@
   
     width: 100%;
 }
+
