@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html,
 body * {
   padding: 0;
@@ -219,3 +220,23 @@ input[type="time"]:valid::before {
   box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
 }
 /* top btn */
+
+.slick-list, .slick-slider, .slick-track{
+}
+
+.container{
+ 
+}
+
+.center .slick-center .project{
+  transform: scale(1.3);
+  z-index: 10000;
+  transition: all 400ms ease-in-out;
+  pointer-events: all;
+  opacity: 1;
+}
+
+.center .project{
+  opacity: 0.8;
+  pointer-events: none;
+}

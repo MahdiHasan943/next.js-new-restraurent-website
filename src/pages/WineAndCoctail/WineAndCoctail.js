@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
+import TestSlider from "@/Components/imageSlide/TestSlider";
 const WineAndCoctail = () => {
   return (
     <>
@@ -55,10 +56,12 @@ const WineAndCoctail = () => {
         <img className="mx-auto my-20" src="../underline.png" alt="" />
 
         <div className="w-full  shadow-md">
-          <WineSlide></WineSlide>
+          {/* <WineSlide></WineSlide> */}
         </div>
       </div>
-
+      <div className="px-20  mx-auto">
+      <TestSlider></TestSlider>
+      </div>
       {/* reservation */}
       <Reservation></Reservation>
     </>
