@@ -40,38 +40,49 @@ function Header() {
         </div>
 
         <ul className={`2xl:ml-[200px] ${active}`}>
-          <li className=" nav__item item">
-            <Link
+        <Link
               className={`${
-                router.pathname === "/" ? "text-[#b1935e] nav__link" : "nav__link text-white	"
+                router.pathname === "/" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
               } `}
               href={"/"}
               onClick={navToggle} >
+          <li className=" nav__item item">
+            
               Home
+           
+            </li>
+
             </Link>
-          </li>
-          <li className="nav__item">
-            <Link
+            {/* <Link
               className={`${
                 router.pathname === "/Menu" ? "text-[#b1935e] nav__link" : "nav__link text-white"
               } 	`}
               href={"/Menu"}  onClick={navToggle}
-            >
-              Menu
-            </Link>
-          </li>
-          <li className="nav__item">
+            > */}
+          <li className="nav__item menu hover:text-[#b1935e]">
+           
+            Menu
+            <ul className="bg-[red] subMenu">
+            <li>GASTRO</li>
+
+              <li>CONTINENTAL</li>
+            </ul>
+           
+            </li>
+          {/* </Link> */}
+          
+         
             <Link
                className={`${
                 router.pathname === "/#event" ? "text-[#b1935e] nav__link" : "nav__link text-white"
               } 	`}
               href={"/#event"}  onClick={navToggle}
-            >
-              Events
+            > <li className="nav__item">
+              Events </li>
             </Link>
-          </li>
+         
 
-          <li className="nav__item">
+          
             <Link
               className={`${
                 router.pathname === "/WineAndCoctail/WineAndCoctail"
@@ -79,20 +90,20 @@ function Header() {
                   : "nav__link text-white	"
               } `}
               href={"/WineAndCoctail/WineAndCoctail"}  onClick={navToggle}
-            >
-              Wine & Cocktails
+            ><li className="nav__item">
+              Wine & Cocktails </li>
             </Link>
-          </li>
-          <li className=" nav__item ">
+         
+         
             <Link
               className={`${
                 router.pathname === "/Contact/Contact" ? "text-[#b1935e] nav__link" : "nav__link text-white"
               } 	`}
               href={"/Contact/Contact"}  onClick={navToggle}
-            >
-              Contact
+            > <li className=" nav__item ">
+              Contact </li>
             </Link>
-          </li>
+         
         </ul>
         <div className="flex justify-center px-6">
           {currentTheme === "dark" ? (

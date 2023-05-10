@@ -31,6 +31,9 @@ export default function Home() {
             thanks to classic British pub food alongside <br /> other
             international favourites, a buzzing atmosphere, <br /> well-stocked
             bar and regular events.
+            {/* <a href="https://wa.me/+8801843412068">
+              What' app
+            </a> */}
           </p>
 
           <Form></Form>

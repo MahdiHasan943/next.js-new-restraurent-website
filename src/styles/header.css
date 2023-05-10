@@ -4,6 +4,16 @@ html {
 body {
   font-size: 1.6rem;
 }
+.nav__item{
+  padding: 10px 20px;
+
+}
+.nav__item:hover{
+   border: 1px solid white;
+   padding: 10px 20px;
+
+}
+
 
 .nav {
   display: flex;
