@@ -25,44 +25,34 @@ export default function Home() {
     <>
       {/* 1 */}
       <div className="overflow-hidden  heroBg flex h-[800px] justify-start items-center">
-        <div className="py-[50px] px-4 sm:px-0 sm:pl-[50px] lg:pl-[120px] xl:pl-[200px]">
-          <p className="MainHeroText mt-[20px]  text-[22px]  leading-[32px]  sm:text-[25px]  sm:leading-[36px]   lg:leading-[48px] lg:text-[32px] ">
-            Voted one of the most popular spots in central <br /> Leicester
-            thanks to classic British pub food alongside <br /> other
-            international favourites, a buzzing atmosphere, <br /> well-stocked
-            bar and regular events.
-            {/* <a href="https://wa.me/+8801843412068">
-              What' app
-            </a> */}
-          </p>
+        <div className="py-[50px] px-4 sm:px-0 sm:pl-[80px] lg:pl-[150px] xl:pl-[250px]">
 
-          <Form></Form>
+          <img className="w-[150px]" src="./welcome.png" alt="" />
+          <h1 className="PassionHero mt-4 text-[65px] leading-[66px] sm:text-[101px] sm:leading-[95%]">PASSION <br />
+
+            BLEND</h1>
+          <p className="where my-4">Where The World comes to DANCE & dine</p>
+          {/* <Form></Form> */}
         </div>
       </div>
       {/* 2 */}
-      <div className="py-[80px] sm:h-[600px] flex items-center px-6  sm:px-0 sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
-        <div className="">
-          <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px]  dark:text-white py-4 text-black">
+      <div className="py-[80px] sm:h-[600px] mt-[-170px] bg-[#0B1517] md:w-[75%] md:px-[100px] mx-auto  px-6  ">
+      <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px]  text-white py-4 ">
             About Us
           </h1>
+        <div className="md:flex gap-8 items-start">
+          <div className="md:w-[50%] w-full mx-auto">
+          
+          <p className="AboutP  text-white ">
+          Serving classic British pub food alongside other international favourites. Starters, sides, main, steaks, dessert and lots more. 
 
-          <div className="">
-            <p className="AboutP  dark:text-white text-[#4d4d4d]">
-              <br className="hidden sm:block" />
-              Right opposite Leicester’s main train station, Hind & PB Lounge is
-              a gastro pub fit for breakfast, lunch and dinner. On London{" "}
-              <br className="hidden sm:block" />
-              Road, it’s one of the most popular spots in central Leicester
-              thanks to classic British pub food alongside other international{" "}
-              <br className="hidden sm:block" />
-              favourites, a buzzing atmosphere, well-stocked bar and regular
-              events. <br className="hidden sm:block" />
-              <br className="hidden sm:block" />
-              Whether you just want to take the edge off and relax with a coffee
-              or go a bit crazy in the early hours, Hind & PB Lounge is fit for
-              whatever.
+We also have wine, Shots & Liqueurs, Passion Blend, Pina Colada, Margarita, Maitai, Manhattan, Sex On The Beach, Vodka, Cosmopolitan,Classic Mojito, Woo – Woo, Passion Coconut, Blue Lagoon, Spirits, Soft Drinks & Juice, Glass Juice, Bottled Beers and lots more...
             </p>
-            <p className="AboutP dark:text-white text-[#4d4d4d] my-8">
+         </div>
+
+          <div className="md:w-[50%] w-full mx-auto">
+            
+            <p className="AboutP  text-white ">
               Serving classic British pub food alongside other international
               favourites. Starters, sides, main, steaks, dessert and lots more.{" "}
               <br className="hidden sm:block" />

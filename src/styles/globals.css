@@ -19,6 +19,32 @@ a {
 * {
   box-sizing: border-box;
 }
+.PassionHero{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+
+/* or 97px */
+
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.where{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 95%;
+/* identical to box height, or 21px */
+
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
 
 @media (prefers-color-scheme: dark) {
   html {

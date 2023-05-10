@@ -102,7 +102,21 @@ body {
   .nav__link:hover {
     color: #aee22b;
   }
+ 
 
+  .PB{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21.9217px;
+line-height: 95%;
+/* or 21px */
+
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+
+  }
   .nav__toggler {
     display: block;
     cursor: pointer;

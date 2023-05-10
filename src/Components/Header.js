@@ -33,9 +33,11 @@ function Header() {
         <div className="flex overflow-hidden  items-center">
           <a
             href="#"
-            className="lg:ml-[80px] text-whitek shadow-none nav__brand"
+            className="lg:ml-[80px]  text-whitek shadow-none nav__brand PB"
           >
-            <img className="h-[100px] w-[100px]" src="../mainLogo.png"   alt="" />
+            PASSION
+BLEND
+            {/* <img className="h-[100px] w-[100px]" src="../mainLogo.png"   alt="" /> */}
           </a>
         </div>
 
