@@ -28,7 +28,7 @@ function Header() {
   };
 
   return (
-    <nav className="overflow-hidden  shadow-none w-[100vw] mt-[20px] mb-[-170px]  py-8 px-6 lg:px-12 nav">
+    <nav className=" shadow-none w-[100vw] mt-[20px] mb-[-170px]  py-8 px-6 lg:px-12 nav">
       <div className="flex w-full shadow-none   justify-between md:justify-around ">
         <div className="flex overflow-hidden  items-center">
           <a
@@ -62,10 +62,34 @@ function Header() {
           <li className="nav__item menu hover:text-[#b1935e]">
            
             Menu
-            <ul className="bg-[red] subMenu">
-            <li>GASTRO</li>
+            <ul className=" subMenu">
+            <Link
+              className={`${
+                router.pathname === "" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
+              } `}
+              href={""}
+              onClick={navToggle} >
+          <li className="text-center nav__item item">
+            
+          GASTRO 
+           
+            </li>
 
-              <li>CONTINENTAL</li>
+            </Link>
+
+            <Link
+              className={`${
+                router.pathname === "" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
+              } `}
+              href={""}
+              onClick={navToggle} >
+          <li className="text-center nav__item item">
+            
+          CONTINENTAL 
+           
+            </li>
+
+            </Link>
             </ul>
            
             </li>
@@ -127,4 +151,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header
