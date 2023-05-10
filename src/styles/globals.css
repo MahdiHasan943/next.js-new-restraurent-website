@@ -45,6 +45,19 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 }
+.aboutnewP{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 154%;
+/* or 25px */
+
+letter-spacing: -0.04em;
+
+color: #FFFFFF;
+
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -64,7 +77,24 @@ color: #FFFFFF;
 
   width: 100%;
 }
+.HomeWineBg{
+  background-image: url("../../public/newDringbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
+  width: 100%;
+
+}
+
+.TomatoBg {
+  background-image: url("../../public/TomatoBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   height: 408px;
+  width: 100%;
+}
 .MainHeroText {
   font-family: "Poppins";
   font-style: normal;
