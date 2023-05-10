@@ -68,8 +68,8 @@ function Header() {
                 router.pathname === "" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
               } `}
               href={""}
-              onClick={navToggle} >
-          <li className="text-center nav__item item">
+              >
+          <li className="text-center itmeD  nav__item ">
             
           GASTRO 
            
@@ -82,8 +82,8 @@ function Header() {
                 router.pathname === "" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
               } `}
               href={""}
-              onClick={navToggle} >
-          <li className="text-center nav__item item">
+             >
+          <li className="text-center nav__item itmeD">
             
           CONTINENTAL 
            
