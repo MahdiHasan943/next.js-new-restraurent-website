@@ -67,9 +67,9 @@ BLEND
             <ul className=" subMenu">
             <Link
               className={`${
-                router.pathname === "" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
+                router.pathname === "/Menu/GASTRO" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
               } `}
-              href={""}
+              href={"/Menu/GASTRO"}
               >
           <li className="text-center itmeD  nav__item ">
             
@@ -81,9 +81,9 @@ BLEND
 
             <Link
               className={`${
-                router.pathname === "" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
+                router.pathname === "/Menu/CONTINENTAL" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
               } `}
-              href={""}
+              href={"/Menu/CONTINENTAL"}
              >
           <li className="text-center nav__item itmeD">
             
