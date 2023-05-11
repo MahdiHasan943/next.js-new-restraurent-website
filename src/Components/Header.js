@@ -35,116 +35,119 @@ function Header() {
             href="#"
             className="lg:ml-[80px]  text-whitek shadow-none nav__brand PB"
           >
-            PASSION
-BLEND
+            PASSION BLEND
             {/* <img className="h-[100px] w-[100px]" src="../mainLogo.png"   alt="" /> */}
           </a>
         </div>
 
         <ul className={`2xl:ml-[200px] ${active}`}>
-        <Link
-              className={`${
-                router.pathname === "/" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
-              } `}
-              href={"/"}
-              onClick={navToggle} >
-          <li className=" nav__item item">
-            
-              Home
-           
-            </li>
+          <Link
+            className={`${
+              router.pathname === "/"
+                ? "text-[#b1935e]  nav__link"
+                : "nav__link  text-white	"
+            } `}
+            href={"/"}
+            onClick={navToggle}
+          >
+            <li className=" nav__item item">Home</li>
+          </Link>
 
-            </Link>
-            {/* <Link
-              className={`${
-                router.pathname === "/Menu" ? "text-[#b1935e] nav__link" : "nav__link text-white"
-              } 	`}
-              href={"/Menu"}  onClick={navToggle}
-            > */}
           <li className="nav__item menu hover:text-[#b1935e]">
-           
             Menu
             <ul className=" subMenu">
-            <Link
-              className={`${
-                router.pathname === "/Menu/GASTRO" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
-              } `}
-              href={"/Menu/GASTRO"}
+              <Link
+                className={`${
+                  router.pathname === "/Menu/GASTRO"
+                    ? "text-[#b1935e]  nav__link"
+                    : "nav__link  text-white	"
+                } `}
+                href={"/Menu/GASTRO"}
+                onClick={navToggle}
               >
-          <li className="text-center itmeD  nav__item ">
-            
-          GASTRO 
-           
-            </li>
+                <li
+                  className="text-center itmeD  nav__item "
+                  onClick={navToggle}
+                >
+                  GASTRO
+                </li>
+              </Link>
 
-            </Link>
-
-            <Link
-              className={`${
-                router.pathname === "/Menu/CONTINENTAL" ? "text-[#b1935e]  nav__link" : "nav__link  text-white	"
-              } `}
-              href={"/Menu/CONTINENTAL"}
-             >
-          <li className="text-center nav__item itmeD">
-            
-          CONTINENTAL 
-           
-            </li>
-
-            </Link>
+              <Link
+                className={`${
+                  router.pathname === "/Menu/CONTINENTAL"
+                    ? "text-[#b1935e]  nav__link"
+                    : "nav__link  text-white	"
+                } `}
+                href={"/Menu/CONTINENTAL"}
+                onClick={navToggle}
+              >
+                <li className="text-center nav__item itmeD">CONTINENTAL</li>
+              </Link>
             </ul>
-           
-            </li>
+          </li>
           {/* </Link> */}
-          
-         
-            <Link
-               className={`${
-                router.pathname === "/#event" ? "text-[#b1935e] nav__link" : "nav__link text-white"
-              } 	`}
-              href={"/#event"}  onClick={navToggle}
-            > <li className="nav__item">
-              Events </li>
-            </Link>
-         
 
-          
-            <Link
-              className={`${
-                router.pathname === "/WineAndCoctail/WineAndCoctail"
-                  ? "text-[#b1935e] nav__link"
-                  : "nav__link text-white	"
-              } `}
-              href={"/WineAndCoctail/WineAndCoctail"}  onClick={navToggle}
-            ><li className="nav__item">
-              Wine & Cocktails </li>
-            </Link>
-         
-         
-            <Link
-              className={`${
-                router.pathname === "/Contact/Contact" ? "text-[#b1935e] nav__link" : "nav__link text-white"
-              } 	`}
-              href={"/Contact/Contact"}  onClick={navToggle}
-            > <li className=" nav__item ">
-              Contact </li>
-            </Link>
-         
+          <Link
+            className={`${
+              router.pathname === "/#event"
+                ? "text-[#b1935e] nav__link"
+                : "nav__link text-white"
+            } 	`}
+            href={"/#event"}
+            onClick={navToggle}
+          >
+            {" "}
+            <li className="nav__item">Events </li>
+          </Link>
+
+          <Link
+            className={`${
+              router.pathname === "/WineAndCoctail/WineAndCoctail"
+                ? "text-[#b1935e] nav__link"
+                : "nav__link text-white	"
+            } `}
+            href={"/WineAndCoctail/WineAndCoctail"}
+            onClick={navToggle}
+          >
+            <li className="nav__item">Wine & Cocktails </li>
+          </Link>
+
+          <Link
+            className={`${
+              router.pathname === "/Contact/Contact"
+                ? "text-[#b1935e] nav__link"
+                : "nav__link text-white"
+            } 	`}
+            href={"/Contact/Contact"}
+            onClick={navToggle}
+          >
+            {" "}
+            <li className=" nav__item ">Contact </li>
+          </Link>
         </ul>
         <div className="flex justify-center px-6">
           {currentTheme === "dark" ? (
             <button className="" onClick={() => setTheme("light")}>
-              <img className="origin-center hover:opacity-[0.8] delay-300 hover:rotate-[-100deg] 	 w-[40px] h-[40px]" src="../moon.svg" alt="" />
+              <img
+                className="origin-center hover:opacity-[0.8] delay-300 hover:rotate-[-100deg] 	 w-[40px] h-[40px]"
+                src="../moon.svg"
+                alt=""
+              />
             </button>
           ) : (
             <button className="" onClick={() => setTheme("dark")}>
-              <img className="hover:motion-safe:animate-spin text-[fd6c15] bg-[fd6c15] w-[40px] h-[40px]" src="../sun.svg" alt="" />
+              <img
+                className="hover:motion-safe:animate-spin text-[fd6c15] bg-[fd6c15] w-[40px] h-[40px]"
+                src="../sun.svg"
+                alt=""
+              />
             </button>
           )}
         </div>
       </div>
 
-      <div  onClick={navToggle} className={icon}>
+      <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
@@ -153,4 +156,4 @@ BLEND
   );
 }
 
-export default Header
+export default Header;
