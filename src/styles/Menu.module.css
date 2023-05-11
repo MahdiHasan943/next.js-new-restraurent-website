@@ -6,3 +6,73 @@
   
     width: 100%;
 }
+
+.Gsteak{
+    
+        background-image: url("../../public/SoupMHero.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      
+        width: 100%;
+
+}
+.Breakfast{
+    
+    background-image: url("../../public/BMHero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+
+}
+.means{
+    
+    background-image: url("../../public/MRiceMeal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+
+}
+.dessert{
+    
+    background-image: url("../../public/MDessert.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+
+}
+.starter{
+    
+    background-image: url("../../public/MSalad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+}
+
+.MGrill{
+    
+    background-image: url("../../public/MGrill.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+}
+
+.saya{
+    
+    background-image: url("../../public/MStarters.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+}

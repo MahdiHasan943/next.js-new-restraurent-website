@@ -32,7 +32,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/GASTRO/Steak"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -54,7 +54,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/GASTRO/Breakfast"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -75,7 +75,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/GASTRO/Sides"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -96,7 +96,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/GASTRO/Mains"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -117,7 +117,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/GASTRO/Dessert"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -138,7 +138,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/GASTRO/Starters"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu

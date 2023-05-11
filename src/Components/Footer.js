@@ -75,8 +75,7 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
                   className="dark:text-white font-semibold footerLogo  text-black"
                   href=""
                 >
-                 passion 
-Blend
+               PASSION BLEND Bar
                 </a>
               </div >
 

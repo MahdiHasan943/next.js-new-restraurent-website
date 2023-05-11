@@ -29,14 +29,14 @@ export default function Home() {
           <img className="w-[150px]" src="./welcome.png" alt="" />
           <h1 className="PassionHero mt-4 text-[65px] leading-[66px] sm:text-[101px] sm:leading-[95%]">
             PASSION <br />
-            BLEND
+            BLEND BAR
           </h1>
           <p className="where my-4">Where The World comes to DANCE & dine</p>
           {/* <Form></Form> */}
         </div>
       </div>
       {/* 2 */}
-      <div className="py-[80px] h-[900px] gm:h-[800px] sm:h-[764px] mt-[-170px] bg-[#0B1517] md:w-[75%] md:px-[100px] mx-auto  px-6  ">
+      <div className="py-[80px] h-[900px] gm:h-[800px] sm:h-[764px] mt-[-170px] bg-[#0B1517] md:w-[70%] 2xl:w-[50%] md:px-[100px] mx-auto  px-6  ">
         <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px]  text-white py-4 ">
           About Us
         </h1>

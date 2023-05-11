@@ -32,7 +32,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/CONTINENTAL/Launch"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -54,7 +54,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/CONTINENTAL/Breakfast"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -75,7 +75,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/CONTINENTAL/GrilledFish"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -96,7 +96,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/CONTINENTAL/GrilledMeat"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -117,7 +117,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/CONTINENTAL/Dessert"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -138,7 +138,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/CONTINENTAL/Coffee"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -159,7 +159,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/CONTINENTAL/Suya"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu
@@ -180,7 +180,7 @@ const Menu = () => {
             </p>
             <div className="text-center">
               <Link
-                href=""
+                href="/Menu/CONTINENTAL/Sides"
                 className="dark:text-white py-4 px-8 text-black text-[20px] font-semibold"
               >
                 View menu

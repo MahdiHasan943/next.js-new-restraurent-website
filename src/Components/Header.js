@@ -35,7 +35,7 @@ function Header() {
             href="#"
             className="lg:ml-[80px]  text-whitek shadow-none nav__brand PB"
           >
-            PASSION BLEND
+            PASSION BLEND BAR
             {/* <img className="h-[100px] w-[100px]" src="../mainLogo.png"   alt="" /> */}
           </a>
         </div>
