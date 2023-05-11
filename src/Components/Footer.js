@@ -3,14 +3,14 @@ import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { Popover } from "@headlessui/react";
 import { BsXLg } from "react-icons/bs";
 import Link from "next/link";
+
 const Footer = () => {
   return (
-    <Popover.Group className=" relative">
-      <Popover>
-        <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
-          <div className=" xl:w-[60%] mx-auto">
-            <div className="flex justify-end items-center"></div>
-            <div className="flex justify-end items-center py-6  gap-4">
+    <section>
+      <div className="fbg  gap-20 px-6 h-[670px]">
+        <div className="sm:w-[50%] lg:pt-[150px] lg:flex items-center justify-between mx-auto  ">
+          <div className="">
+          <div className="flex  items-center justify-between py-6  gap-4">
               <div className="bg-[#1DA1F2] rounded-md p-4">
                 {" "}
                 <a href="https://twitter.com/passion_blend?lang=en">
@@ -30,11 +30,43 @@ const Footer = () => {
                   <BsInstagram></BsInstagram>
                 </a>
               </div>
-              <div className="sm:ml-[20px] xl:mr-[-150px]">
+              <div className="lg:ml-[100px]">
                 <img className="py-4" src="../BT.png" alt="" />
-                <img src="../Sky.png" alt="" />
+                <img className="my-8" src="../Sky.png" alt="" />
               </div>
             </div>
+          </div>
+          <div className="">
+            <p className="text-3xl py-4 font-bold ">
+            Opening hours: 
+
+            </p>
+            <p>
+            Monday 7:00 — 0:00 <br className="hidden sm:block" />
+Tuesday 7:00 — 0:00 <br className="hidden sm:block" />
+Wednesday 7:00 — 0:00<br className="hidden sm:block" />
+Thursday 7:00 — 4:00<br className="hidden sm:block" />
+Friday 7:00 — 4:00<br className="hidden sm:block" />
+Saturday 9:00 — 4:00<br className="hidden sm:block" />
+Sunday 12:00 — 23:00<br className="hidden sm:block" />
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+      {/* 2 */}
+    <Popover.Group className=" relative">
+      <Popover>
+          <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
+            <div className="lg:flex mt-[-300px] justify-center">
+              <img src="map.png" alt="" />
+              <img className="lg:mt-[200px] lg:ml-[-180px] h-[330px]" src="box.png" alt="" />
+            </div>
+
+          <div className=" xl:w-[60%] mx-auto">
+            <div className="flex justify-end items-center"></div>
+           
 
             <div className="w-full h-[1px] bg-[#B5986D]"></div>
             <div className="flex items-center gap-6 mt-[20px] justify-center">
@@ -149,7 +181,9 @@ const Footer = () => {
           </div>
         </div>
       </Popover>
-    </Popover.Group>
+      </Popover.Group>
+      </section>
+
   );
 };
 

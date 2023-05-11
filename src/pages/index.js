@@ -135,16 +135,20 @@ export default function Home() {
                 </PhotoView>
               </div>
               <div className="lg:flex lg:gap-[100px] mx-auto lg:justify-between">
-              <PhotoView  src="./plate4.png"><img
-                  className="mx-auto my-4 lg:my-0 h-[250px]"
-                  src="./plate4.png"
-                  alt=""
-                /></PhotoView>
-                <PhotoView  src="./plate5.png"><img
-                  className="mx-auto my-4 lg:my-0 h-[270px]"
-                  src="./plate5.png"
-                  alt=""
-                /></PhotoView>
+                <PhotoView src="./plate4.png">
+                  <img
+                    className="mx-auto my-4 lg:my-0 h-[250px]"
+                    src="./plate4.png"
+                    alt=""
+                  />
+                </PhotoView>
+                <PhotoView src="./plate5.png">
+                  <img
+                    className="mx-auto my-4 lg:my-0 h-[270px]"
+                    src="./plate5.png"
+                    alt=""
+                  />
+                </PhotoView>
               </div>
             </div>
           </div>
@@ -202,8 +206,8 @@ export default function Home() {
       {/* 5 */}
 
       <Reservation></Reservation>
+
       {/* 6 */}
-      <ContactUs></ContactUs>
     </>
   );
 }

@@ -267,3 +267,14 @@ text-transform: uppercase;
 
   text-transform: uppercase;
 }
+
+.fbg{
+ 
+    background-image: url("../../public/newContactbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+  
+}
