@@ -139,7 +139,7 @@ function Header() {
             <button className="" onClick={() => setTheme("dark")}>
               <img
                 className="hover:motion-safe:animate-spin text-[fd6c15] bg-[fd6c15] w-[40px] h-[40px]"
-                src="../sun.svg"
+                src="/../sun.svg"
                 alt=""
               />
             </button>

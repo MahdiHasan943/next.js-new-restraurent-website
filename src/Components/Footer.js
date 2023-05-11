@@ -31,8 +31,8 @@ const Footer = () => {
                 </a>
               </div>
               <div className="lg:ml-[100px]">
-                <img className="py-4" src="../BT.png" alt="" />
-                <img className="my-8" src="../Sky.png" alt="" />
+                <img className="py-4" src="/../BT.png" alt="" />
+                <img className="my-8" src="/../Sky.png" alt="" />
               </div>
             </div>
           </div>
@@ -60,8 +60,8 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
       <Popover>
           <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
             <div className="lg:flex mt-[-300px] justify-center">
-              <img className="sm:h-[642px]" src="../map.png" alt="" />
-              <img className="lg:mt-[200px] lg:ml-[-180px] h-[330px]" src="../newBox.png" alt="" />
+              <img className="sm:h-[642px]" src="/../map.png" alt="" />
+              <img className="lg:mt-[200px] lg:ml-[-180px] h-[330px]" src="/../newBox.png" alt="" />
             </div>
 
           <div className="w-full   xl:w-[75%] border py-20 px-4 lg:px-10 mt-8 rounded-xl border-[#0B1517] mx-auto">
