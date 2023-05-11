@@ -24,58 +24,53 @@ const Launch = () => {
         <div className="">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-              Sable fish with Saffron Ristto
+            Club Sandwich
             </p>
             <p className="MDPText text-[#B5986D]">£44</p>
           </div>
           <img
             className="py-2 w-full"
-            src="../MDLine.png"
+            src="../../MDLine.png"
             alt=""
           />
-          <p className="MDPText dark:text-white text-black ">
-            {" "}
-            Ristto
-          </p>
+          
           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-            Baked with basil, saffron, lemon juice, white wine,
-            onion, garlic and tomato, served with white
-            asparagus
+          Chicken, bacon lettuce and tomato with mayo
           </p>
         </div>
         {/* 2 */}
         <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-              Roasted Rack of Lamb
+            BLT
             </p>
             <p className="MDPText  py-4 text-[#B5986D]">£59</p>
           </div>
           <img
             className="py-2 w-full"
-            src="../MDLine.png"
+            src="../../MDLine.png"
             alt=""
           />
           <p className="MDSPText dark:text-[#ffffffb3] text-black">
-            Rosemary, garlic, Dijon mustard, herbs, pistachios
+          Chicken, bacon lettuce and tomato with mayo
           </p>
         </div>
         {/* 3 */}
         <div className="">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Cornish Game Hen
+            Tuna Melt
             </p>
             <p className="MDPText text-[#B5986D]">£67</p>
           </div>
           <img
             className="py-2 w-full"
-            src="../MDLine.png"
+            src="../../MDLine.png"
             alt=""
           />
          
           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Rubbed with rosemary, lemon and served with porcini mushroom risotto
+          Grilled bacon with lettuce and tomato in a thick cut Sandwich with mayo
           </p>
         </div>
 
@@ -83,36 +78,36 @@ const Launch = () => {
        <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Veal Porterhouse Chop
+            Wraps
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
           <img
             className="py-2 w-full"
-            src="../MDLine.png"
+            src="../../MDLine.png"
             alt=""
           />
         
           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Milk fed center cut from the loin, rubbed with rosemary, lemon juicce, extra virgin olive oil
+          Roasted vegetable wrap dressed in basil Chicken wrap
           </p>
             </div> 
             {/* 5 */}
             <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Veal Porterhouse Chop
+            Sandwiches
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
           <img
             className="py-2 w-full"
-            src="../MDLine.png"
+            src="../../MDLine.png"
             alt=""
           />
         
           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Milk fed center cut from the loin, rubbed with rosemary, lemon juicce, extra virgin olive oil
+          Sausage and onion or Bacon sandwich. All served with a choice homemade hand cut chips
           </p>
         </div> 
 
