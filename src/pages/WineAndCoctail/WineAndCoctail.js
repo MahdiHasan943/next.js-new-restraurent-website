@@ -1,17 +1,8 @@
 import React, { useRef, useState } from "react";
 import style from "../../styles/WineAndCoctail.module.css";
 import Reservation from "@/Components/Reservation";
-import WineSlide from "@/Components/imageSlide/WineSlide";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import WineSlider from "@/Components/imageSlide/wineSlider";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-// import required modules
-import { FreeMode, Pagination } from "swiper";
-import TestSlider from "@/Components/imageSlide/TestSlider";
 const WineAndCoctail = () => {
   return (
     <>
@@ -54,13 +45,9 @@ const WineAndCoctail = () => {
           Choose your drink
         </h3>
         <img className="mx-auto my-20" src="../underline.png" alt="" />
-
-        <div className="w-full  shadow-md">
-          {/* <WineSlide></WineSlide> */}
-        </div>
       </div>
       <div className="px-20  mx-auto">
-      <TestSlider></TestSlider>
+        <WineSlider></WineSlider>
       </div>
       {/* reservation */}
       <Reservation></Reservation>

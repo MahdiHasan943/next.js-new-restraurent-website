@@ -23,7 +23,7 @@ const Suya = () => {
         <div className="">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Steak
+            Small Beef Suya
             </p>
             <p className="MDPText text-[#B5986D]">£44</p>
           </div>
@@ -34,14 +34,14 @@ const Suya = () => {
           />
           
           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with  bbq sauce, salad, and homemade hand cut chips
+          Served with onion, tomato and spiced suya pepper.
           </p>
         </div>
         {/* 2 */}
         <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Peri Peri Chicken
+            Large Beef Suya
             </p>
             <p className="MDPText  py-4 text-[#B5986D]">£59</p>
           </div>
@@ -51,14 +51,14 @@ const Suya = () => {
             alt=""
           />
           <p className="MDSPText dark:text-[#ffffffb3] text-black">
-          Served with peri-peri sauce, homemade hand cut Chips or Salad
+          Served with onion, tomato and spiced suya pepper.
           </p>
         </div>
         {/* 3 */}
         <div className="">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Pork Ribs
+            Chicken Suya
             </p>
             <p className="MDPText text-[#B5986D]">£67</p>
           </div>
@@ -69,7 +69,7 @@ const Suya = () => {
           />
          
           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with bbq sauce, and Salad
+          Served with onion, tomato and spiced suya pepper
           </p>
         </div>
 
@@ -77,7 +77,7 @@ const Suya = () => {
        <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Lamb Ribs
+            Beef Jolof Rice 
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
@@ -88,14 +88,14 @@ const Suya = () => {
           />
         
           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with bbq sauce, and Salad
+          Served with plantain, assorted meat and salad
           </p>
             </div> 
             {/* 5 */}
             <div className="py-10">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Homemade Beef Burger
+            Chicken Jolof Rice 
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
@@ -105,7 +105,7 @@ const Suya = () => {
             alt=""
           />
         <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-        Served in toasted brioche burn with lettuce, mayonnaise, tomato, onion and side hand cut chips
+        Served with Rice and Chicken (Students)
           </p>
          
             </div> 

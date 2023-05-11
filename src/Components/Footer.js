@@ -115,7 +115,7 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
               <Popover.Button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-10 sm:px-14 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
               Reserve Seating
               </Popover.Button>
-              <Popover.Panel className=" bg-black absolute py-10 left-0 sm:left-[20%] lg:left-[40%] top-[10%]  lg:top-[-50%] z-[10000] ">
+              <Popover.Panel className=" bg-black absolute py-10 left-0 sm:left-[20%] top-[15%]  md:top-[30%] lg:left-[30%] 2xl:left-[40%]  lg:top-[-10%] z-[10000] ">
                 <div className="relative">
                   <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
                     <BsXLg className="absolute right-10 top-10 text-white text-end text-[25px]"></BsXLg>

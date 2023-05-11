@@ -23,7 +23,7 @@ const Sides = () => {
         <div className="">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Steak
+            Hand cut chips and chips
             </p>
             <p className="MDPText text-[#B5986D]">£44</p>
           </div>
@@ -33,15 +33,13 @@ const Sides = () => {
             alt=""
           />
           
-          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with  bbq sauce, salad, and homemade hand cut chips
-          </p>
+        
         </div>
         {/* 2 */}
         <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Peri Peri Chicken
+            Ginger beer battered onion rings
             </p>
             <p className="MDPText  py-4 text-[#B5986D]">£59</p>
           </div>
@@ -50,15 +48,13 @@ const Sides = () => {
             src="../../MDLine.png"
             alt=""
           />
-          <p className="MDSPText dark:text-[#ffffffb3] text-black">
-          Served with peri-peri sauce, homemade hand cut Chips or Salad
-          </p>
+         
         </div>
         {/* 3 */}
         <div className="">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Pork Ribs
+            Seasonal vegetable
             </p>
             <p className="MDPText text-[#B5986D]">£67</p>
           </div>
@@ -68,16 +64,14 @@ const Sides = () => {
             alt=""
           />
          
-          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with bbq sauce, and Salad
-          </p>
+          
         </div>
 
         {/* 4 */}
        <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Lamb Ribs
+            Seasonal house salad
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
@@ -87,15 +81,13 @@ const Sides = () => {
             alt=""
           />
         
-          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with bbq sauce, and Salad
-          </p>
+         
             </div> 
             {/* 5 */}
             <div className="py-10">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Homemade Beef Burger
+            Sweet potato fries
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
@@ -104,9 +96,7 @@ const Sides = () => {
             src="../../MDLine.png"
             alt=""
           />
-        <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-        Served in toasted brioche burn with lettuce, mayonnaise, tomato, onion and side hand cut chips
-          </p>
+      
          
             </div> 
             
@@ -114,7 +104,7 @@ const Sides = () => {
             <div className="py-10">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Chicken Burger            </p>
+            Lightly spiced chicken skewers           </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
           <img
@@ -122,16 +112,14 @@ const Sides = () => {
             src="../../MDLine.png"
             alt=""
           />
-        <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-        Served in burn with lettuce, mayonnaise, tomato, onion and side hand cut hand cut chips
-          </p>
+        
          
             </div> 
             {/* 7 */}
             <div className="py-10">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Mixed Grill
+            Grilled halloumi and sun-blushed tomato bites
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
@@ -140,8 +128,7 @@ const Sides = () => {
             src="../../MDLine.png"
             alt=""
           />
-        <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-        Served with hand cut Chips          </p>
+       
          
         </div> 
 

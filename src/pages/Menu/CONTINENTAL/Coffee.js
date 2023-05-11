@@ -23,7 +23,7 @@ const Coffee = () => {
         <div className="">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Steak
+            Tea
             </p>
             <p className="MDPText text-[#B5986D]">£44</p>
           </div>
@@ -33,15 +33,13 @@ const Coffee = () => {
             alt=""
           />
           
-          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with  bbq sauce, salad, and homemade hand cut chips
-          </p>
+         
         </div>
         {/* 2 */}
         <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Peri Peri Chicken
+            Espresso
             </p>
             <p className="MDPText  py-4 text-[#B5986D]">£59</p>
           </div>
@@ -50,15 +48,13 @@ const Coffee = () => {
             src="../../MDLine.png"
             alt=""
           />
-          <p className="MDSPText dark:text-[#ffffffb3] text-black">
-          Served with peri-peri sauce, homemade hand cut Chips or Salad
-          </p>
+          
         </div>
         {/* 3 */}
         <div className="">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Pork Ribs
+            Capuccino
             </p>
             <p className="MDPText text-[#B5986D]">£67</p>
           </div>
@@ -68,16 +64,13 @@ const Coffee = () => {
             alt=""
           />
          
-          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with bbq sauce, and Salad
-          </p>
         </div>
 
         {/* 4 */}
        <div className="py-20">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Lamb Ribs
+            Latte
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
@@ -87,15 +80,13 @@ const Coffee = () => {
             alt=""
           />
         
-          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-          Served with bbq sauce, and Salad
-          </p>
+          
             </div> 
             {/* 5 */}
             <div className="py-10">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Homemade Beef Burger
+            Mocca
             </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
@@ -104,9 +95,7 @@ const Coffee = () => {
             src="../../MDLine.png"
             alt=""
           />
-        <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-        Served in toasted brioche burn with lettuce, mayonnaise, tomato, onion and side hand cut chips
-          </p>
+        
          
             </div> 
             
@@ -114,7 +103,7 @@ const Coffee = () => {
             <div className="py-10">
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
-            Grilled Chicken Burger            </p>
+            Americano          </p>
             <p className="MDPText text-[#B5986D]">£54</p>
           </div>
           <img
@@ -123,8 +112,7 @@ const Coffee = () => {
             alt=""
           />
         <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-        Served in burn with lettuce, mayonnaise, tomato, onion and side hand cut hand cut chips
-          </p>
+        Add vanilla or coconut Favours as extra          </p>
          
             </div> 
             {/* 7 */}
