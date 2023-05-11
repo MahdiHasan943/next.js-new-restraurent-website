@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import style from "../../styles/WineAndCoctail.module.css";
 import Reservation from "@/Components/Reservation";
-import WineSlider from "@/Components/imageSlide/wineSlider";
+import WineSlider from "@/Components/imageSlide/WineSlider";
 
 const WineAndCoctail = () => {
   return (
