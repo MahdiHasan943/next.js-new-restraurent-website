@@ -89,92 +89,112 @@ export default function Home() {
       </div>
 
       {/* 3 */}
-      <div className="mt-[-150px]">
-        <div className="">
-          <img className="mx-auto " src="Tomato.png" alt="" />
-        </div>
-        <div className="mt-[-150px] TomatoBg">
-          <div className="relative gm:flex justify-end">
-            <div className="">
-              <img
-                className="ml-auto  h-[370px]"
-                src="./bigPlate1.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="flex  mt-[-50px] sm:mt-[-150px]">
-          <div className="mx-auto sm:mx-0">
-            <img className="h-[351px] mx-auto " src="./bigPlate2.png" alt="" />
-          </div>
-          <div className="hidden lg:block lg:w-[60%] ">
-            {" "}
-            <div className="">
-              {" "}
-              <img className="mx-auto h-[320px]" src="./plate3.png" alt="" />
-            </div>
-            <div className="lg:flex gap-[100px] mxauto justify-between">
-              <img className="mx-auto h-[250px]" src="./plate4.png" alt="" />
-              <img className="mx-auto h-[270px]" src="./plate5.png" alt="" />
-            </div>
-          </div>
-        </div>
-        <div className="sm:flex mt-[50px] items-center gap-[100px]  lg:ml-[50px] 2xl:ml-[200px] px-6">
-          <div className="">
-            <h4 className="dark:text-white text-black text-[40px] sm:text-[50px] font-bold">
-              Meal Deals
-            </h4>
-          </div>
-          <div className="">
-            <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
-              MODAY – FRIDAY <br className="hidden lg:block" /> 7AM – 12NOON: FULL ENGLISH BREAKFAST WITH FREE
-              BOTTOMLESS COFFEE  <br className="hidden lg:block" /> 12NOON – 5PM: LUNCH DEALS  <br className="hidden lg:block" /> 5PM – 8PM: DINNER
-            </p>
-            <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
-              OFFERS AND DISCOUNTS  <br className="hidden lg:block" /> # HAPPY HOUR: MONDAY – FRIDAY 5PM TO 8PM.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/*  */}
-      <HomePageMenu></HomePageMenu>
-
       <PhotoProvider>
-        <div className="sm:flex justify-end items-center min-h-[460px] sm:h-[732px] HomeWineBg  gap-8">
-          {/* <div className="">
-            <PhotoView src="./HomePageDrinksBg.png">
-              <img
-                className="sm:h-[762px]  mx-auto w-full lg:w-[836px] "
-                src="./HomePageDrinksBg.png"
-                alt=""
-              />
-            </PhotoView>
-          </div> */}
-          <div className="px-4 sm:pr-10 py-20 ">
-            <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px] text-white ">
-              Happy Hours
-            </h1>
-            <p className=" text-white text-[28px] sm:text-[36px] my-8">
-              Drinks & Cocktails
-            </p>
-            <p className="AboutP text-white  my-8">
-              We offer a variety of great offers throughout the week
-              <br className="hidden sm:block" />
-              at Passion Blend Bar and to be the first to know, follow
-              <br className="hidden sm:block" />
-              us on Instagram to get our latest offerings.
-            </p>
+        <div className="mt-[-150px]">
+          <div className="mx-auto">
             <div className="">
-              <button className="dark:text-white text-[#B5986D] hover:text-[white] border-[#B5986D] hover:bg-[#B5986D]   dark:border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
-                Follow Us
-              </button>
+              <PhotoView src="Tomato.png">
+                <img className="mx-auto  " src="Tomato.png" alt="" />
+              </PhotoView>{" "}
+            </div>
+          </div>
+          <div className="mt-[-150px] TomatoBg">
+            <div className="relative gm:flex justify-end">
+              <div className="">
+                <PhotoView src="./bigPlate1.png">
+                  <img
+                    className="ml-auto  h-[370px]"
+                    src="./bigPlate1.png"
+                    alt=""
+                  />
+                </PhotoView>
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:flex  mt-[-50px] sm:mt-[-150px]">
+            <div className="mx-auto sm:mx-0">
+              <PhotoView src="./bigPlate2.png">
+                <img
+                  className="h-[331px] my-4 lg:my-0 mx-auto "
+                  src="./bigPlate2.png"
+                  alt=""
+                />
+              </PhotoView>
+            </div>
+            <div className=" lg:block w-full lg:w-[60%] ">
+              {" "}
+              <div className="">
+                {" "}
+                <PhotoView src="./plate3.png">
+                  <img
+                    className="mx-auto my-4 lg:my-0 h-[320px]"
+                    src="./plate3.png"
+                    alt=""
+                  />
+                </PhotoView>
+              </div>
+              <div className="lg:flex lg:gap-[100px] mx-auto lg:justify-between">
+              <PhotoView  src="./plate4.png"><img
+                  className="mx-auto my-4 lg:my-0 h-[250px]"
+                  src="./plate4.png"
+                  alt=""
+                /></PhotoView>
+                <PhotoView  src="./plate5.png"><img
+                  className="mx-auto my-4 lg:my-0 h-[270px]"
+                  src="./plate5.png"
+                  alt=""
+                /></PhotoView>
+              </div>
+            </div>
+          </div>
+          <div className="sm:flex mt-[50px] items-center gap-[100px]  lg:ml-[50px] 2xl:ml-[200px] px-6">
+            <div className="">
+              <h4 className="dark:text-white text-black text-[40px] sm:text-[50px] font-bold">
+                Meal Deals
+              </h4>
+            </div>
+            <div className="">
+              <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
+                MODAY – FRIDAY <br className="hidden lg:block" /> 7AM – 12NOON:
+                FULL ENGLISH BREAKFAST WITH FREE BOTTOMLESS COFFEE{" "}
+                <br className="hidden lg:block" /> 12NOON – 5PM: LUNCH DEALS{" "}
+                <br className="hidden lg:block" /> 5PM – 8PM: DINNER
+              </p>
+              <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
+                OFFERS AND DISCOUNTS <br className="hidden lg:block" /> # HAPPY
+                HOUR: MONDAY – FRIDAY 5PM TO 8PM.
+              </p>
             </div>
           </div>
         </div>
       </PhotoProvider>
+
+      {/*  */}
+      <HomePageMenu></HomePageMenu>
+
+      <div className="sm:flex justify-end items-center min-h-[460px] sm:h-[732px] HomeWineBg  gap-8">
+        <div className="px-4 sm:pr-10 py-20 ">
+          <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px] text-white ">
+            Happy Hours
+          </h1>
+          <p className=" text-white text-[28px] sm:text-[36px] my-8">
+            Drinks & Cocktails
+          </p>
+          <p className="AboutP text-white  my-8">
+            We offer a variety of great offers throughout the week
+            <br className="hidden sm:block" />
+            at Passion Blend Bar and to be the first to know, follow
+            <br className="hidden sm:block" />
+            us on Instagram to get our latest offerings.
+          </p>
+          <div className="">
+            <button className="dark:text-white text-[#B5986D] hover:text-[white] border-[#B5986D] hover:bg-[#B5986D]   dark:border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
+              Follow Us
+            </button>
+          </div>
+        </div>
+      </div>
 
       <Chef></Chef>
       {/* 4 */}
