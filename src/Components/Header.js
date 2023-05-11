@@ -131,7 +131,7 @@ function Header() {
             <button className="" onClick={() => setTheme("light")}>
               <img
                 className="origin-center hover:opacity-[0.8] delay-300 hover:rotate-[-100deg] 	 w-[40px] h-[40px]"
-                src="../moon.svg"
+                src="/../moon.svg"
                 alt=""
               />
             </button>
