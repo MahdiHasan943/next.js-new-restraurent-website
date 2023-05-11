@@ -60,7 +60,7 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
       <Popover>
           <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
             <div className="lg:flex mt-[-300px] justify-center">
-              <img src="map.png" alt="" />
+              <img className="sm:h-[642px]" src="map.png" alt="" />
               <img className="lg:mt-[200px] lg:ml-[-180px] h-[330px]" src="box.png" alt="" />
             </div>
 
@@ -109,13 +109,13 @@ Blend
             
               </div>
               <div className="text-center sm:text-end">
-                <button className="text-white mx-4 my-10 sm:my-0 bg-[#B5986D]   border-white border-[1.6px] px-10 sm:px-14 py-4 rounded-2xl font-bold bookNow focus:border-none btn-border-none  outline-none focus:outline-none border-none">
+                <button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-10 sm:px-14 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
                 Order Online
                 </button>
-              <Popover.Button className="text-white bg-[#B5986D]   border-white border-[1.6px] px-10 sm:px-14 py-4 rounded-2xl font-bold bookNow focus:border-none btn-border-none  outline-none focus:outline-none border-none">
+              <Popover.Button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-10 sm:px-14 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
               Reserve Seating
               </Popover.Button>
-              <Popover.Panel className=" bg-black absolute py-10 lg:left-[40%] top-[10%]  lg:top-[-50%] z-[10000] ">
+              <Popover.Panel className=" bg-black absolute py-10 left-0 sm:left-[20%] lg:left-[40%] top-[10%]  lg:top-[-50%] z-[10000] ">
                 <div className="relative">
                   <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
                     <BsXLg className="absolute right-10 top-10 text-white text-end text-[25px]"></BsXLg>
