@@ -278,3 +278,17 @@ text-transform: uppercase;
     width: 100%;
   
 }
+.footerLogo{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 72.8897px;
+line-height: 95%;
+/* or 69px */
+
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #0B1517;
+
+}

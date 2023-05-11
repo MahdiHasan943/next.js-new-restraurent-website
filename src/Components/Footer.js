@@ -64,41 +64,58 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
               <img className="lg:mt-[200px] lg:ml-[-180px] h-[330px]" src="box.png" alt="" />
             </div>
 
-          <div className=" xl:w-[60%] mx-auto">
-            <div className="flex justify-end items-center"></div>
+          <div className="w-full   xl:w-[75%] border py-20 px-4 lg:px-10 mt-8 rounded-xl border-[#0B1517] mx-auto">
+            
            
 
-            <div className="w-full h-[1px] bg-[#B5986D]"></div>
-            <div className="flex items-center gap-6 mt-[20px] justify-center">
-              <div className=" sm:pr-[50px]">
+           
+            <div className=" lg:flex items-center gap-6 mt-[20px] justify-center">
+              <div className=" ">
                 <a
-                  className="dark:text-white font-semibold leading-3 text-3xl text-black"
+                  className="dark:text-white font-semibold footerLogo  text-black"
                   href=""
                 >
-                  Logo
+                 passion 
+Blend
                 </a>
-              </div>
+              </div >
 
-              <p className="  dark:text-white text-black">
+                <div className="my-8 lg:my-0 flex gap-2 sm:gap-20 justify-between">
+                <p className="  dark:text-white text-black">
                 <Link href={"/"}> Home</Link>
               </p>
               <p className="dark:text-white text-black">
                 {" "}
                 <Link href={"/Menu"}> Menu</Link>
               </p>
-              <p className="dark:text-white hidden md:block text-black">
+              <p className="dark:text-white  text-black">
                 <Link href={"/#event"}>Events </Link>
               </p>
-              <p className="dark:text-white hidden md:block text-black">
+              <p className="dark:text-white  text-black">
                 <Link href={"/WineAndCoctail/WineAndCoctail"}>
                   {" "}
-                  Wine & Coctailbar
+                  Wine  <span className="hidden sm:block">& Coctailbar</span>
                 </Link>
+                </p>
+                <p className="dark:text-white  text-black">
+                <Link href={"/#Contact"}>Contact </Link>
               </p>
+                </div>
+
+
+                
+
+                
+            
+              </div>
+              <div className="text-center sm:text-end">
+                <button className="text-white mx-4 my-10 sm:my-0 bg-[#B5986D]   border-white border-[1.6px] px-10 sm:px-14 py-4 rounded-2xl font-bold bookNow focus:border-none btn-border-none  outline-none focus:outline-none border-none">
+                Order Online
+                </button>
               <Popover.Button className="text-white bg-[#B5986D]   border-white border-[1.6px] px-10 sm:px-14 py-4 rounded-2xl font-bold bookNow focus:border-none btn-border-none  outline-none focus:outline-none border-none">
-                Book Now
+              Reserve Seating
               </Popover.Button>
-              <Popover.Panel className=" bg-black absolute py-10  top-[-200%] z-[10000] ">
+              <Popover.Panel className=" bg-black absolute py-10 lg:left-[40%] top-[10%]  lg:top-[-50%] z-[10000] ">
                 <div className="relative">
                   <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
                     <BsXLg className="absolute right-10 top-10 text-white text-end text-[25px]"></BsXLg>
@@ -177,7 +194,7 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
                   </form>
                 </div>
               </Popover.Panel>
-            </div>
+              </div>
           </div>
         </div>
       </Popover>
