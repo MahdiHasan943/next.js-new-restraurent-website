@@ -72,10 +72,11 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
             <div className=" lg:flex items-center gap-6 mt-[20px] justify-center">
               <div className=" ">
                 <a
-                  className="dark:text-white font-semibold footerLogo  text-black"
+                  className="dark:text-white font-semibold text-[50px] sm:text-[72px]  footerLogo  text-black"
                   href=""
-                >
-              BLEND Bar
+                  >
+                    PASSION <br />
+              BLEND BAR
                 </a>
               </div >
 
