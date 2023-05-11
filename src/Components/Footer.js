@@ -109,7 +109,7 @@ Blend
             
               </div>
               <div className="text-center sm:text-end">
-                <button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-10 sm:px-14 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
+                <button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-16 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
                 Order Online
                 </button>
               <Popover.Button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-10 sm:px-14 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
