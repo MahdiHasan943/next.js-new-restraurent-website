@@ -21,7 +21,7 @@ const Cocktails = () => {
                         <div className="">
                           <div className="flex justify-between px-2">
                             <p className="MDPText dark:text-white text-black ">
-                              Sable fish with Saffron Ristto
+                            Passion Blend
                             </p>
                             <p className="MDPText text-[#B5986D]">£44</p>
                           </div>
@@ -30,21 +30,14 @@ const Cocktails = () => {
                             src="../MDLine.png"
                             alt=""
                           />
-                          <p className="MDPText dark:text-white text-black ">
-                            {" "}
-                            Ristto
-                          </p>
-                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-                            Baked with basil, saffron, lemon juice, white wine,
-                            onion, garlic and tomato, served with white
-                            asparagus
-                          </p>
+                          
+                          Lime, fresh passion, vodka, Wray Nephew, bourbon
                         </div>
                         {/* 2 */}
                         <div className="py-20">
                           <div className="flex justify-between px-2">
                             <p className="MDPText dark:text-white text-black ">
-                              Roasted Rack of Lamb
+                            Margarita
                             </p>
                             <p className="MDPText  py-4 text-[#B5986D]">£59</p>
                           </div>
@@ -54,14 +47,14 @@ const Cocktails = () => {
                             alt=""
                           />
                           <p className="MDSPText dark:text-[#ffffffb3] text-black">
-                            Rosemary, garlic, Dijon mustard, herbs, pistachios
+                          Lime juice, tequila, triple sec, mixer
                           </p>
                         </div>
                         {/* 3 */}
                         <div className="">
                           <div className="flex justify-between px-2">
                             <p className="MDPText dark:text-white text-black ">
-                            Cornish Game Hen
+                            Maitai
                             </p>
                             <p className="MDPText text-[#B5986D]">£67</p>
                           </div>
@@ -72,7 +65,7 @@ const Cocktails = () => {
                           />
                          
                           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-                          Rubbed with rosemary, lemon and served with porcini mushroom risotto
+                          Lime, rum, pineapple juice, orange juice, amaretto
                           </p>
                         </div>
 
@@ -80,7 +73,7 @@ const Cocktails = () => {
                         <div className="py-20">
                           <div className="flex justify-between px-2">
                             <p className="MDPText dark:text-white text-black ">
-                            Veal Porterhouse Chop
+                            Manhattan
                             </p>
                             <p className="MDPText text-[#B5986D]">£54</p>
                           </div>
@@ -91,11 +84,180 @@ const Cocktails = () => {
                           />
                         
                           <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
-                          Milk fed center cut from the loin, rubbed with rosemary, lemon juicce, extra virgin olive oil
+                          Whisky, brandy, angostura bitter on top
+                          </p>
+            </div>
+            
+            {/* 5 */}
+            <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Sex on the Beach
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£54</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                        
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          Vodka, Archaers, Peach, Orange Juice, Cranberry Juice
+                          </p>
+            </div>
+            <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Espresso Martini
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£54</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                        
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          Vodka, Espresso, Kahlua
+                          </p>
+            </div>
+            <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Cosmopolitan
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£54</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                        
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          Lime juice, vodka, triple sec, cranberry juice
+                          </p>
+            </div>
+            
+            {/* 67 */}
+            <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Classic Mojito
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£67</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                         
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          Mint, fresh lime, Bacardi, soda water
                           </p>
                         </div>
 
+                        <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Woo-Woo
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£67</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                         
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          Vodka, Archers, Cranberry Juice, Slice of Lime
+                          </p>
+            </div>
+            
+
+
+
+            <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Honey Bee
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£67</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                         
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          JD Honey, Vodka, Lemonade
+                          </p>
+            </div>
+            
+
+
+            <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Classic Pimms
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£67</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                         
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          Slice Orange, cucumber, slice lime, mint, Pimm's, lemonade
+                          </p>
+                        </div>
                       
+            
+
+
+
+                        <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Passion Cocoanut
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£44</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                         
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          Malibu, vodka, blue Curacao, milk
+                          </p>
+            </div>
+            
+            <div className="py-20">
+                          <div className="flex justify-between px-2">
+                            <p className="MDPText dark:text-white text-black ">
+                            Blue Lagoon
+                            </p>
+                            <p className="MDPText text-[#B5986D]">£44</p>
+                          </div>
+                          <img
+                            className="py-2 w-full"
+                            src="../MDLine.png"
+                            alt=""
+                          />
+                         
+                          <p className="MDSPText py-4 dark:text-[#ffffffb3] text-black">
+                          Blue Curacao, archers, lime, top with soda water
+                          </p>
+                        </div>
                        
                       </div>
                     </div>

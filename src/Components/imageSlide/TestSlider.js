@@ -176,30 +176,37 @@ const TestSlider = () => {
        </div>
      </div>
 
-          </div>
-          
+      </div>
+      
+      {/* 6 */}
+
+      <div className='project h-[600px]  flex justify-center mt-[100px]       '>
+   
+   <div className="">
+       <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
+       <img
+                  className="mx-auto w-full sm:w-[340px] h-[350px]"
+                  src="../spirit.png"
+                  alt=""
+                />
+       </div>
+       <p className="text-[24px] text-center text-[#B5986D]">
+                Wines
+              </p>
+       <div className="flex justify-center">
+       <Link
+                  href={"/WineAndCoctail/Wines"}
+                  className="text-center text-[20px] mx-auto dark:text-white text-black"
+                >
+                  View menu
+                </Link>
+       </div>
+     </div>
+
+          </div>      
          
 
-          
-          {/* <div className='project h-[600px]    mt-[100px]   py-10'>
-    <img className='h-[400px]' src="https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png" alt="project" />
-   
-          </div>
-          <div className='project h-[600px]   mt-[100px]    py-10'>
-    <img className='h-[400px]' src="https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png" alt="project" />
-   
-          </div>
-          <div className='project h-[600px]    mt-[100px]   py-10'>
-    <img className='h-[400px]' src="https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png" alt="project" />
-   
-          </div>
-          <div className='project h-[600px]   mt-[100px]    py-10'>
-    <img className='h-[400px]' src="https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png" alt="project" />
-   
-      </div>
-    
-     
- */}
+        
 
     </Slider>
   )
