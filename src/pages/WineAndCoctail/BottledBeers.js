@@ -135,7 +135,6 @@ const BottledBeers = () => {
       </div>
   
 
-    <Reservation></Reservation>
     
          
 

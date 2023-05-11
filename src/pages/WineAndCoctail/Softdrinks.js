@@ -136,7 +136,6 @@ const Softdrinks = () => {
 
                
 
-                 <Reservation></Reservation>
                  
                       
          

@@ -148,8 +148,12 @@ color: #FFFFFF;
   opacity: 0.7 !important;
   width: 20px !important;
   height: 20px !important;
-}
 
+}
+.swiper-pagination{
+margin-bottom: -15px!important;
+ 
+}
 .swiper-pagination-bullet-active {
   background-color: #1c6910 !important;
   opacity: 1 !important;

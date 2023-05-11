@@ -130,7 +130,7 @@ function Header() {
           {currentTheme === "dark" ? (
             <button className="" onClick={() => setTheme("light")}>
               <img
-                className="origin-center hover:opacity-[0.8] delay-300 hover:rotate-[-100deg] 	 w-[40px] h-[40px]"
+                className="origin-center hover:opacity-[0.8] delay-300 sm:hover:rotate-[-100deg] 	 w-[40px] h-[40px]"
                 src="/../moon.svg"
                 alt=""
               />
@@ -138,7 +138,7 @@ function Header() {
           ) : (
             <button className="" onClick={() => setTheme("dark")}>
               <img
-                className="hover:motion-safe:animate-spin text-[fd6c15] bg-[fd6c15] w-[40px] h-[40px]"
+                className=" sm:hover:motion-safe:animate-spin delay-300  text-[fd6c15] bg-[fd6c15] w-[40px] h-[40px]"
                 src="/../sun.svg"
                 alt=""
               />

@@ -150,7 +150,6 @@ const DraftBeers = () => {
                     </div>
       </div>
 
-                 <Reservation></Reservation>
                  
                       
          

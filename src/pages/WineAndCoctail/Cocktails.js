@@ -263,7 +263,6 @@ const Cocktails = () => {
                     </div>
                   </div>
 
-    <Reservation></Reservation>
     
          
 

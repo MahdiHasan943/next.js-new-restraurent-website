@@ -273,7 +273,6 @@ const Wines = () => {
 
   
 
-    <Reservation></Reservation>
     
          
 

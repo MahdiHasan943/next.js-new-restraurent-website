@@ -277,7 +277,6 @@ const Spirits = () => {
 
                
 
-                 <Reservation></Reservation>
                  
                       
          
