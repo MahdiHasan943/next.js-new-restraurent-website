@@ -3,10 +3,7 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import "../styles/Home.module.css";
 import HomePageMenu from "@/Components/HomePageMenu";
-import Chef from "@/Components/Chef";
 import Reservation from "@/Components/Reservation";
-import ContactUs from "@/Components/ContactUs";
-import Form from "@/Components/ReservationForm/Form";
 import ImageSlide from "@/Components/imageSlide/ImageSlide";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
@@ -199,18 +196,20 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="event" className="flex px-6 py-24 w-full justify-center  items-center">
+      <div
+        id="event"
+        className="flex px-6 py-24 w-full justify-center  items-center"
+      >
         <div className="w-full md:w-[50%]">
           <h3 className="dark:text-white text-black text-[30px] pb-10   sm:text-[60px] md:leading-[80px] font-bold">
             Our Event Gallery
           </h3>
           <p className="dark:text-white font-semibold py-4 text-black ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
-            feugiat <br className="hidden sm:block" /> massa, et condimentum nunc. Praesent consectetur lorem in
-            efficitur <br className="hidden sm:block" /> dictum. Vestibulum ante ipsum primis in faucibus orci
-            luctus et ultrices <br className="hidden sm:block" /> posuere cubilia curae; Sed lobortis egestas
-            cursus. Vestibulum faucibus <br className="hidden sm:block" /> molestie est, ac efficitur ex
-            ullamcorper a.
+            Passion Blend Bar is very known for organising amazing events
+            throughout the year and make sure to always check this section of
+            our website for the very latest. If you missed our event an would
+            like to see pictures taken, please click and get re-directed to out
+            Instagram page for more Event information and images.
           </p>
         </div>
       </div>
