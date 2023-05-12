@@ -48,7 +48,8 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          
+          <script src="https://smtpjs.com/v3/smtp.js">
+</script>
         </body>
       </Html>
     );

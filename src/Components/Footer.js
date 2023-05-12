@@ -1,10 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { Popover } from "@headlessui/react";
 import { BsXLg } from "react-icons/bs";
 import Link from "next/link";
 
 const Footer = () => {
+
+ 
+
+  const [formState, setFormState] = useState({});
+  const changeHandler = (event) => {
+    setFormState({ ...formState, [event.target.name]: event.target.value });
+        
+  }
+console.log(formState);
+
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+    const config =  {
+  
+      SecureToken : "7c52ddb5-ba37-4e00-94eb-6ca794530de4",
+      To:"mahdihasan038@gmail.com",
+      From : formState.email,
+      Subject : "This is the subject contact form",
+      Body : `${formState.name} connect to your email`
+  
+  
+    }
+    if (window.Email) {
+      window.Email.send(config).then(()=>alert('email send successfully'))
+    }
+
+  }
+
   return (
     <section>
       <div className="fbg  gap-20 px-6 h-[670px]">
@@ -120,7 +149,7 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
                   <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
                     <BsXLg className="absolute right-10 top-10 text-white text-end text-[25px]"></BsXLg>
                   </Popover.Button>
-                  <form className="w-full ">
+                  <form className="w-full " onSubmit={submitHandler}>
                     <h2 className="text-white font-bold  text-center text-[40px] leading-[50px]">
                       Make a Reservation
                     </h2>
@@ -135,24 +164,32 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
                           type="text"
                           className="w-full py-6 px-5 border-[1px] border-white bg-black"
                           placeholder="First Name"
-                          name=""
-                          id=""
+                            name="name"
+                            value={formState.name||''}
+                            id=""
+                            onChange={changeHandler}
+
                         />
                         <input
                           type="text"
                           className="w-full py-6 px-5 border-[1px] border-white bg-black"
-                          name=""
-                          placeholder="Last Name"
-                          id=""
+                          name="name"
+                            placeholder="Last Name"
+                            value={formState.name||''}
+                            id=""
+                            onChange={changeHandler}
+
                         />
                       </div>
                       <div className="px-6">
                         <input
                           type="email"
                           className="w-full py-6 px-5 border-[1px] border-white bg-black"
-                          name=""
+                            name="email"
+                            value={formState.email||''}
                           placeholder="Email"
-                          id=""
+                            id=""
+                            onChange={changeHandler}
                         />
                         <input
                           type="tel"
@@ -186,9 +223,10 @@ Sunday 12:00 — 23:00<br className="hidden sm:block" />
                           placeholder="Number of Persons"
                           id=""
                         />
-                        <button className="text-white hover:bg-[#B5986D] border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
+                        {/* <button type="submit" value="send Email" className="text-white hover:bg-[#B5986D] border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
                           Book Now
-                        </button>
+                          </button> */}
+                          <input  className="text-white hover:bg-[#B5986D] border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow" type="submit" value="Book Now" />
                       </div>
                     </div>
                   </form>
