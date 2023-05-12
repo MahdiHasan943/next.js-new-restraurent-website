@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import styles from "../../styles/contact.module.css";
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_jaup7uq', 'template_rpj8jka', form.current, 'xswVE0o1jmqLyyIJ8')
+      .then((result) => {
+        console.log(result.text);
+        console.log('message sent');
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
   return (
     <div
       className={`${styles.ContactheroBg}  flex py-[200px] justify-start items-center`}
@@ -13,31 +30,35 @@ const Contact = () => {
               Contact Us
             </h1>
 
+            <form   ref={form} onSubmit={sendEmail} action="">
             <div className="py-20">
               <input
                 type="text"
                 className="placeholder:text-[#bf9f1d] text-[#bf9f1d] placeholder:text-[22px] py-8 px-6 rounded-xl w-full bg-white"
-                placeholder="Your Name"
+                  placeholder="Your Name"
+                  name="user_name"
               />
               <input
-                type="text"
+                type="email"
                 className="placeholder:text-[#bf9f1d] placeholder:text-[22px] text-[#bf9f1d] py-8 px-6 rounded-xl my-10 w-full bg-white"
-                placeholder="Your Emaile"
+                  placeholder="Your Emaile"
+                  name="user_email"
               />
               <textarea
                 className="w-full px-6 placeholder:text-[#bf9f1d] text-[#bf9f1d] rounded-xl placeholder:text-[22px] py-6 bg-white"
                 placeholder="Your words are all we need"
-                name=""
+                name="message"
                 id=""
                 cols="30"
                 rows="7"
               ></textarea>
               <div className="text-center pt-10">
-                <button className="text-white rounded-xl text-[20px] font-normal leading-[30px] bg-[#021222] py-10 px-10 w-[80%] ">
-                  Send it
-                </button>
+               
+                  <input type="submit" value="Send it" className="text-white rounded-xl text-[20px] font-normal leading-[30px] bg-[#021222] py-10 px-10 w-[80%] " />
+
               </div>
             </div>
+        </form>
           </div>
         </div>
         <div className={`${styles.subcBg} w-full px-6 md:w-[50%]`}>
