@@ -22,7 +22,7 @@ Order Online
     <BsXLg className="absolute right-10 top-10 text-white text-end text-[25px]"></BsXLg>
         </Popover.Button>
       
-             <img className='min-h-[500px] w-full h-[100%]' src="./orderOnline.png" alt="" />
+             <img className='min-h-[500px] w-full h-[100%]' src="/../orderOnline.png" alt="" />
                
 
     </div>
