@@ -3,6 +3,10 @@ import React from "react";
 import style from "../../../styles/Menu.module.css";
 import Link from "next/link";
 import Reservation from "@/Components/Reservation";
+
+export const config = {
+  unstable_runtimeJS: false,
+};
 const Menu = () => {
   return (
     <>
