@@ -5,9 +5,7 @@ import "@/styles/header.css";
 import Footer from "@/Components/Footer";
 import GoToTop from "@/Components/GoToTop";
 
-export const config = {
-  unstable_runtimeJS: false,
-};
+
 
 function MyApp({ Component, pageProps }) {
   if (Component.getLayout) {
