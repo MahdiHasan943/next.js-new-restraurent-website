@@ -67,7 +67,7 @@ a {
 
 /* main hero start*/
 .heroBg {
-  background-image: url("../../public/newMainHero.png");
+  background-image: url("../../public/newHomeHerobg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -82,58 +82,56 @@ const Footer = () => {
       </div>
       {/* 2 */}
       <Popover.Group className=" relative">
-       
-          <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
-            <div className="lg:flex mt-[-300px] justify-center">
-              <img className="sm:h-[642px]" src="/../map.png" alt="" />
-              <img
-                className="lg:mt-[200px] lg:ml-[-180px] h-[330px]"
-                src="/../newBox.png"
-                alt=""
-              />
-            </div>
+        <div className="  text-white pb-4 pt-8  px-4 sm:px-[60px]">
+          <div className="lg:flex mt-[-300px] justify-center">
+            <img className="sm:h-[642px]" src="/../map.png" alt="" />
+            <img
+              className="lg:mt-[200px] lg:ml-[-180px] h-[330px]"
+              src="/../newBox.png"
+              alt=""
+            />
+          </div>
 
-            <div className="w-full   xl:w-[75%] border py-20 px-4 lg:px-10 mt-8 rounded-xl border-[#0B1517] mx-auto">
-              <div className=" lg:flex items-center gap-6 mt-[20px] justify-center">
-                <div className=" ">
-                  <a
-                    className="dark:text-white font-semibold text-[50px] sm:text-[72px]  footerLogo  text-black"
-                    href=""
-                  >
-                    PASSION <br />
-                    BLEND BAR
-                  </a>
-                </div>
-
-                <div className="my-8 lg:my-0 flex gap-2 sm:gap-20 justify-between">
-                  <p className="  dark:text-white text-black">
-                    <Link href={"/"}> Home</Link>
-                  </p>
-                  <p className="dark:text-white text-black">
-                    {" "}
-                    <Link href={"/Menu"}> Menu</Link>
-                  </p>
-                  <p className="dark:text-white  text-black">
-                    <Link href={"/#event"}>Events </Link>
-                  </p>
-                  <p className="dark:text-white  text-black">
-                    <Link href={"/WineAndCoctail/WineAndCoctail"}>
-                      {" "}
-                      Wine <span className="hidden sm:block">& Coctailbar</span>
-                    </Link>
-                  </p>
-                  <p className="dark:text-white  text-black">
-                    <Link href={"/#Contact"}>Contact </Link>
-                  </p>
-                </div>
+          <div className="w-full   xl:w-[75%] border py-20 px-4 lg:px-10 mt-8 rounded-xl border-[#0B1517] mx-auto">
+            <div className=" lg:flex items-center gap-6 mt-[20px] justify-center">
+              <div className=" ">
+                <a
+                  className="dark:text-white font-semibold text-[50px] sm:text-[72px]  footerLogo  text-black"
+                  href=""
+                >
+                  PASSION <br />
+                  BLEND BAR
+                </a>
               </div>
-              <div className="mx-atuo text-center sm:flex sm:justify-end">
-              
-               
-                <Form></Form>
-               
-                
-                <Popover> <Popover.Button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-10 sm:px-14 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
+
+              <div className="my-8 lg:my-0 flex gap-2 sm:gap-20 justify-between">
+                <p className="  dark:text-white text-black">
+                  <Link href={"/"}> Home</Link>
+                </p>
+                <p className="dark:text-white text-black">
+                  {" "}
+                  <Link href={"/Menu"}> Menu</Link>
+                </p>
+                <p className="dark:text-white  text-black">
+                  <Link href={"/#event"}>Events </Link>
+                </p>
+                <p className="dark:text-white  text-black">
+                  <Link href={"/WineAndCoctail/WineAndCoctail"}>
+                    {" "}
+                    Wine <span className="hidden sm:block">& Coctailbar</span>
+                  </Link>
+                </p>
+                <p className="dark:text-white  text-black">
+                  <Link href={"/#Contact"}>Contact </Link>
+                </p>
+              </div>
+            </div>
+            <div className="mx-atuo text-center sm:flex sm:justify-end">
+              <Form></Form>
+
+              <Popover>
+                {" "}
+                <Popover.Button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-10 sm:px-14 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
                   Reserve Seating
                 </Popover.Button>
                 <Popover.Panel className=" bg-black absolute py-10 left-0 sm:left-[20%] top-[15%]  md:top-[30%] lg:left-[30%] 2xl:left-[40%]  lg:top-[-10%] z-[10000] ">
@@ -219,11 +217,11 @@ const Footer = () => {
                       </div>
                     </form>
                   </div>
-                </Popover.Panel></Popover>
-              </div>
+                </Popover.Panel>
+              </Popover>
             </div>
           </div>
-     
+        </div>
       </Popover.Group>
     </section>
   );

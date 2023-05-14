@@ -213,7 +213,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      {/* <Chef></Chef> */}
+     
       {/* 4 */}
       <ImageSlide></ImageSlide>
       {/* 5 */}

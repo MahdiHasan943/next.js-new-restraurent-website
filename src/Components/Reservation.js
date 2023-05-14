@@ -30,8 +30,9 @@ const Reservation = () => {
             />
             <input
               className=" border-b-[2px]  w-full border-white border-t-none border-l-none border-r-none   bg-inherit   py-8  px-2 2xl:px-4  "
-             
-              type="date" placeholder="Date " required
+              type="date"
+              placeholder="Date "
+              required
             />
             <input
               className="border-b-[2px] w-full  border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-2 2xl:px-4  "
@@ -39,7 +40,6 @@ const Reservation = () => {
               type="time"
               required
             />
-            
           </div>
 
           <div className="text-center py-8">
