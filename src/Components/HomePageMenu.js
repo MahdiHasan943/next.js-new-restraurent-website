@@ -7,6 +7,256 @@ import { SwiperNavButtons } from "./SwiperNavButtons";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 const HomePageMenu = () => {
+
+
+  const menuCards = [
+    
+    {
+      "id": "1",
+      "title": "Grilled Fish",
+
+      "p1Title":"Grilled Tilapia",
+      "p1Text": "serve with African spiced fish sauce,  salad, and plantain or potato wedges ",
+      "p1Price": "",
+
+      "p2Title":" Super Grilled Tilapia",
+      "p2Text": " Served with African spiced Fish sauce,        salad and plantain or pota ",
+      "p2Price": " 133$",
+
+      "p3Title":"  Cod Fish",
+      "p3Text": " Beer battered fish with Chips, pea and        homemade tartar sauce",
+      "p3Price": " 299$",
+
+      "p4Title":"Grilled Prawns",
+      "p4Text": "  Served with garnish or vegetable",
+      "p4Price": " 310$",
+
+      
+
+      
+
+    },
+    {
+      "id": "2",
+      "title": "Breakfast",
+
+      "p1Title":"Full English",
+      "p1Text": "Two Pork sausages, bacon tomato beans, mushrooms and eggs served with a side of toast",
+      "p1Price": "90$",
+
+      "p2Title":" Vegetarian Breakfast",
+      "p2Text": " Eggs, mushrooms, tomato, fresh made hash brown and beans served with a side of toast. ",
+      "p2Price": " 133$",
+
+      "p3Title":"  Eggs and Toast",
+      "p3Text": " Served with your choice of fried, scrambled or poached.",
+      "p3Price": " 299$",
+
+      "p4Title":"All Day Full English",
+      "p4Text": " pork sausages, bacon, tomato, beans, mushrooms and eggs served with a side of toast.",
+      "p4Price": " 310$",
+
+
+      
+
+      
+
+    },
+    {
+      "id": "3",
+      "title": "Lunch",
+
+      "p1Title":"Club Sandwich",
+      "p1Text": "Chicken, bacon lettuce and tomato with mayo",
+      "p1Price": "90$",
+
+      "p2Title":"BLT",
+      "p2Text": " Chicken, bacon lettuce and tomato with mayo ",
+      "p2Price": " 133$",
+
+      "p3Title":" Tuna Melt",
+      "p3Text": " Grilled bacon with lettuce and tomato in a thick cut Sandwich with mayo",
+      "p3Price": " 299$",
+
+      "p4Title":"Wraps",
+      "p4Text": " Roasted vegetable wrap dressed in basil Chicken wrap",
+      "p4Price": " 310$",
+
+
+      "p5Title":"Sandwiches",
+      "p5Text": "Sausage and onion or Bacon sandwich. All served with a choice homemade hand cut chips",
+      "p5Price": " 230$",
+
+      
+
+      
+
+    },
+    {
+      "id": "4",
+      "title": "Grilled Meat",
+
+      "p1Title":"Grilled Steak",
+      "p1Text": "Served with bbq sauce, salad, and homemade hand cut chips",
+      "p1Price": "90$",
+
+      "p2Title":" Grilled Peri Peri Chicken",
+      "p2Text": " Served with peri-peri sauce, homemade hand cut Chips or Salad",
+      "p2Price": " 133$",
+
+      "p3Title":"  Grilled Pork Ribs",
+      "p3Text": " Served with bbq sauce, and Salad",
+      "p3Price": " 299$",
+
+      "p4Title":"Grilled Lamb Ribs",
+      "p4Text": " Served with bbq sauce, and Salad",
+      "p4Price": " 310$",
+
+
+      "p5Title":"Grilled Homemade Beef Burger",
+      "p5Text": " Served in toasted brioche burn with lettuce, mayonnaise, tomato, onion and side hand cut chips",
+      "p5Price": " 230$",
+
+
+      
+      "p6Title":"Grilled Chicken Burger",
+      "p6Text": "  Served in burn with lettuce mayonnaise, tomato .",
+      "p6Price": " 68$",
+
+      
+
+      
+
+    },
+    {
+      "id": "5",
+      "title": "Mains",
+
+      "p1Title":"Spicy Chicken wings",
+      "p1Text": "Served with smoky/chilli mayo and French fries (GF) Homemade pie of the Day. Our freshly made amazing pies served with creamy mash potatoes, steamed veg and homemade gravy.",
+      "p1Price": "90$",
+
+      "p2Title":"Traditional Fish and Chips",
+      "p2Text": "Served with tartar sauce and buttery mushy peas ",
+      "p2Price": " 133$",
+
+      "p3Title":"  Beef Burger",
+      "p3Text": " Homemade beef patty served in grilled brioche bun with fresh leaf, tomatoes ,mayo, ketchup and French fries PB Beef Burger",
+      "p3Price": " 299$",
+
+      "p4Title":"Chicken burger",
+      "p4Text": " Marinated chicken breast served in brioche bun, Fresh leaf, tomatoes, mayo, ketchup and french fries",
+      "p4Price": " 310$",
+
+
+      "p5Title":"Veggie Burger",
+      "p5Text": "  Served with hand cut Chips",
+      "p5Price": " 68$",
+
+      
+
+      
+
+    },
+    {
+      "id": "6",
+      "title": "Suya",
+
+      "p1Title":"Small Beef Suya ",
+      "p1Text": "Served with onion, tomato and spiced suya pepper.",
+      "p1Price": "90$",
+
+      "p2Title":"Large Beef Suya ",
+      "p2Text": "Served with onion, tomato and spiced suya pepper. ",
+      "p2Price": " 133$",
+
+      "p3Title":"  Chicken Suya ",
+      "p3Text": " Served with onion, tomato and spiced suya pepper",
+      "p3Price": " 299$",
+
+      "p4Title":"Beef Jolof Rice",
+      "p4Text": "  Served with plantain, assorted meat and salad",
+      "p4Price": " 310$",
+
+
+      "p5Title":"Chicken Jolof Rice",
+      "p5Text": "  Served with Rice and Chicken (Students)",
+      "p5Price": " 230$",
+
+      
+
+      
+
+    },
+    {
+      "id": "7",
+      "title": "Sides",
+
+      "p1Title":"Chips and Dips",
+      "p1Text": "French fries with choice of dips (VG) (G) ",
+      "p1Price": "90$",
+
+      "p2Title":" Sweet Potato Fries  ",
+      "p2Text": " Rosemary, garlic, Dijon mustard, herbs, pistachios",
+      "p2Price": " 133$",
+
+      "p3Title":"  Hand cut Chips      ",
+      "p3Text": "Rubbed with rosemary, lemon and served with",
+      "p3Price": " 299$",
+
+      "p4Title":"Caesar Salad      ",
+      "p4Text": " Iceberg lettuce, cherry tomatoes, parmesan dressing with crouton and crispy bacon",
+      "p4Price": " 310$",
+
+
+      "p5Title":"Baked Camembert",
+      "p5Text": " Served with garlic bread sticks and caramelise",
+      "p5Price": " 230$",
+
+
+      
+      "p6Title":"Garlic Bread Sticks",
+      "p6Text": "  Freshly made extra crunchy sticks with choice of dips",
+      "p6Price": " 68$",
+
+      
+
+      
+
+    },
+    {
+      "id": "8",
+      "title": "Dessert",
+
+      "p1Title":"Homemade Crumble",
+      "p1Text": "Chef fresh seasonal fruits crunchy crumble, serve with warm custard or ice cream",
+      "p1Price": "90$",
+
+      "p2Title":" Chef Flavour Cheesecake of the Day",
+      "p2Text": " Selection of ice creams with homemade shortbread cookies",
+      "p2Price": " 133$",
+
+      "p3Title":"  Baileys Bread and Butter Pudding",
+      "p3Text": "Served with vanilla ice cream",
+      "p3Price": " 299$",
+
+      "p4Title":"Sticky Toffee Pudding",
+      "p4Text": "  Homemade sticky toffee with toffee sauce and vanilla ice creams",
+      "p4Price": " 310$",
+
+
+      "p5Title":"Apple Tart",
+      "p5Text": " Amazing Apple tart served with cinnamon ice creams and cream",
+      "p5Price": " 230$",
+
+      
+
+      
+
+    },
+    
+
+  ]
   return (
     <PhotoProvider>
       <div className="md:flex pt-20 md:pt-[100px]  pb-20 h-full overflow-hidden ">
@@ -21,676 +271,103 @@ const HomePageMenu = () => {
               spaceBetween={100}
               slidesPerView="auto"
             >
-              <SwiperSlide className=" mt-[50px]">
+              {
+                menuCards.map(menuCard=> <SwiperSlide key={menuCard.id} className=" mt-[50px]">
                 <SwiperNavButtons></SwiperNavButtons>
 
                 <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
                   <h4 className="text-center menuCardTitle dark:text-white mt-5 mb-20 text-4xl sm:text-[40px] text-black">
-                    Grilled Fish
-                  </h4>
+                  {menuCard.title}
+                    </h4>
                   <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                     <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Grilled Tilapia
+                        <p className="dark:text-white text-black font-bold text-[20px]">
+                          {menuCard.p1Title}
                       </p>
                       <p className="dark:text-white text-black py-5  text-[17px]">
-                        serve with African spiced fish sauce, <br /> salad, and
-                        plantain or potato wedges
+                       {menuCard.p1Text}
                       </p>
                     </div>
                     <p className="dark:text-white text-black font-bold text-[20px]">
-                      90$
+                      {menuCard.p1Price}
                     </p>
                   </div>
                   {/* 2 */}
                   <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                     <div className="">
                       <p className="dark:text-white text-black font-bold text-[20px]">
-                        Super Grilled Tilapia
+                       {menuCard.p2Title}
                       </p>
                       <p className="dark:text-white text-black  py-4 text-[17px]">
-                        Served with African spiced Fish sauce, <br /> salad and
-                        plantain or pota
+                       {menuCard.p2Text}
                       </p>
                     </div>
                     <p className="dark:text-white text-black font-bold text-[20px]">
-                      133$
+                      {menuCard.p2Price}
                     </p>
                   </div>
                   {/* 3 */}
                   <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                     <div className="">
                       <p className="dark:text-white text-black font-bold text-[20px]">
-                        Cod Fish
+                        {menuCard.p3Title}
                       </p>
                       <p className="dark:text-white text-black  text-[17px]">
-                        Beer battered fish with Chips, pea and <br /> homemade
-                        tartar sauce
+                       {menuCard.p3Text}
                       </p>
                     </div>
                     <p className="dark:text-white text-black font-bold text-[20px]">
-                      299$
+                      {menuCard.p3Price}
                     </p>
                   </div>
                   {/* 4 */}
                   <div className="flex sm:px-10 mt-[20px] items-center justify-between">
                     <div className="">
                       <p className="dark:text-white text-black font-bold text-[20px]">
-                        Grilled Prawns
+                        {menuCard.p4Title}
                       </p>
                       <p className="dark:text-white text-black  text-[17px]">
-                        Served with garnish or vegetable
+                        {menuCard.p4Text}
                       </p>
                     </div>
                     <p className="dark:text-white text-black font-bold text-[20px]">
-                      310$
+                      {menuCard.p4Price}
+                    </p>
+                    </div>
+                    {/* 5 */}
+                    <div className="flex sm:px-10 mt-[20px] items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      {menuCard?.p5Title}
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                     {menuCard?.p5Text}
                     </p>
                   </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    {menuCard?.p5Price}
+                  </p>
+                    </div>
+                    {/* 6 */}
+                    <div className="flex mt-10 sm:px-10  items-center justify-between">
+                  <div className="">
+                    <p className="dark:text-white text-black font-bold text-[20px]">
+                      {menuCard?.p6Title}
+                    </p>
+                    <p className="dark:text-white text-black  text-[17px]">
+                     {menuCard?.p6Text}
+                    </p>
+                  </div>
+                  <p className="dark:text-white text-black font-bold text-[20px]">
+                    {menuCard?.p6Price}
+                  </p>
                 </div>
-              </SwiperSlide>
-
-              {/* 2 */}
-              <SwiperSlide className=" mt-[50px]">
-                <SwiperNavButtons></SwiperNavButtons>
-
-                <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                  <h4 className="text-center menuCardTitle  dark:text-white mt-5 mb-20 text-4xl sm:text-[40px] text-black">
-                    Breakfast
-                  </h4>
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Full English
-                      </p>
-                      <p className="dark:text-white text-black py-5  text-[17px]">
-                        Two Pork sausages, bacon tomato beans, <br /> mushrooms
-                        and eggs served with a side of toast
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      90$
-                    </p>
-                  </div>
-                  {/* 2 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Vegetarian Breakfast
-                      </p>
-                      <p className="dark:text-white text-black  py-4 text-[17px]">
-                        Eggs, mushrooms, tomato, fresh made hash brown and beans
-                        served with a side of toast.
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      133$
-                    </p>
-                  </div>
-                  {/* 3 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Eggs and Toast
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with your choice of fried, scrambled or poached.
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      299$
-                    </p>
-                  </div>
-                  {/* 4 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        All Day Full English
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        pork sausages, bacon, tomato, beans, <br /> mushrooms
-                        and eggs served with a side of toast.
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      310$
-                    </p>
-                  </div>
+                    
                 </div>
-              </SwiperSlide>
-              {/* 3 */}
+              </SwiperSlide>)
+              }
 
-              <SwiperSlide className=" mt-[50px]">
-                <SwiperNavButtons></SwiperNavButtons>
-
-                <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                  <h4 className="text-center menuCardTitle dark:text-white mt-5 text-4xl text-black">
-                    Lunch
-                  </h4>
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Club Sandwich
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Chicken, bacon lettuce and tomato with mayo
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      90$
-                    </p>
-                  </div>
-                  {/* 2 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        BLT
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Chicken, bacon lettuce and tomato with mayo
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      133$
-                    </p>
-                  </div>
-                  {/* 3 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Tuna Melt
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Grilled bacon with lettuce and tomato <br /> in a thick
-                        cut Sandwich with mayo
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      299$
-                    </p>
-                  </div>
-                  {/* 4 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Wraps
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Roasted vegetable wrap dressed in basil Chicken wrap
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      310$
-                    </p>
-                  </div>
-
-                  {/* 5 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Sandwiches
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Sausage and onion or Bacon sandwich. All served with a
-                        choice homemade hand cut chips
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      230$
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* 4 */}
-              <SwiperSlide className=" mt-[50px]">
-                <SwiperNavButtons></SwiperNavButtons>
-
-                <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                  <h4 className="text-center menuCardTitle dark:text-white mt-5 text-4xl text-black">
-                    Grilled Meat
-                  </h4>
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Grilled Steak
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with bbq sauce, salad, and homemade hand cut
-                        chips
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      90$
-                    </p>
-                  </div>
-                  {/* 2 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Grilled Peri Peri Chicken
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with peri-peri sauce, homemade hand cut Chips or
-                        Salad
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      133$
-                    </p>
-                  </div>
-                  {/* 3 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Grilled Pork Ribs
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with bbq sauce, and Salad
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      299$
-                    </p>
-                  </div>
-                  {/* 4 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Grilled Lamb Ribs
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with bbq sauce, and Salad
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      310$
-                    </p>
-                  </div>
-
-                  {/* 5 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Grilled Homemade Beef Burger
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served in toasted brioche burn with lettuce, mayonnaise,
-                        tomato, onion and side hand cut chips
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      230$
-                    </p>
-                  </div>
-                  {/* 6 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Grilled Chicken Burger
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served in burn with lettuce, mayonnaise, tomato, onion
-                        and side hand cut hand cut chips
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      230$
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* 5 */}
-              <SwiperSlide className=" mt-[50px]">
-                <SwiperNavButtons></SwiperNavButtons>
-
-                <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                  <h4 className="text-center menuCardTitle dark:text-white mt-5 text-4xl text-black">
-                    Mains
-                  </h4>
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Spicy Chicken wings
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with smoky/chilli mayo and French fries (GF)
-                        Homemade pie of the Day. Our freshly made amazing pies
-                        served with creamy mash potatoes, steamed veg and
-                        homemade gravy.
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      90$
-                    </p>
-                  </div>
-                  {/* 2 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Traditional Fish and Chips
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with tartar sauce and buttery mushy peas
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      299$
-                    </p>
-                  </div>
-                  {/* 3 */}
-
-                  {/* 4 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Beef Burger
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Homemade beef patty served in grilled brioche bun with
-                        fresh leaf, tomatoes ,mayo, ketchup and French fries PB
-                        Beef Burger
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      310$
-                    </p>
-                  </div>
-
-                  {/* 5 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Chicken burger
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Marinated chicken breast served in brioche bun, Fresh
-                        leaf, tomatoes, mayo, ketchup and french fries
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      230$
-                    </p>
-                  </div>
-
-                  {/* 3 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Veggie Burger{" "}
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with hand cut Chips
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      68$
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* 6 */}
-              <SwiperSlide className=" mt-[50px]">
-                <SwiperNavButtons></SwiperNavButtons>
-
-                <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                  <h4 className="text-center menuCardTitle dark:text-white mt-5 text-4xl text-black">
-                    Suya
-                  </h4>
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Small Beef Suya
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with onion, tomato and spiced suya pepper.
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      90$
-                    </p>
-                  </div>
-                  {/* 2 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Large Beef Suya
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with onion, tomato and spiced suya pepper.
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      299$
-                    </p>
-                  </div>
-                  {/* 3 */}
-
-                  {/* 4 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Chicken Suya
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with onion, tomato and spiced suya pepper{" "}
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      310$
-                    </p>
-                  </div>
-
-                  {/* 5 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Beef Jolof Rice
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with plantain, assorted meat and salad{" "}
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      230$
-                    </p>
-                  </div>
-
-                  {/* 3 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Chicken Jolof Rice{" "}
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with Rice and Chicken (Students)
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      68$
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* 7 */}
-              <SwiperSlide className=" mt-[50px]">
-                <SwiperNavButtons></SwiperNavButtons>
-
-                <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                  <h4 className="text-center menuCardTitle dark:text-white mt-5 text-4xl text-black">
-                    Sides{" "}
-                  </h4>
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Chips and Dips
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        French fries with choice of dips (VG) (G)
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      90$
-                    </p>
-                  </div>
-                  {/* 2 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Sweet Potato Fries
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Rosemary, garlic, Dijon mustard, herbs, pistachios
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      133$
-                    </p>
-                  </div>
-                  {/* 3 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Hand cut Chips
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Rubbed with rosemary, lemon and served with
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      299$
-                    </p>
-                  </div>
-                  {/* 4 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Caesar Salad
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Iceberg lettuce, cherry tomatoes, parmesan dressing with
-                        crouton and crispy bacon
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      310$
-                    </p>
-                  </div>
-
-                  {/* 5 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Baked Camembert{" "}
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with garlic bread sticks and caramelise{" "}
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      230$
-                    </p>
-                  </div>
-                  {/* 6 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Garlic Bread Sticks{" "}
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Freshly made extra crunchy sticks with choice of dips{" "}
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      230$
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* 8 */}
-
-              <SwiperSlide className=" mt-[50px]">
-                <SwiperNavButtons></SwiperNavButtons>
-
-                <div className="absolute top-[100px] sm:top-0 overflow-hidden right-8 sm:right-0 w-[90%]  sm:w-[500px]  h-[790px] px-10 py-20 rounded-2xl bg-[#B5986D]">
-                  <h4 className="text-center menuCardTitle dark:text-white mt-5 text-4xl text-black">
-                    Dessert
-                  </h4>
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Homemade Crumble
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Chef fresh seasonal fruits crunchy crumble, serve with
-                        warm custard or ice cream{" "}
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      90$
-                    </p>
-                  </div>
-                  {/* 2 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Chef Flavour Cheesecake of the Day
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Selection of ice creams with homemade shortbread cookies{" "}
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      299$
-                    </p>
-                  </div>
-                  {/* 3 */}
-
-                  {/* 4 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Baileys Bread and Butter Pudding
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Served with vanilla ice cream{" "}
-                      </p>{" "}
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      310$
-                    </p>
-                  </div>
-
-                  {/* 5 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Sticky Toffee Pudding
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]"></p>
-                      Homemade sticky toffee with toffee sauce and vanilla ice
-                      creams{" "}
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      230$
-                    </p>
-                  </div>
-
-                  {/* 3 */}
-                  <div className="flex sm:px-10 mt-[20px] items-center justify-between">
-                    <div className="">
-                      <p className="dark:text-white text-black font-bold text-[20px]">
-                        Apple Tart{" "}
-                      </p>
-                      <p className="dark:text-white text-black  text-[17px]">
-                        Amazing Apple tart served with cinnamon ice creams and
-                        cream
-                      </p>
-                    </div>
-                    <p className="dark:text-white text-black font-bold text-[20px]">
-                      68$
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
+          
             </Swiper>
           </div>
         </div>
@@ -709,3 +386,5 @@ const HomePageMenu = () => {
 };
 
 export default HomePageMenu;
+
+
