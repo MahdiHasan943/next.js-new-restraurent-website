@@ -23,7 +23,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Spicy Chicken wings
             </p>
-            <p className="MDPText text-[#B5986D]">£44</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -41,7 +41,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Traditional Fish and Chips
             </p>
-            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+            <p className="MDPText  py-4 text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -58,7 +58,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Beef Burger
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -77,7 +77,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Our homemade beef patty topped with melted Cheddar
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -95,7 +95,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Chicken burger
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -114,7 +114,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             PB Chicken Burger
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -132,7 +132,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Veggie Burger
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -150,7 +150,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Curry (opt) Chicken, Beef, Vegetable
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -168,7 +168,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Sausage and Mash
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -186,7 +186,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Piri-piri Chicken
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -204,7 +204,7 @@ const Mains = () => {
             <p className="MDPText dark:text-white text-black ">
             Jacket Potato
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"

@@ -25,7 +25,7 @@ const Coffee = () => {
             <p className="MDPText dark:text-white text-black ">
             Tea
             </p>
-            <p className="MDPText text-[#B5986D]">£44</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -41,7 +41,7 @@ const Coffee = () => {
             <p className="MDPText dark:text-white text-black ">
             Espresso
             </p>
-            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+            <p className="MDPText  py-4 text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -56,7 +56,7 @@ const Coffee = () => {
             <p className="MDPText dark:text-white text-black ">
             Capuccino
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -72,7 +72,7 @@ const Coffee = () => {
             <p className="MDPText dark:text-white text-black ">
             Latte
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -88,7 +88,7 @@ const Coffee = () => {
             <p className="MDPText dark:text-white text-black ">
             Mocca
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -104,7 +104,7 @@ const Coffee = () => {
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
             Americano          </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"

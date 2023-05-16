@@ -19,7 +19,6 @@ export default function Home() {
             BLEND BAR
           </h1>
           <p className="where my-4">Where The World comes to DANCE & dine</p>
-          {/* <Form></Form> */}
         </div>
       </div>
       {/* 2 */}

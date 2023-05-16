@@ -24,7 +24,7 @@ const Breakfast = () => {
                 <p className="MDPText dark:text-white text-black ">
                   Full English
                 </p>
-                <p className="MDPText text-[#B5986D]">£44</p>
+                <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
@@ -39,7 +39,7 @@ const Breakfast = () => {
                 <p className="MDPText dark:text-white text-black ">
                   Vegetarian Breakfast
                 </p>
-                <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+                <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
               <p className="MDSPText dark:text-[#ffffffb3] text-black">
@@ -53,7 +53,7 @@ const Breakfast = () => {
                 <p className="MDPText dark:text-white text-black ">
                   Eggs and Toast
                 </p>
-                <p className="MDPText text-[#B5986D]">£67</p>
+                <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 
@@ -68,7 +68,7 @@ const Breakfast = () => {
                 <p className="MDPText dark:text-white text-black ">
                   All Day Full English
                 </p>
-                <p className="MDPText text-[#B5986D]">£54</p>
+                <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../../MDLine.png" alt="" />
 

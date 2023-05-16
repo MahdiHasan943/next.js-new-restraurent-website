@@ -25,7 +25,7 @@ const GrilledMeat = () => {
             <p className="MDPText dark:text-white text-black ">
             Grilled Steak
             </p>
-            <p className="MDPText text-[#B5986D]">£44</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -43,7 +43,7 @@ const GrilledMeat = () => {
             <p className="MDPText dark:text-white text-black ">
             Grilled Peri Peri Chicken
             </p>
-            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+            <p className="MDPText  py-4 text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -60,7 +60,7 @@ const GrilledMeat = () => {
             <p className="MDPText dark:text-white text-black ">
             Grilled Pork Ribs
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -79,7 +79,7 @@ const GrilledMeat = () => {
             <p className="MDPText dark:text-white text-black ">
             Grilled Lamb Ribs
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -97,7 +97,7 @@ const GrilledMeat = () => {
             <p className="MDPText dark:text-white text-black ">
             Grilled Homemade Beef Burger
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -115,7 +115,7 @@ const GrilledMeat = () => {
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
             Grilled Chicken Burger            </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -133,7 +133,7 @@ const GrilledMeat = () => {
             <p className="MDPText dark:text-white text-black ">
             Mixed Grill
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"

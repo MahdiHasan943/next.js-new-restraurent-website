@@ -25,7 +25,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Chips and Dips
             </p>
-            <p className="MDPText text-[#B5986D]">£44</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -43,7 +43,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Sweet Potato Fries
             </p>
-            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+            <p className="MDPText  py-4 text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -60,7 +60,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Hand cut Chips
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -79,7 +79,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Caesar Salad
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -97,7 +97,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Baked Camembert
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -116,7 +116,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Garlic Bread Sticks
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -134,7 +134,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Onion Rings
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"

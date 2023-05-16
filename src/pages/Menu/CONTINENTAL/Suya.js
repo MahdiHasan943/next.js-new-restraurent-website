@@ -25,7 +25,7 @@ const Suya = () => {
             <p className="MDPText dark:text-white text-black ">
             Small Beef Suya
             </p>
-            <p className="MDPText text-[#B5986D]">£44</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -43,7 +43,7 @@ const Suya = () => {
             <p className="MDPText dark:text-white text-black ">
             Large Beef Suya
             </p>
-            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+            <p className="MDPText  py-4 text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -60,7 +60,7 @@ const Suya = () => {
             <p className="MDPText dark:text-white text-black ">
             Chicken Suya
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -79,7 +79,7 @@ const Suya = () => {
             <p className="MDPText dark:text-white text-black ">
             Beef Jolof Rice 
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -97,7 +97,7 @@ const Suya = () => {
             <p className="MDPText dark:text-white text-black ">
             Chicken Jolof Rice 
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"

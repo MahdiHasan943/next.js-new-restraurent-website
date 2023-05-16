@@ -25,7 +25,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Hand cut chips and chips
             </p>
-            <p className="MDPText text-[#B5986D]">£44</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -41,7 +41,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Ginger beer battered onion rings
             </p>
-            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+            <p className="MDPText  py-4 text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -56,7 +56,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Seasonal vegetable
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -73,7 +73,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Seasonal house salad
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -89,7 +89,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Sweet potato fries
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -105,7 +105,7 @@ const Sides = () => {
           <div className="flex justify-between px-2">
             <p className="MDPText dark:text-white text-black ">
             Lightly spiced chicken skewers           </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -121,7 +121,7 @@ const Sides = () => {
             <p className="MDPText dark:text-white text-black ">
             Grilled halloumi and sun-blushed tomato bites
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"

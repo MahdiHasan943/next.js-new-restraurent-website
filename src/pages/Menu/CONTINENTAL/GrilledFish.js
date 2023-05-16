@@ -25,7 +25,7 @@ const GrilledFish = () => {
             <p className="MDPText dark:text-white text-black ">
             Grilled Tilapia
             </p>
-            <p className="MDPText text-[#B5986D]">£44</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -43,7 +43,7 @@ const GrilledFish = () => {
             <p className="MDPText dark:text-white text-black ">
             Super Grilled Tilapia
             </p>
-            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+            <p className="MDPText  py-4 text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -60,7 +60,7 @@ const GrilledFish = () => {
             <p className="MDPText dark:text-white text-black ">
             Cod Fish
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -79,7 +79,7 @@ const GrilledFish = () => {
             <p className="MDPText dark:text-white text-black ">
             Grilled Prawns
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"

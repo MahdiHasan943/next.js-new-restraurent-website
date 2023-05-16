@@ -26,7 +26,7 @@ const Launch = () => {
             <p className="MDPText dark:text-white text-black ">
             Club Sandwich
             </p>
-            <p className="MDPText text-[#B5986D]">£44</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -44,7 +44,7 @@ const Launch = () => {
             <p className="MDPText dark:text-white text-black ">
             BLT
             </p>
-            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+            <p className="MDPText  py-4 text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -61,7 +61,7 @@ const Launch = () => {
             <p className="MDPText dark:text-white text-black ">
             Tuna Melt
             </p>
-            <p className="MDPText text-[#B5986D]">£67</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -80,7 +80,7 @@ const Launch = () => {
             <p className="MDPText dark:text-white text-black ">
             Wraps
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"
@@ -98,7 +98,7 @@ const Launch = () => {
             <p className="MDPText dark:text-white text-black ">
             Sandwiches
             </p>
-            <p className="MDPText text-[#B5986D]">£54</p>
+            <p className="MDPText text-[#B5986D]"></p>
           </div>
           <img
             className="py-2 w-full"

@@ -22,7 +22,7 @@ const BottledBeers = () => {
                             <p className="MDPText dark:text-white text-black ">
                             Birra Moretti
                             </p>
-                            <p className="MDPText text-[#B5986D]">£44</p>
+                            <p className="MDPText text-[#B5986D]"></p>
                           </div>
                           <img
                             className="py-2 w-full"
@@ -37,7 +37,7 @@ const BottledBeers = () => {
                             <p className="MDPText dark:text-white text-black ">
                             Desperados
                             </p>
-                            <p className="MDPText  py-4 text-[#B5986D]">£59</p>
+                            <p className="MDPText  py-4 text-[#B5986D]"></p>
                           </div>
                           <img
                             className="py-2 w-full"
@@ -52,7 +52,7 @@ const BottledBeers = () => {
                             <p className="MDPText dark:text-white text-black ">
                             Newcastle Brown
                             </p>
-                            <p className="MDPText text-[#B5986D]">£54</p>
+                            <p className="MDPText text-[#B5986D]"></p>
                           </div>
                           <img
                             className="py-2 w-full"
@@ -67,7 +67,7 @@ const BottledBeers = () => {
                             <p className="MDPText dark:text-white text-black ">
                             Zywiec
                             </p>
-                            <p className="MDPText  py-4 text-[#B5986D]">£67</p>
+                            <p className="MDPText  py-4 text-[#B5986D]"></p>
                           </div>
                           <img
                             className="py-2 w-full"
@@ -83,7 +83,7 @@ const BottledBeers = () => {
                             <p className="MDPText dark:text-white text-black ">
                             Guinness 330ml SOL
                             </p>
-                            <p className="MDPText text-[#B5986D]">£59</p>
+                            <p className="MDPText text-[#B5986D]"></p>
                           </div>
                           <img
                             className="py-2 w-full"
@@ -98,7 +98,7 @@ const BottledBeers = () => {
                             <p className="MDPText dark:text-white text-black ">
                             Red Stripe
                             </p>
-                            <p className="MDPText text-[#B5986D]">£44</p>
+                            <p className="MDPText text-[#B5986D]"></p>
                           </div>
                           <img
                             className="py-2 w-full"
@@ -115,7 +115,7 @@ const BottledBeers = () => {
                             <p className="MDPText dark:text-white text-black ">
                             Lagunitas IPA
                             </p>
-                            <p className="MDPText text-[#B5986D]">£67</p>
+                            <p className="MDPText text-[#B5986D]"></p>
                           </div>
                           <img
                             className="py-2 w-full"
@@ -124,18 +124,12 @@ const BottledBeers = () => {
                           />
                           
                           
-                        </div>
-                        {/* 2 */}
-                       
-
-                      
+                        </div>                                   
                        
                       </div>
                     </div>
       </div>
-  
-
-    
+   
          
 
 </div>
