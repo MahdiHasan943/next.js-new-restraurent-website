@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { useState, useEffect } from "react";
-import { useTheme } from "next-themes";
 import "../styles/Home.module.css";
 import HomePageMenu from "@/Components/HomePageMenu";
 import Reservation from "@/Components/Reservation";
@@ -8,18 +6,8 @@ import ImageSlide from "@/Components/imageSlide/ImageSlide";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 
-
 export default function Home() {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null;
-  const currentTheme = theme === "system" ? systemTheme : theme;
-
+ 
   return (
     <>
       {/* 1 */}
@@ -122,9 +110,9 @@ export default function Home() {
               </PhotoView>
             </div>
             <div className=" lg:block w-full lg:w-[60%] ">
-              {" "}
+           
               <div className="">
-                {" "}
+               
                 <PhotoView src="./plate3.png">
                   <img
                     className="mx-auto my-4 lg:my-0 h-[320px]"
@@ -172,8 +160,6 @@ export default function Home() {
           </div>
         </div>
       </PhotoProvider>
-
-      {/*  */}
       <HomePageMenu></HomePageMenu>
 
       <div className="sm:flex justify-end items-center min-h-[460px] sm:h-[732px] HomeWineBg  gap-8">
@@ -215,14 +201,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-     
-      {/* 4 */}
       <ImageSlide></ImageSlide>
-      {/* 5 */}
-
       <Reservation></Reservation>
-
-      {/* 6 */}
     </>
   );
 }

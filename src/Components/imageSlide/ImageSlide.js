@@ -9,7 +9,82 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
 import { EffectCreative, Navigation, Pagination } from "swiper";
+
+import { PhotoProvider, PhotoView } from "react-photo-view";
+
 const ImageSlide = () => {
+
+  const SlidesImages = [
+    {
+      "id": "1",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./Mangoma.png",
+      "imgR":"./Shayo.png"
+    }
+    ,
+    {
+      "id": "2",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./eventImage5.png",
+      "imgR":"./Shayo.png"
+    }
+    ,
+    {
+      "id": "3",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./eventImage3.png",
+      "imgR":"./Shayo.png"
+    }
+
+    ,
+    {
+      "id": "4",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./OurEventImage1.png",
+      "imgR":"./Shayo.png"
+    }
+    
+
+,
+  {
+    "id": "5",
+    "imgL": "./FoxhutBar.png",
+    "imgM": "./eventImage2.png",
+    "imgR":"./Shayo.png"
+    },
+    {
+      "id": "6",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./eventImage4.png",
+      "imgR":"./Shayo.png"
+    },
+    {
+      "id": "7",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./eventImage11.png",
+      "imgR":"./Shayo.png"
+    },
+    {
+      "id": "8",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./eventImage7.png",
+      "imgR":"./Shayo.png"
+    },
+    {
+      "id": "9",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./eventImage6.png",
+      "imgR":"./Shayo.png"
+    },
+    {
+      "id": "10",
+      "imgL": "./FoxhutBar.png",
+      "imgM": "./eventImage12.png",
+      "imgR":"./Shayo.png"
+    }
+
+
+  ]
   return (
     <div>
       <Swiper
@@ -31,272 +106,37 @@ const ImageSlide = () => {
         modules={[EffectCreative, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px] md:h-[800px]  h-[500px] w-full"
-                src="./Mangoma.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px]  w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./eventImage5.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px]  md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./eventImage3.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px]  md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./OurEventImage1.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px]  md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./eventImage2.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px]  md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./eventImage4.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px]  md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./eventImage11.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px]  md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./eventImage6.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px]  md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./eventImage7.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          {" "}
-          <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
-            <div className="">
-              <img
-                className="min-h-[252px]  md:h-[800px]  h-[500px] w-full"
-                src="./FoxhutBar.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] lg:w-[900px]  md:h-[800px]  h-[500px] w-full"
-                src="./eventImage12.png"
-                alt=""
-              />
-            </div>
-            <div className="">
-              <img
-                className="min-h-[252px] md:h-[800px]  h-[500px] w-full"
-                src="./Shayo.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </SwiperSlide>
+        {
+          SlidesImages.map(slidesImage=> <SwiperSlide>
+             <PhotoProvider>
+            <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
+              <div className="">
+              <PhotoView src="./OurEventImage1.png">  
+                  <img
+                  className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
+                  src={slidesImage?.imgL}
+                  alt=""
+                /></PhotoView>
+              </div>
+              <div className="">
+              <PhotoView src={slidesImage?.imgM}>  
+                  <img
+                  className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
+                  src={slidesImage?.imgM}
+                  alt=""
+                /></PhotoView>
+              </div>
+              <div className="">
+              <PhotoView src="./newsayoSlide.png">  
+                  <img
+                  className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
+                  src={slidesImage?.imgR}
+                  alt=""
+                /></PhotoView>
+              </div>
+            </div></PhotoProvider>
+          </SwiperSlide>)
+       }  
       </Swiper>
     </div>
   );
