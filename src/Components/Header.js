@@ -33,7 +33,7 @@ function Header() {
         <div className="flex overflow-hidden  items-center">
           <a
             href="#"
-            className="lg:ml-[80px]  text-whitek shadow-none nav__brand PB"
+            className="lg:ml-[80px]  text-white shadow-none nav__brand PB"
           >
             PASSION BLEND BAR
             {/* <img className="h-[100px] w-[100px]" src="../mainLogo.png"   alt="" /> */}
@@ -41,6 +41,14 @@ function Header() {
         </div>
 
         <ul className={`2xl:ml-[200px] ${active}`}>
+        <a
+            href="#"
+            className="border border-white py-10 px-8 rounded-xl MAINLOGO text-white shadow-none nav__brand PB"
+          >
+            PASSION BLEND BAR
+            {/* <img className="h-[100px] w-[100px]" src="../mainLogo.png"   alt="" /> */}
+          </a>
+
           <Link
             className={`${
               router.pathname === "/"

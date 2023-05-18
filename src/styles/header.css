@@ -4,31 +4,30 @@ html {
 body {
   font-size: 1.6rem;
 }
-.nav__item{
+.nav__item {
   padding: 10px 20px;
-
 }
-.nav__item:hover{
-   border: 1px solid white;
-   padding: 10px 20px;
-
+.MAINLOGO{
+  display: none;
 }
-.menu{
+.nav__item:hover {
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+.menu {
   position: relative;
 }
-.menu:hover .subMenu{
+.menu:hover .subMenu {
   display: block;
   position: absolute;
   left: -30px;
-  top:45px;
+  top: 45px;
   z-index: 10000000000000000;
 }
 
-.subMenu{
+.subMenu {
   display: none;
-
 }
-
 
 .nav {
   display: flex;
@@ -70,7 +69,7 @@ body {
 .nav__toggler {
   display: none;
   border: 1px solid white;
-  padding: 10px;
+  padding: 10px 5px;
   border-radius: 100%;
 }
 .nav__toggler div {
@@ -86,36 +85,36 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .menu:hover .subMenu{
+
+  .MAINLOGO{
+    display: block;
+  }
+  .menu:hover .subMenu {
     display: block;
     position: absolute;
     left: -30px;
-    top:45px;
+    top: 45px;
     background: #000;
     z-index: 10000000000000000;
   }
 
-  
   .nav__link {
     color: white !important;
   }
   .nav__link:hover {
     color: #aee22b;
   }
- 
 
-  .PB{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 21.9217px;
-line-height: 95%;
-/* or 21px */
+  .PB {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.9217px;
+    line-height: 95%;
+    /* or 21px */
 
-letter-spacing: -0.04em;
-text-transform: uppercase;
-
-
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
   }
   .nav__toggler {
     display: block;
@@ -268,26 +267,23 @@ text-transform: uppercase;
   text-transform: uppercase;
 }
 
-.fbg{
- 
-    background-image: url("../../public/newContactbg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  
-    width: 100%;
-  
+.fbg {
+  background-image: url("../../public/newContactbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
 }
-.footerLogo{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-line-height: 95%;
-/* or 69px */
+.footerLogo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95%;
+  /* or 69px */
 
-letter-spacing: -0.04em;
-text-transform: uppercase;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
 
-color: #0B1517;
-
+  color: #0b1517;
 }

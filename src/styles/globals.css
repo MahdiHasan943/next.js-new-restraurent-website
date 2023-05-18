@@ -226,6 +226,7 @@ a {
 input[type="date"]::before {
   color: #757f87;
   font-weight: 500;
+  margin: 0px 3px!important;
 
   content: attr(placeholder);
 }
