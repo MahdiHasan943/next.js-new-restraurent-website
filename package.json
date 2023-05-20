@@ -21,6 +21,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-photo-view": "^1.2.3",
+    "react-scroll-up-button": "^1.6.4",
     "react-slick": "^0.29.0",
     "swiper": "^9.2.4",
     "tailwindcss": "3.3.2"
