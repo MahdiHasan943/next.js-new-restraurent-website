@@ -10,10 +10,25 @@ const WineSlider = () => {
     dots: true,
     infinite: true,
     speed: 500,
+    lazyLoad: 'progressive',
+
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    arrows: true,
+    arrows: true,  
+    nextArrow: (
+      <div>
+        <div className="next-slick-arrow"> ⫸ </div>
+      </div>
+    ),
+    prevArrow: (
+      <div>
+        <div className="prev-slick-arrow"> ⫷ </div>
+      </div>
+    ),
+
+   
+    
     responsive: [
       {
         breakpoint: 990,
@@ -21,8 +36,9 @@ const WineSlider = () => {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: false,
+          dots: true,
           centerMode: false,
+          
         },
       },
       {
@@ -43,6 +59,7 @@ const WineSlider = () => {
         },
       },
     ],
+
   };
 
   const arrowRef = useRef(null);
