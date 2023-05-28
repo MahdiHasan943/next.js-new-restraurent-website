@@ -80,7 +80,7 @@ export default function Home() {
           <div className="mx-auto">
             <div className="">
               <PhotoView src="Tomato.png">
-                <img className="mx-auto  " src="Tomato.png" alt="" />
+                <img className="sm:h-[638px] sm:w-[768px] mx-auto  " src="Tomato.png" alt="" />
               </PhotoView>{" "}
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
               <div className="">
                 <PhotoView src="./bigPlate1.png">
                   <img
-                    className="ml-auto  h-[370px]"
+                    className="ml-auto sm:w-[370px]  sm:my-0 rounded-full  h-[370px]"
                     src="./bigPlate1.png"
                     alt=""
                   />
@@ -100,9 +100,9 @@ export default function Home() {
 
           <div className="lg:flex  mt-[-50px] sm:mt-[-150px]">
             <div className="mx-auto sm:mx-0">
-              <PhotoView src="./bigPlate2.png">
+              <PhotoView className="rounded-full" src="./bigPlate2.png">
                 <img
-                  className="h-[331px] my-4 lg:my-0 mx-auto "
+                  className="h-[331px] rounded-full mt-12  mb-4 lg:my-0 mx-auto "
                   src="./bigPlate2.png"
                   alt=""
                 />
@@ -114,7 +114,7 @@ export default function Home() {
                
                 <PhotoView src="./plate3.png">
                   <img
-                    className="mx-auto my-4 lg:my-0 h-[320px]"
+                    className="mx-auto rounded-full  my-4 lg:my-0 h-[320px]"
                     src="./plate3.png"
                     alt=""
                   />
@@ -123,14 +123,14 @@ export default function Home() {
               <div className="lg:flex lg:gap-[100px] mx-auto lg:justify-between">
                 <PhotoView src="./plate4.png">
                   <img
-                    className="mx-auto my-4 lg:my-0 h-[250px]"
+                    className="mx-auto rounded-full  my-4 lg:my-0 h-[250px]"
                     src="./plate4.png"
                     alt=""
                   />
                 </PhotoView>
                 <PhotoView src="./plate5.png">
                   <img
-                    className="mx-auto my-4 lg:my-0 h-[270px]"
+                    className="mx-auto rounded-full  my-4 lg:my-0 h-[270px]"
                     src="./plate5.png"
                     alt=""
                   />
