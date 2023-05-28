@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       {/* 1 */}
-      <div className="overflow-hidden  heroBg flex h-[800px] justify-start items-center">
+      <div className="overflow-hidden  heroBg flex h-[780px] items-center justify-start  ">
         <div className="py-[50px] px-4 sm:px-0 sm:pl-[80px] lg:pl-[150px] xl:pl-[250px]">
           <img className="w-[150px]" src="./welcome.png" alt="" />
           <h1 className="PassionHero mt-4 text-[65px] leading-[66px] sm:text-[101px] sm:leading-[95%]">
@@ -89,7 +89,7 @@ export default function Home() {
               <div className="">
                 <PhotoView src="./bigPlate1.png">
                   <img
-                    className="ml-auto sm:w-[370px]  sm:my-0 rounded-full  h-[370px]"
+                    className="ml-auto sm:w-[370px] mt-[60px]  sm:mt-0 rounded-full  h-[370px]"
                     src="./bigPlate1.png"
                     alt=""
                   />

@@ -46,7 +46,7 @@ const WineAndCoctail = () => {
         </h3>
         <img className="mx-auto my-20" src="../underline.png" alt="" />
       </div>
-      <div className="px-20  mx-auto">
+      <div className="px-20 sm:px-24  mx-auto">
         <WineSlider></WineSlider>
       </div>
       {/* reservation */}
