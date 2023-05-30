@@ -80,7 +80,7 @@ export default function Home() {
           <div className="mx-auto">
             <div className="">
               <PhotoView src="Tomato.png">
-                <img className="sm:h-[638px] sm:w-[768px] mx-auto  " src="Tomato.png" alt="" />
+                <img className="sm:h-[638px] sm:w-[850px] mx-auto  " src="Tomato.png" alt="" />
               </PhotoView>{" "}
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
               <div className="">
                 <PhotoView src="./bigPlate1.png">
                   <img
-                    className="ml-auto sm:w-[370px] mt-[60px]  sm:mt-0 rounded-full  h-[370px]"
+                    className="mx-auto sm:ml-auto xl:mr-[300px] sm:w-[370px] mt-[60px]  sm:mt-[-50px] rounded-full  h-[370px]"
                     src="./bigPlate1.png"
                     alt=""
                   />
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="mx-auto sm:mx-0">
               <PhotoView className="rounded-full" src="./bigPlate2.png">
                 <img
-                  className="h-[331px] rounded-full mt-12  mb-4 lg:my-0 mx-auto "
+                  className="h-[331px] lg:ml-[20px] rounded-full mt-12  mb-4 lg:my-0 mx-auto "
                   src="./bigPlate2.png"
                   alt=""
                 />

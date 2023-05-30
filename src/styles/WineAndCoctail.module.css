@@ -2,11 +2,13 @@
 
 .MwineBg{
     
-    background-image: url("../../public/MwineHero.png");
+    background-image: url("../../public/wineAndCoctail.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   
     width: 100%;
 }
+
+
 

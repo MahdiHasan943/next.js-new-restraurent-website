@@ -18,17 +18,25 @@
 
 .Gsteak{
     
-        background-image: url("../../public/SoupMHero.png");
+        background-image: url("../../public/Lunch.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-      
         width: 100%;
+
+}
+.sides{
+    
+    background-image: url("../../public/sides.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 
 }
 .Breakfast{
     
-    background-image: url("../../public/BMHero.png");
+    background-image: url("../../public/Breakfast.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,7 +46,7 @@
 }
 .means{
     
-    background-image: url("../../public/MRiceMeal.png");
+    background-image: url("../../public/meet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -48,7 +56,7 @@
 }
 .dessert{
     
-    background-image: url("../../public/MDessert.png");
+    background-image: url("../../public/Desert.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,9 +74,19 @@
     width: 100%;
 }
 
+.coffe{
+    
+    background-image: url("../../public/coffee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;
+}
+
 .MGrill{
     
-    background-image: url("../../public/MGrill.png");
+    background-image: url("../../public/Fish.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -78,10 +96,62 @@
 
 .saya{
     
-    background-image: url("../../public/MStarters.png");
+    background-image: url("../../public/Suya.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   
     width: 100%;
+}
+
+
+/* // gestro */
+.gBreak{
+    background-image: url("../../public/gBreak.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;   
+}
+.gdessert{
+    background-image: url("../../public/GD.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;   
+}
+.gsteak{
+    background-image: url("../../public/Gsteak.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;   
+}
+
+.gstarters{
+    background-image: url("../../public/GStarters.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;   
+}
+.gmeans{
+    background-image: url("../../public/GMean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;   
+}
+.gside{
+    background-image: url("../../public/Gside.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    width: 100%;   
 }

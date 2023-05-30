@@ -25,7 +25,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto      h-[460px]  sm:h-[547px] "
-                src="../Msoup.png"
+                src="../MgS.jpg"
                 alt=""
               />
             </div>
@@ -47,7 +47,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Breakfast.png"
+                src="../MgB.jpg"
                 alt=""
               />
             </div>
@@ -68,7 +68,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Grill.png"
+                src="../MgS.jpg"
                 alt=""
               />
             </div>
@@ -89,7 +89,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../RiceMeal.png"
+                src="../MgM.jpg"
                 alt=""
               />
             </div>
@@ -110,7 +110,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Dessert.png"
+                src="../MgD.jpg"
                 alt=""
               />
             </div>
@@ -131,7 +131,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Starterts.png"
+                src="../MgStar.jpg"
                 alt=""
               />
             </div>

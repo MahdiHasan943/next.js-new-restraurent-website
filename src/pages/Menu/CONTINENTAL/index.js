@@ -24,7 +24,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Msoup.png"
+                src="../CL.jpg"
                 alt=""
               />
             </div>
@@ -46,7 +46,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Breakfast.png"
+                src="../CB.jpg"
                 alt=""
               />
             </div>
@@ -67,7 +67,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Grill.png"
+                src="../CG.jpg"
                 alt=""
               />
             </div>
@@ -88,7 +88,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../RiceMeal.png"
+                src="../CM.jpg"
                 alt=""
               />
             </div>
@@ -109,7 +109,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Dessert.png"
+                src="../CD.jpg"
                 alt=""
               />
             </div>
@@ -130,7 +130,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Starterts.png"
+                src="../CF.jpg"
                 alt=""
               />
             </div>
@@ -151,7 +151,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../SmallChoap.png"
+                src="../CS.jpg"
                 alt=""
               />
             </div>
@@ -172,7 +172,7 @@ const Menu = () => {
             <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
               <img
                 className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
-                src="../Salad.png"
+                src="../CSi.jpg"
                 alt=""
               />
             </div>
