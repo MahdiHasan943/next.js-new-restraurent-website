@@ -127,7 +127,7 @@ const ImageSlide = () => {
                 /></PhotoView>
               </div>
               <div className="">
-              <PhotoView src="./newsayoSlide.png">  
+              <PhotoView src="./Shayo.png">  
                   <img
                   className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
                   src={slidesImage?.imgR}

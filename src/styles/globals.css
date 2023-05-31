@@ -162,14 +162,14 @@ a {
     width: 250px !important;
   }
 }
-.soupMHero {
+/* .soupMHero {
   background-image: url("../../public/SoupMHero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
   width: 100%;
-}
+} */
 /* mealDetailsText */
 .mealDetailsText {
   font-family: "Poppins";
