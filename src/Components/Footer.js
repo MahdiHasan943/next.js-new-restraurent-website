@@ -111,7 +111,7 @@ const Footer = () => {
                 <p className="dark:text-white  text-black">
                   <Link href={"/WineAndCoctail/WineAndCoctail"}>
                    
-                    Wine <span className="hidden sm:block">& Coctailbar</span>
+                    Wine <span className="hidden  sm:inline">& Coctailbar</span>
                   </Link>
                 </p>
                 <p className="dark:text-white  text-black">

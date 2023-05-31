@@ -21,9 +21,9 @@ const Menu = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-10 mx-auto ">
           <div className="px-10 ">
-            <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
-                className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
                 src="../CL.jpg"
                 alt=""
               />
@@ -43,9 +43,9 @@ const Menu = () => {
 
           {/* 2 */}
           <div className="px-10 ">
-            <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
-                className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
                 src="../CB.jpg"
                 alt=""
               />
@@ -64,9 +64,9 @@ const Menu = () => {
           </div>
           {/* 3 */}
           <div className="px-10 ">
-            <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
-                className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
                 src="../CG.jpg"
                 alt=""
               />
@@ -85,9 +85,9 @@ const Menu = () => {
           </div>
           {/* 4 */}
           <div className="px-10 ">
-            <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
-                className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
                 src="../CM.jpg"
                 alt=""
               />
@@ -106,9 +106,9 @@ const Menu = () => {
           </div>
           {/* 5 */}
           <div className="px-10 ">
-            <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
-                className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
                 src="../CD.jpg"
                 alt=""
               />
@@ -127,9 +127,9 @@ const Menu = () => {
           </div>
           {/* 6 */}
           <div className="px-10 ">
-            <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
-                className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
                 src="../CF.jpg"
                 alt=""
               />
@@ -148,9 +148,9 @@ const Menu = () => {
           </div>
           {/* 7 */}
           <div className="px-10 ">
-            <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
-                className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
                 src="../CS.jpg"
                 alt=""
               />
@@ -169,9 +169,9 @@ const Menu = () => {
           </div>
           {/* 8 */}
           <div className="px-10 ">
-            <div className="px-8 py-12  sm:w-[450px] mx-auto sm:h-[657px] sm:py-20 sm:px-20 border border-[#B5986D]">
+            <div className="px-8 py-12  sm:w-[450px] mx-auto    sm:py-20   sm:px-2 border border-[#B5986D]">
               <img
-                className=" w-[348px] mx-auto     h-[460px]  sm:h-[547px] "
+                className="w-full mx-auto     h-[460px]  sm:h-[514px] "
                 src="../CSi.jpg"
                 alt=""
               />
