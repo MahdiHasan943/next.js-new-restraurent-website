@@ -86,10 +86,10 @@ export default function Home() {
           </div>
           <div className="mt-[-150px] TomatoBg">
             <div className="relative gm:flex justify-end">
-              <div className="">
+              <div className="pt-10 sm:pt-0">
                 <PhotoView src="./bigPlate1.png">
                   <img
-                    className="mx-auto sm:ml-auto xl:mr-[300px] sm:w-[370px] mt-[60px]  sm:mt-[-50px] rounded-full  h-[370px]"
+                    className="mx-auto sm:ml-auto 2xl:mr-[300px] sm:w-[370px] mt-[160px]  sm:mt-[-50px] rounded-full  h-[370px]"
                     src="./bigPlate1.png"
                     alt=""
                   />
@@ -98,7 +98,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:flex  mt-[-50px] sm:mt-[-150px]">
+          <div className="lg:flex  mt-[160px] sm:mt-[-150px]">
             <div className="mx-auto sm:mx-0">
               <PhotoView className="rounded-full" src="./bigPlate2.png">
                 <img

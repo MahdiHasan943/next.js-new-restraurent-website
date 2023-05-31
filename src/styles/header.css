@@ -287,3 +287,11 @@ body {
 
   color: #0b1517;
 }
+
+/* footer */
+.child{
+  display: none;
+}
+.parent:hover .child{
+  display: block;
+}

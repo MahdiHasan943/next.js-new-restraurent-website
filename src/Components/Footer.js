@@ -4,31 +4,10 @@ import { Popover } from "@headlessui/react";
 import { BsXLg } from "react-icons/bs";
 import Link from "next/link";
 import Form from "./ReservationForm/Form";
+import { useRouter } from "next/router";
 
 const Footer = () => {
-  //   const [formState, setFormState] = useState({});
-  //   const changeHandler = (event) => {
-  //     setFormState({ ...formState, [event.target.name]: event.target.value });
-
-  //   }
-  // console.log(formState);
-
-  //   const submitHandler = (event) => {
-  //     event.preventDefault();
-  //     const config =  {
-
-  //       SecureToken : "7c52ddb5-ba37-4e00-94eb-6ca794530de4",
-  //       To:"mahdihasan038@gmail.com",
-  //       From : formState.email,
-  //       Subject : "This is the subject contact form",
-  //       Body : `${formState.name} connect to your email`
-
-  //     }
-  //     if (window.Email) {
-  //       window.Email.send(config).then(()=>alert('email send successfully'))
-  //     }
-
-  //   }
+  const router = useRouter();
 
   return (
     <section>
@@ -116,21 +95,27 @@ const Footer = () => {
                 <p className="  dark:text-white text-black">
                   <Link href={"/"}> Home</Link>
                 </p>
-                <p className="dark:text-white text-black">
-                  {" "}
-                  <Link href={"/Menu"}> Menu</Link>
-                </p>
+
+                <div className=" relative parent  dark:text-white text-black ">
+                  Menu
+                  <div className="absolute child">
+                    <Link className="hover:text-[#b1935e]" href={"/Menu/GASTRO"}> GASTRO </Link>
+                    <Link className="hover:text-[#b1935e]" href={"/Menu/CONTINENTAL"}>CONTINENTAL </Link>
+                  </div>
+                </div>
+               
+
                 <p className="dark:text-white  text-black">
                   <Link href={"/#event"}>Events </Link>
                 </p>
                 <p className="dark:text-white  text-black">
                   <Link href={"/WineAndCoctail/WineAndCoctail"}>
-                    {" "}
+                   
                     Wine <span className="hidden sm:block">& Coctailbar</span>
                   </Link>
                 </p>
                 <p className="dark:text-white  text-black">
-                  <Link href={"/#Contact"}>Contact </Link>
+                  <Link href={"/Contact/Contact"}>Contact </Link>
                 </p>
               </div>
             </div>
