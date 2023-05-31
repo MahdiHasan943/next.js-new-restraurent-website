@@ -74,7 +74,7 @@ const Footer = () => {
             ></iframe>
             <img
               className="lg:mt-[100px] lg:ml-[-180px] h-[330px]"
-              src="/../newBox.png"
+              src="/../box.png"
               alt=""
             />
           </div>
