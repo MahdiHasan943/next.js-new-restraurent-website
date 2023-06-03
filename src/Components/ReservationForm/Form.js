@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <>
       <Popover>
-        <Popover.Button className="dark:text-white text-black mx-4 my-10 sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-16 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
+        <Popover.Button className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
           Order Online
         </Popover.Button>
         <Popover.Panel className="absolute top-[20%] sm:top-[-20%] left-0 h-[100%] w-[100%] mx-auto rounded-lg shadow-lg form   z-[10000]  ">

@@ -246,7 +246,7 @@ input[type="time"]:valid::before {
 }
 .next-slick-arrow,
 .prev-slick-arrow {
-  color: #777777;
+  color: #8a7453;
   font-size: 34px;
 }
 .slick-dots li button::before {

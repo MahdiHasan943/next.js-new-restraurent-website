@@ -79,7 +79,7 @@ const Footer = () => {
             />
           </div>
 
-          <div className="w-full   xl:w-[75%] border py-20 px-4 lg:px-10 mt-8 rounded-xl border-[#0B1517] mx-auto">
+          <div className="w-full   xl:w-[75%] border pb-10 pt-20 px-4 lg:px-10 mt-8 rounded-xl border-[#0B1517] mx-auto">
             <div className=" lg:flex items-center gap-6 mt-[20px] justify-center">
               <div className=" ">
                 <a
@@ -119,12 +119,12 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="mx-atuo text-center sm:flex sm:justify-end">
+            <div className="mx-atuo text-center gap-2 sm:gap-6 flex justify-center sm:justify-end">
               <Form></Form>
 
               <Popover>
                 {" "}
-                <Popover.Button className="dark:text-white text-black mx-4  sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-10 sm:px-14 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
+                <Popover.Button className="dark:text-white font-bold text-black  sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px]   text-[15px] sm:text-[20px]  px-8 sm:px-14 py-7 rounded-2xl bookNow  outline-none focus:outline-none ">
                   Reserve Seating
                 </Popover.Button>
                 <Popover.Panel className=" dark:bg-[#0b1517] bg-black absolute py-10 left-0 sm:left-[20%] top-[15%]  md:top-[30%] lg:left-[30%] 2xl:left-[40%]  lg:top-[-10%] z-[10000] ">
