@@ -119,8 +119,11 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="mx-atuo text-center gap-2 sm:gap-6 flex justify-center sm:justify-end">
-              <Form></Form>
+            <div className="mx-atuo text-center gap-2 sm:g	+44 20 1162 546 892ap-6 flex justify-center sm:justify-end">
+              <a target="_blank" href="https://wa.me/+441162546892"  className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
+              Order Online
+              </a>
+              {/* <Form></Form> */}
 
               <Popover>
                 {" "}
