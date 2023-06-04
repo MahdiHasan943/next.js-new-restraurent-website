@@ -143,7 +143,29 @@ const ImageSlide = () => {
                 /></PhotoView>
               </div>
               <div className="">
-              <PhotoView src={slidesImage?.imgM}>  
+                  <PhotoView 
+                  
+                  
+                  width={elementSize}
+                  height={elementSize}
+                  render={({ scale, attrs }) => {
+                    const width = attrs.style.width;
+                    const offset = (width - elementSize) / elementSize;
+                    const childScale = scale === 1 ? scale + offset : 1 + offset;
+            
+                    return (
+                      <div  {...attrs}>
+                        <div className="  h-[100vh]" style={{ transform: `scale(${childScale})`, width: elementSize, transformOrigin: '0 0' }}>
+                          <img className="w-full" src={slidesImage?.imgM} alt="" />
+                          <div className="mt-20 flex justify-center sm:mt-[50px]">
+                          <a  className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
+
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  }}
+                  >  
                   <img
                   className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
                   src={slidesImage?.imgM}
@@ -151,7 +173,29 @@ const ImageSlide = () => {
                 /></PhotoView>
               </div>
               <div className="">
-              <PhotoView src="./Shayo.png">  
+                  <PhotoView 
+                  
+                  
+                  width={elementSize}
+                  height={elementSize}
+                  render={({ scale, attrs }) => {
+                    const width = attrs.style.width;
+                    const offset = (width - elementSize) / elementSize;
+                    const childScale = scale === 1 ? scale + offset : 1 + offset;
+            
+                    return (
+                      <div  {...attrs}>
+                        <div className=" mt-[-50px] h-[100vh]" style={{ transform: `scale(${childScale})`, width: elementSize, transformOrigin: '0 0' }}>
+                          <img className="w-full" src="./Shayo.png" alt="" />
+                          <div className="mt-20 flex justify-center sm:mt-[50px]">
+                          <a  className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
+
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  }}
+                  >  
                   <img
                   className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
                   src={slidesImage?.imgR}
