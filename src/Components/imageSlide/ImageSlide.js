@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
 import { EffectCreative, Navigation, Pagination } from "swiper";
-const elementSize = 800;
+const elementSize = 500;
 
 import { PhotoProvider, PhotoView } from "react-photo-view";
 
