@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
 import { EffectCreative, Navigation, Pagination } from "swiper";
+const elementSize = 800;
 
 import { PhotoProvider, PhotoView } from "react-photo-view";
 
@@ -111,7 +112,28 @@ const ImageSlide = () => {
              <PhotoProvider>
             <div className="flex justify-between w-full      gap-4   sm:gap-8 items-center">
               <div className="">
-              <PhotoView src="./OurEventImage1.png">  
+                  <PhotoView 
+              
+                    width={elementSize}
+                    height={elementSize}
+                    render={({ scale, attrs }) => {
+                      const width = attrs.style.width;
+                      const offset = (width - elementSize) / elementSize;
+                      const childScale = scale === 1 ? scale + offset : 1 + offset;
+              
+                      return (
+                        <div  {...attrs}>
+                          <div className="  h-[100vh]" style={{ transform: `scale(${childScale})`, width: elementSize, transformOrigin: '0 0' }}>
+                            <img className="w-full" src="./OurEventImage1.png" alt="" />
+                            <div className="mt-20 sm:mt-[50px]">
+                            <a  className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">Book Event</a>
+
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    }}
+                  >  
                   <img
                   className="min-h-[252px] md:h-[800px]  h-[450px] w-full"
                   src={slidesImage?.imgL}
