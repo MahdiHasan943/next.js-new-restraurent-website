@@ -27,8 +27,8 @@ const HomePageMenu = () => {
         " Beer battered fish with Chips, pea and        homemade tartar sauce",
       p3Price: " ",
 
-      p4Title: "Grilled Prawns",
-      p4Text: "  Served with garnish or vegetable",
+      p4Title: "",
+      p4Text: " ",
       p4Price: " ",
     },
     {

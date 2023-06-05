@@ -34,28 +34,44 @@ const Footer = () => {
                   <BsInstagram></BsInstagram>
                 </a>
               </div>
-              <div className="lg:ml-[100px]">
+              <div className="lg:ml-[60px] xl:ml-[80px] 2xl:ml-[100px]">
                 <img className="py-4" src="/../BT.png" alt="" />
                 <img className="my-8" src="/../Sky.png" alt="" />
               </div>
             </div>
           </div>
           <div className="">
-            <p className="text-3xl py-4 font-bold ">Opening hours:</p>
-            <p>
-              Monday 7:00 — 0:00 <br className="hidden sm:block" />
-              Tuesday 7:00 — 0:00 <br className="hidden sm:block" />
-              Wednesday 7:00 — 0:00
-              <br className="hidden sm:block" />
-              Thursday 7:00 — 4:00
-              <br className="hidden sm:block" />
-              Friday 7:00 — 4:00
-              <br className="hidden sm:block" />
-              Saturday 9:00 — 4:00
-              <br className="hidden sm:block" />
-              Sunday 12:00 — 23:00
-              <br className="hidden sm:block" />
-            </p>
+            <p className="text-5xl text-center py-4 font-bold ">Opening hours:</p>
+            <div className="text-3xl sm:text-1xl xl:text-3xl">
+              <div className="flex items-center gap-6 justify-center ">
+                <div className="">
+                  <p>        Monday </p>
+                  <p>Tuesday</p>
+                  <p>Wednesday</p>
+                  <p>Thursday</p>
+                  <p>  Friday  </p>
+                  <p> Saturday</p>
+                  <p>Sunday </p>
+
+
+                
+                </div>
+
+                <div className="">
+
+                  <p>10:00 — 23:00</p>
+                  <p>10:00 — 23:00</p>
+                  <p>10:00 — 23:00</p>
+                  <p>10:00 — 04:00</p>
+                  <p>10:00 — 04:00</p>
+                  <p>10:00 — 04:00</p>
+                  <p> 12:00 — 23:00</p>
+                  
+                </div>
+              </div>
+
+          
+            </div>
           </div>
         </div>
       </div>
@@ -120,7 +136,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="mx-atuo text-center gap-2 sm:g	+44 20 1162 546 892ap-6 flex justify-center sm:justify-end">
-              <a target="_blank" href="https://wa.me/+441162546892"  className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
+              <a target="_blank" href="https://wa.me/+4407466970736"  className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
               Order Online
               </a>
               {/* <Form></Form> */}

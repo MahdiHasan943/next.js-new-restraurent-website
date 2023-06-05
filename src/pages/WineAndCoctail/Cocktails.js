@@ -71,7 +71,7 @@ const Cocktails = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Sex on the Beach
+                Sex in the Garden
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
