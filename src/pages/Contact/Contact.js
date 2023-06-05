@@ -96,7 +96,7 @@ const Contact = () => {
             <p className="text-[20px] py-4  text-white">
               Land Line - 01162545892
             </p>
-            <p className="text-[20px]  text-white">Mobile - 07424546256</p>
+            <p className="text-[20px]  text-white">Mobile -  07466970736</p>
           </div>
         </div>
       </div>
