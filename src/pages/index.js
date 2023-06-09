@@ -7,7 +7,6 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 
 export default function Home() {
- 
   return (
     <>
       {/* 1 */}
@@ -80,7 +79,11 @@ export default function Home() {
           <div className="mx-auto">
             <div className="">
               <PhotoView src="Tomato.png">
-                <img className="sm:h-[638px] sm:w-[850px] mx-auto  " src="Tomato.png" alt="" />
+                <img
+                  className="sm:h-[638px] sm:w-[850px] mx-auto  "
+                  src="Tomato.png"
+                  alt=""
+                />
               </PhotoView>{" "}
             </div>
           </div>
@@ -109,9 +112,7 @@ export default function Home() {
               </PhotoView>
             </div>
             <div className=" lg:block w-full lg:w-[60%] ">
-           
               <div className="">
-               
                 <PhotoView src="./plate3.png">
                   <img
                     className="mx-auto rounded-full  my-4 lg:my-0 h-[320px]"
@@ -146,7 +147,7 @@ export default function Home() {
             </div>
             <div className="">
               <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
-                MODAY – FRIDAY <br className="hidden lg:block" /> 10AM – 12NOON:
+                MONDAY – FRIDAY <br className="hidden lg:block" /> 10AM – 12NOON:
                 FULL ENGLISH BREAKFAST
                 <br className="hidden lg:block" /> 12NOON – 5PM: LUNCH DEALS
                 <br className="hidden lg:block" /> 5PM – 8PM: DINNER
@@ -154,6 +155,10 @@ export default function Home() {
               <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
                 OFFERS AND DISCOUNTS <br className="hidden lg:block" /> # HAPPY
                 HOUR: MONDAY – FRIDAY 5PM TO 8PM.
+              </p>
+              <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
+                
+                STUDENT DEALS AND DISCOUNTS. NHS DISCOUNT.
               </p>
             </div>
           </div>
