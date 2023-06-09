@@ -146,9 +146,9 @@ export default function Home() {
             </div>
             <div className="">
               <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
-                MODAY – FRIDAY <br className="hidden lg:block" /> 7AM – 12NOON:
-                FULL ENGLISH BREAKFAST WITH FREE BOTTOMLESS COFFEE{" "}
-                <br className="hidden lg:block" /> 12NOON – 5PM: LUNCH DEALS{" "}
+                MODAY – FRIDAY <br className="hidden lg:block" /> 10AM – 12NOON:
+                FULL ENGLISH BREAKFAST
+                <br className="hidden lg:block" /> 12NOON – 5PM: LUNCH DEALS
                 <br className="hidden lg:block" /> 5PM – 8PM: DINNER
               </p>
               <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">

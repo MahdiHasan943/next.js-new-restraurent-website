@@ -95,7 +95,7 @@ const WineSlider = () => {
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
             <img
               className=" mx-auto  sm:w-[340px] h-[350px]"
-              src="../coctail.png"
+              src="https://images.immediate.co.uk/production/volatile/sites/30/2020/01/retro-cocktails-b12b00d.jpg"
               alt=""
             />
           </div>
@@ -159,9 +159,9 @@ const WineSlider = () => {
 
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
+          <div className="border py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto w-full sm:w-[340px] h-[350px]"
+              className="mx-auto  sm:w-[340px] h-[350px]"
               src="../Draft-Beer.jpg"
               alt=""
             />
@@ -185,7 +185,7 @@ const WineSlider = () => {
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
             <img
               className="mx-auto w-full sm:w-[340px] h-[350px]"
-              src="../Wines.jpg"
+              src="../bottleNew.jpg"
               alt=""
             />
           </div>
