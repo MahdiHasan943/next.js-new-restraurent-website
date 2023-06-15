@@ -147,8 +147,8 @@ export default function Home() {
             </div>
             <div className="">
               <p className="dark:text-white text-[20px] mt-[20px] sm:mt-0 sm:text-[24px] sm:font-bold text-black ">
-                MONDAY – FRIDAY <br className="hidden lg:block" /> 10AM – 12NOON:
-                FULL ENGLISH BREAKFAST
+                MONDAY – FRIDAY <br className="hidden lg:block" /> 10AM –
+                12NOON: FULL ENGLISH BREAKFAST
                 <br className="hidden lg:block" /> 12NOON – 5PM: LUNCH DEALS
                 <br className="hidden lg:block" /> 5PM – 8PM: DINNER
               </p>
@@ -157,7 +157,6 @@ export default function Home() {
                 HOUR: MONDAY – FRIDAY 5PM TO 8PM.
               </p>
               <p className="dark:text-white text-[20px] sm:text-[24px] mt-5 sm:font-bold text-black ">
-                
                 STUDENT DEALS AND DISCOUNTS. NHS DISCOUNT.
               </p>
             </div>
@@ -175,32 +174,35 @@ export default function Home() {
             Drinks & Cocktails
           </p>
           <p className="AboutP text-white  my-8">
-            We offer a variety of great offers throughout the week
+            We offer variety of deals throughout the week at Passion Blend
             <br className="hidden sm:block" />
-            at Passion Blend Bar and to be the first to know, follow
-            <br className="hidden sm:block" />
-            us on Instagram to get our latest offerings.
+            Bar.
+            To be the first to know follow us on social media.
+          
           </p>
           <div className="flex gap-4 sm:gap-10 justify-center">
-            <a target="_blank" href="https://www.facebook.com/passionblendbarleicester">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/passionblendbarleicester"
+            >
               <img src="./f.png" alt="" />
             </a>
 
             <a target="_blank" href="https://twitter.com/passion_blend?lang=en">
               <img src="./twitter.png" alt="" />
             </a>
-            <a target="_blank" href="https://www.instagram.com/passionblendstudents/">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/passionblendstudents/"
+            >
               <img src="./instra.png" alt="" />
             </a>
             <a target="_blank" href="https://www.tiktok.com/@passionblendbar">
               <img src="./tiktok.png" alt="" />
             </a>
-            <a target="_blank" href="">
+            <a target="" href="">
               <img src="./snap.png" alt="" />
             </a>
-            
-            
-
           </div>
         </div>
       </div>
