@@ -72,7 +72,7 @@ const WineSlider = () => {
           <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
             <img
               className=" mx-auto w-full  sm:w-[340px] h-[350px]"
-              src="../Bootle-Beer.jpg"
+              src="../bootleNolabel.png"
               alt=""
             />
           </div>

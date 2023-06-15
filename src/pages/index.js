@@ -103,10 +103,10 @@ export default function Home() {
 
           <div className="lg:flex  mt-[160px] sm:mt-[-150px]">
             <div className="mx-auto sm:mx-0">
-              <PhotoView className="rounded-full" src="./bigPlate2.png">
+              <PhotoView className="rounded-full" src="./newplate2.png">
                 <img
-                  className="h-[331px] lg:ml-[20px] rounded-full mt-12  mb-4 lg:my-0 mx-auto "
-                  src="./bigPlate2.png"
+                  className=" lg:ml-[20px] rounded-full sm:mt-[-150px]  mb-4  mx-auto "
+                  src="./newplate2.png"
                   alt=""
                 />
               </PhotoView>
@@ -181,10 +181,26 @@ export default function Home() {
             <br className="hidden sm:block" />
             us on Instagram to get our latest offerings.
           </p>
-          <div className="">
-            <button className="dark:text-white text-[#B5986D] hover:text-[white] border-[#B5986D] hover:bg-[#B5986D]   dark:border-white border-[1.6px] px-14 py-4 rounded-2xl font-bold bookNow">
-              Follow Us
-            </button>
+          <div className="flex gap-4 sm:gap-10 justify-center">
+            <a target="_blank" href="https://www.facebook.com/passionblendbarleicester">
+              <img src="./f.png" alt="" />
+            </a>
+
+            <a target="_blank" href="https://twitter.com/passion_blend?lang=en">
+              <img src="./twitter.png" alt="" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/passionblendstudents/">
+              <img src="./instra.png" alt="" />
+            </a>
+            <a target="_blank" href="https://www.tiktok.com/@passionblendbar">
+              <img src="./tiktok.png" alt="" />
+            </a>
+            <a target="_blank" href="">
+              <img src="./snap.png" alt="" />
+            </a>
+            
+            
+
           </div>
         </div>
       </div>
