@@ -180,7 +180,7 @@ export default function Home() {
             To be the first to know follow us on social media.
           
           </p>
-          <div className="flex gap-4 sm:gap-10 justify-center">
+          <div className="flex mt-20 gap-4 sm:gap-10 justify-center">
             <a
               target="_blank"
               href="https://www.facebook.com/passionblendbarleicester"

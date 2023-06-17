@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState ,useRef} from "react";
+import emailjs from "@emailjs/browser";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { Popover } from "@headlessui/react";
 import { BsXLg } from "react-icons/bs";
@@ -6,8 +7,34 @@ import Link from "next/link";
 import Form from "./ReservationForm/Form";
 import { useRouter } from "next/router";
 
+
+
+
 const Footer = () => {
   const router = useRouter();
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_jaup7uq",
+        "template_rpj8jka",
+        form.current,
+        "xswVE0o1jmqLyyIJ8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
 
   return (
     <section>
@@ -139,7 +166,7 @@ const Footer = () => {
               <a target="_blank" href="https://wa.me/+4407466970736"  className="dark:text-white text-black text-[15px] sm:text-[20px]   sm:my-0 dark:hover:bg-[#B5986D]  hover:bg-[black] hover:text-white  border-[#B5986D]  dark:border-white border-[1.6px] px-12 sm:px-20 py-7 rounded-2xl font-bold bookNow  outline-none focus:outline-none ">
               Order Online
               </a>
-              {/* <Form></Form> */}
+            
 
               <Popover>
                 {" "}
@@ -151,7 +178,7 @@ const Footer = () => {
                     <Popover.Button className="focus:border-none btn-border-none  outline-none focus:outline-none border-none">
                       <BsXLg className="absolute right-10 top-10 text-white text-end text-[25px]"></BsXLg>
                     </Popover.Button>
-                    <form className="w-full ">
+                    <form ref={form} onSubmit={sendEmail} action="" className="w-full ">
                       <h2 className="text-white font-bold  text-center text-[40px] leading-[50px]">
                         Make a Reservation
                       </h2>
@@ -166,7 +193,8 @@ const Footer = () => {
                             type="text"
                             className="w-full py-6 px-5 border-[1px] border-white bg-black"
                             placeholder="First Name"
-                            name="name"
+                            name="user_name"
+
                             // value={formState.name||''}
                             id=""
                             // onChange={changeHandler}
@@ -174,7 +202,8 @@ const Footer = () => {
                           <input
                             type="text"
                             className="w-full py-6 px-5 border-[1px] border-white bg-black"
-                            name="name"
+                            name="user_name"
+
                             placeholder="Last Name"
                             id=""
                           />
@@ -183,14 +212,15 @@ const Footer = () => {
                           <input
                             type="email"
                             className="w-full py-6 px-5 border-[1px] border-white bg-black"
-                            name="email"
+                            name="user_email"
+
                             placeholder="Email"
                             id=""
                           />
                           <input
                             type="tel"
                             className="w-full my-10 py-6 px-5 border-[1px] border-white bg-black"
-                            name=""
+                            name="phone"
                             placeholder="Phone Number"
                             id=""
                           />
@@ -199,15 +229,13 @@ const Footer = () => {
                           <input
                             type="date"
                             className="w-full py-6 px-5 border-[1px] border-white bg-black"
-                            placeholder="First Name"
-                            name=""
+                            name="date"
                             id=""
                           />
                           <input
                             type="time"
                             className="w-full py-6 px-5 border-[1px] border-white bg-black"
-                            name=""
-                            placeholder="Last Name"
+                            name="time"
                             id=""
                           />
                         </div>
@@ -215,7 +243,7 @@ const Footer = () => {
                           <input
                             type="number"
                             className="w-full my-10 py-6 px-5 border-[1px] border-white bg-black"
-                            name=""
+                            name="people"
                             placeholder="Number of Persons"
                             id=""
                           />

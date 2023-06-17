@@ -1,6 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 
 const Reservation = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_jaup7uq",
+        "template_rpj8jka",
+        form.current,
+        "xswVE0o1jmqLyyIJ8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+
+
   return (
     <div className="pt-20 w-full ">
       <h2 className="dark:text-white text-center text-black text-[36px]  py-10  sm:text-[70px] md:leading-[90px] font-bold">
@@ -12,42 +39,53 @@ const Reservation = () => {
           <h4 className="text-white  text-center text-[26px]  pb-4 pt-8  sm:text-[40px] md:leading-[80px] font-bold">
             Welcome your visit
           </h4>
+          <form  ref={form} onSubmit={sendEmail} action="">
           <div className="grid px-4 grid-cols-1  gm:grid-cols-2 sm:w-[80%] mx-auto py-20 sm:grid-cols-3 gap-8 lg:grid-cols-5  items-center">
             <input
               className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-2 2xl:px-4 "
-              placeholder="Name"
-              type="text"
+                placeholder="Name"
+                type="text"
+                name="user_name"
             />
             <input
               className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit    py-8 px-2 2xl:px-4  "
               placeholder="Phone Number"
-              type="number"
+                type="number"
+                name="phone"
             />
             <input
               className="border-b-[2px] border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-2 2xl:px-4 "
               placeholder="Number of people"
-              type="number"
+                type="number"
+                name="people"
             />
             <input
               className=" border-b-[2px]  w-full border-white border-t-none border-l-none border-r-none   bg-inherit   py-8  px-2 2xl:px-4  "
               type="date"
               placeholder="Date "
-              required
+                required
+                name="date"
             />
             <input
               className="border-b-[2px] w-full  border-white border-t-none border-l-none border-r-none   bg-inherit   py-8 px-2 2xl:px-4  "
               placeholder="Time"
               type="time"
-              required
+                required
+                name="time"
             />
           </div>
 
           <div className="text-center py-8">
-            <button className="hover:bg-[#B5986D] border rounded-lg font-bold text-3xl dark:border-white border-[#B5986D] py-6 px-14   text-white ">
-              {" "}
-              Book Reservation{" "}
-            </button>
+              
+              <input
+                    type="submit"
+                    value="Book Reservation"
+                    className="hover:bg-[#B5986D] border rounded-lg font-bold text-3xl dark:border-white border-[#B5986D] py-6 px-14   text-white"
+
+                  />
+             
           </div>
+          </form>
         </div>
       </div>
     </div>
