@@ -15,7 +15,7 @@ const Breakfast = () => {
       <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
         <div className="">
           <p className="mealDetailsText pb-[100px] underline-offset-[20px]">
-            Breakfast
+          Vegetarian Breakfast
           </p>
 
           <div className="xl:w-[960px] mx-auto">

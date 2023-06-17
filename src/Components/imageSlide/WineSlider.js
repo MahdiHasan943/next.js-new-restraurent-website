@@ -69,9 +69,9 @@ const WineSlider = () => {
       {/* {sliderProject} */}
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className=" mx-auto w-full  sm:w-[340px] h-[350px]"
+              className=" mx-auto w-full  sm:w-[300px] sm: h-full  sm:h-[350px] "
               src="../bootleNolabel.png"
               alt=""
             />
@@ -92,9 +92,9 @@ const WineSlider = () => {
       {/* 2 */}
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className=" mx-auto  sm:w-[340px] h-[350px]"
+              className=" mx-auto  sm:w-[300px] sm: h-full  sm:h-[350px] "
               src="../coctailslideImage.png"
               alt=""
             />
@@ -115,9 +115,9 @@ const WineSlider = () => {
       {/* 3 */}
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto sm:w-[340px] h-[350px]"
+              className="mx-auto sm:w-[300px] sm: h-full  sm:h-[350px] "
               src="../spirit.png"
               alt=""
             />
@@ -137,9 +137,9 @@ const WineSlider = () => {
       {/* 4 */}
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto sm:w-[340px] h-[350px]"
+              className="mx-auto sm:w-[300px] sm: h-full  sm:h-[350px] "
               src="../Soft-Drinks.jpg"
               alt=""
             />
@@ -159,9 +159,9 @@ const WineSlider = () => {
 
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
+          <div className="border py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto  sm:w-[340px] h-[350px]"
+              className="mx-auto  sm:w-[300px] sm: h-full  sm:h-[350px] "
               src="../Draft-Beer.jpg"
               alt=""
             />
@@ -182,9 +182,9 @@ const WineSlider = () => {
 
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[400px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto w-full sm:w-[340px] h-[350px]"
+              className="mx-auto w-full sm:w-[300px] sm:sm: h-full  sm:h-[350px] "
               src="../bottleNew.jpg"
               alt=""
             />

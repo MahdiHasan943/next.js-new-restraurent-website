@@ -7,9 +7,9 @@ const Wines = () => {
         style={{ backgroundImage: `url("../RedW.jpg")` }}
       >
         <div className=" flex justify-center h-full items-center">
-          <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
+          {/* <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
             Wine & Cocktail List
-          </h1>
+          </h1> */}
         </div>
       </div>
       <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">

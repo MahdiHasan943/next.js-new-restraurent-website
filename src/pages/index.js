@@ -165,7 +165,7 @@ export default function Home() {
       </PhotoProvider>
       <HomePageMenu></HomePageMenu>
 
-      <div className="sm:flex justify-end items-center min-h-[460px] sm:h-[732px] HomeWineBg  gap-8">
+      <div className="sm:flex justify-end items-center min-h-[460px] sm:h-[732px] xl:h-[900px] HomeWineBg  gap-8">
         <div className="px-4 sm:pr-10 py-20 ">
           <h1 className="AboutUs text-[36px] leading-[50px]  sm:text-[64px] sm:leading-[96px] text-white ">
             Happy Hours
@@ -202,6 +202,9 @@ export default function Home() {
             </a>
             <a target="" href="">
               <img src="./snap.png" alt="" />
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@passionblendbarchannel/videos">
+              <img src="./youtube.png" alt="" />
             </a>
           </div>
         </div>

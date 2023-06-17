@@ -7,9 +7,9 @@ const Cocktails = () => {
         style={{ backgroundImage: `url("../coctail.jpg")` }}
       >
         <div className=" flex justify-center h-full items-center">
-          <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
+          {/* <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
             Wine & Cocktail List
-          </h1>
+          </h1> */}
         </div>
       </div>
 

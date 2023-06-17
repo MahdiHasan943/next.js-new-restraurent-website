@@ -8,7 +8,7 @@ const BottledBeers = () => {
       <div className='h-[550px] bg-no-repeat  dark:opacity-[0.8] bg-cover bg-full bg-center w-full'
         style={{ backgroundImage: `url("../BB.jpg")` }} >
     <div className=" flex justify-center h-full items-center">
-<h1 className='text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]'>Wine & Cocktail List</h1>
+{/* <h1 className='text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]'>Wine & Cocktail List</h1> */}
 </div>
      </div>
      <div className=" py-20  flex items-center px-6   sm:pl-[50px] lg:pl-[100px] xl:pl-[170px]">
@@ -63,7 +63,7 @@ const BottledBeers = () => {
                          
                           
             </div>
-            <div className="py-20">
+            {/* <div className="py-20">
                           <div className="flex justify-between px-2">
                             <p className="MDPText dark:text-white text-black ">
                             Zywiec
@@ -76,10 +76,10 @@ const BottledBeers = () => {
                             alt=""
                           />
                          
-                        </div>
+                        </div> */}
 
                         {/* 4 */}
-                        <div className="py-20">
+                        {/* <div className="py-20">
                           <div className="flex justify-between px-2">
                             <p className="MDPText dark:text-white text-black ">
                             Guinness 330ml SOL
@@ -93,7 +93,7 @@ const BottledBeers = () => {
                           />
                         
                           
-            </div>
+            </div> */}
             <div className="py-20">
                           <div className="flex justify-between px-2">
                             <p className="MDPText dark:text-white text-black ">
