@@ -29,7 +29,6 @@ const Cocktails = () => {
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
-              Lime, fresh passion, vodka, Wray Nephew, bourbon
             </div>
 
 
