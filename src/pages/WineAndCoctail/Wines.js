@@ -2,7 +2,7 @@ import React from "react";
 const Wines = () => {
   return (
     <div className="">
-      <div
+      <div  
         className="h-[550px] bg-no-repeat  dark:opacity-[0.8] bg-cover bg-full bg-center w-full"
         style={{ backgroundImage: `url("../../wineAndCoctail.jpg")` }}
       >

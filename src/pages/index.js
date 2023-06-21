@@ -200,7 +200,7 @@ export default function Home() {
             <a target="_blank" href="https://www.tiktok.com/@passionblendbar">
               <img src="./tiktok.png" alt="" />
             </a>
-            <a target="" href="">
+            <a target="_blank" href="https://www.snapchat.com/add/passionblendbar">
               <img src="./snap.png" alt="" />
             </a>
             <a target="_blank" href="https://www.youtube.com/@passionblendbarchannel/videos">
