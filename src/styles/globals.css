@@ -255,7 +255,7 @@ input[type="time"]:valid::before {
   opacity: 0.7;
 }
 .slick-dots li.slick-active button::before {
-  color: #1c6910 ;
+  color: #8a7453;
   opacity: 1;
 }
 .slick-prev:before,
