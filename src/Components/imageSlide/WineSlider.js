@@ -1,7 +1,8 @@
-import Slider from "react-slick";
+
 import React, { useRef } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Link from "next/link";
+import Slider from "react-slick";
 
 const WineSlider = () => {
   var settings = {
@@ -31,7 +32,7 @@ const WineSlider = () => {
     
     responsive: [
       {
-        breakpoint: 990,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -42,7 +43,7 @@ const WineSlider = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 860,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -69,9 +70,9 @@ const WineSlider = () => {
       {/* {sliderProject} */}
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto flex justify-center items-center     sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className=" mx-auto w-full  sm:w-[300px] sm: h-full  sm:h-[350px] "
+              className="mx-auto  sm:w-[55%]  my-auto sm: h-full  sm:h-[280px] "
               src="../bootleNolabel.png"
               alt=""
             />
@@ -92,9 +93,9 @@ const WineSlider = () => {
       {/* 2 */}
       <div className="project h-[600px]  flex justify-center mt-[100px]       ">
         <div className="">
-          <div className="border  py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
+          <div className="border  py-10 mx-auto flex justify-center items-center  sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className=" mx-auto  sm:w-[300px] sm: h-full  sm:h-[350px] "
+              className=" mx-auto  w-[95%]  my-auto h-[280px] "
               src="../coctailslideImage.png"
               alt=""
             />
@@ -161,7 +162,7 @@ const WineSlider = () => {
         <div className="">
           <div className="border py-10 mx-auto   sm:w-[400px] h-[420px]  my-auto border-[#B5986D]">
             <img
-              className="mx-auto  sm:w-[300px] sm: h-full  sm:h-[350px] "
+              className="mx-auto  sm:w-[300px] h-full  sm:h-[350px] "
               src="../Draft-Beer.jpg"
               alt=""
             />
