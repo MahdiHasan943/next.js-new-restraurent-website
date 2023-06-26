@@ -4,8 +4,8 @@ const Spirits = () => {
   return (
     <div className="">
       <div
-        className="h-[550px] bg-no-repeat  dark:opacity-[0.8] bg-cover bg-full bg-center w-full"
-        style={{ backgroundImage: `url("../wineAndCoctail.jpg")` }}
+        className="h-[750px] bg-no-repeat  dark:opacity-[0.8] bg-cover bg-full bg-center w-full"
+        style={{ backgroundImage: `url("../Hennessy.png")` }}
       >
         <div className=" flex justify-center h-full items-center">
           {/* <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
@@ -60,7 +60,7 @@ const Spirits = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Buffalo Trace
+                JAMESON
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -147,7 +147,7 @@ const Spirits = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Russian Standard 40%
+                Grey Goose
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -157,7 +157,7 @@ const Spirits = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Smirnoff 37.5%
+                Absolut
                 </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
