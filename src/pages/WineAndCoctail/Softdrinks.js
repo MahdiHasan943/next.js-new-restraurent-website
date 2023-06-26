@@ -3,7 +3,7 @@ const Softdrinks = () => {
   return (
     <div className="">
       <div
-        className="h-[750px] bg-no-repeat   dark:opacity-[0.8] bg-cover bg-full bg-center w-full"
+        className="h-[600px] lg:h-[850px] bg-no-repeat   dark:opacity-[0.8] bg-cover bg-full bg-center w-full"
         style={{ backgroundImage: `url("../RedW.jpg")` }}
       >
         <div className=" flex justify-center h-full items-center">

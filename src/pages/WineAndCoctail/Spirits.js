@@ -4,7 +4,7 @@ const Spirits = () => {
   return (
     <div className="">
       <div
-        className="h-[750px] bg-no-repeat  dark:opacity-[0.8] bg-cover bg-full bg-center w-full"
+        className="h-[600px] lg:h-[850px] bg-no-repeat  dark:opacity-[0.8] bg-cover  bg-center   w-full"
         style={{ backgroundImage: `url("../Hennessy.png")` }}
       >
         <div className=" flex justify-center h-full items-center">
@@ -108,7 +108,7 @@ const Spirits = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Barcardi Carta Blanca 37.5%
+                  Barcardi Carta Blanca 37.5        
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -118,7 +118,7 @@ const Spirits = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Captain Morgan Spiced 35%
+                  Captain Morgan Spiced 35        
                 </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
@@ -128,7 +128,7 @@ const Spirits = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Wray & Nephew 63%
+                  Wray & Nephew 63        
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -167,7 +167,7 @@ const Spirits = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Skyy Vodka 40%
+                  Skyy Vodka 40        
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
