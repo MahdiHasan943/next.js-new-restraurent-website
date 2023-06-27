@@ -4,7 +4,7 @@ const DraftBeers = () => {
     <div className="">
       <div
         className="h-[550px] bg-no-repeat  dark:opacity-[0.8] bg-cover bg-full bg-center w-full"
-        style={{ backgroundImage: `url("../wineAndCoctail.jpg")` }}
+        style={{ backgroundImage: `url("../HeinekeN.png")` }}
       >
         <div className=" flex justify-center h-full items-center">
           {/* <h1 className="text-white text-center  text-[45px]  sm:text-[90px] sm:leading-[100px]">
@@ -22,7 +22,7 @@ const DraftBeers = () => {
           <div className="xl:w-[960px] mx-auto">
             <div className="">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">IPA</p>
+                <p className="MDPText dark:text-white text-black ">IPA Lagunitas</p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
@@ -38,7 +38,7 @@ const DraftBeers = () => {
             {/* 3 */}
             <div className="">
               <div className="flex justify-between px-2">
-                <p className="MDPText dark:text-white text-black ">NAmstel</p>
+                <p className="MDPText dark:text-white text-black ">Guest Ale</p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
               <img className="py-2 w-full" src="../MDLine.png" alt="" />
@@ -81,7 +81,7 @@ const DraftBeers = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  John Smiths
+                Carling
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>

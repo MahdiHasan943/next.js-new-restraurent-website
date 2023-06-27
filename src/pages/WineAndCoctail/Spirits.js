@@ -108,7 +108,7 @@ const Spirits = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Barcardi Carta Blanca 37.5        
+                  Barcardi Carta Blanca      
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -118,7 +118,7 @@ const Spirits = () => {
             <div className="py-20">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Captain Morgan Spiced 35        
+                  Captain Morgan Spiced        
                 </p>
                 <p className="MDPText  py-4 text-[#B5986D]"></p>
               </div>
@@ -128,7 +128,7 @@ const Spirits = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Wray & Nephew 63        
+                  Wray & Nephew     
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
@@ -167,7 +167,7 @@ const Spirits = () => {
             <div className="">
               <div className="flex justify-between px-2">
                 <p className="MDPText dark:text-white text-black ">
-                  Skyy Vodka 40        
+                  Skyy Vodka  
                 </p>
                 <p className="MDPText text-[#B5986D]"></p>
               </div>
