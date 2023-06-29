@@ -9,12 +9,12 @@ const Reservation = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_jaup7uq",
-        "template_rpj8jka",
-        form.current,
-        "xswVE0o1jmqLyyIJ8"
-      )
+    .sendForm(
+      "service_7sh93m9",
+      "template_xipd41m",
+      form.current,
+      "JzqJPZwf-IVMvuzJf"
+    )
       .then(
         (result) => {
           console.log(result.text);
