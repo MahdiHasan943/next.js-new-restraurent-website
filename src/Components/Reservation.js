@@ -20,6 +20,7 @@ const Reservation = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          form.current.reset();
           toast.success('Successfully submitted form');
 
         },
