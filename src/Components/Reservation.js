@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import toast, { Toaster } from 'react-hot-toast';
 
 
 const Reservation = () => {
@@ -19,6 +20,8 @@ const Reservation = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          toast.success('Successfully submitted form');
+
         },
         (error) => {
           console.log(error.text);
@@ -88,6 +91,8 @@ const Reservation = () => {
           </form>
         </div>
       </div>
+      <Toaster />
+
     </div>
   );
 };

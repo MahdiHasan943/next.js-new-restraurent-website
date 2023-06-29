@@ -6,6 +6,7 @@ import { BsXLg } from "react-icons/bs";
 import Link from "next/link";
 import Form from "./ReservationForm/Form";
 import { useRouter } from "next/router";
+import toast, { Toaster } from 'react-hot-toast';
 
 
 
@@ -28,6 +29,8 @@ const Footer = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          toast.success('Successfully submitted form');
+
         },
         (error) => {
           console.log(error.text);
@@ -263,6 +266,8 @@ const Footer = () => {
           </div>
         </div>
       </Popover.Group>
+      <Toaster />
+
     </section>
   );
 };
