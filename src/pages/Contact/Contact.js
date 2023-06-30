@@ -51,7 +51,7 @@ const Contact = () => {
                 <input
                   type="email"
                   className="placeholder:text-[#bf9f1d] placeholder:text-[22px] text-[#bf9f1d] py-8 px-6 rounded-xl my-10 w-full bg-white"
-                  placeholder="Your Emaile"
+                  placeholder="Your Email"
                   name="user_email"
                 />
                 <textarea
