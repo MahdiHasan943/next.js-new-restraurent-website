@@ -11,11 +11,11 @@ const Reservation = () => {
 
     emailjs
     .sendForm(
-      "service_7sh93m9",
-      "template_xipd41m",
+      "service_61ya5o4",
+      "template_rk5020a",
       form.current,
-      "JzqJPZwf-IVMvuzJf"
-    )
+      "ZerahYNpS_PwWoB6n"
+      )
       .then(
         (result) => {
           console.log(result.text);
